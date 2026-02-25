@@ -1,6 +1,6 @@
-import { db } from './index';
-import { knowledgeUnits } from './schema';
-import { getEmbedding } from '../utils/embeddings';
+import { db } from '../src/db/index';
+import { knowledgeUnits } from '../src/db/schema';
+import { getEmbedding } from '../src/utils/embeddings';
 import { isNull, eq } from 'drizzle-orm';
 
 async function syncEmbeddings() {
