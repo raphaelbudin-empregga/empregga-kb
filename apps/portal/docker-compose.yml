@@ -2,12 +2,7 @@ version: '3.8'
 
 services:
   orion-portal:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    # Substitua "orion-portal-empregga" por um nome único se quiser
-    container_name: orion-portal
-    restart: always
+    image: ghcr.io/${GHCR_IMAGE_NAMESPACE}/${PORTAL_IMAGE_NAME}:${PORTAL_IMAGE_TAG}
     # As variáveis de ambiente devem ser definidas direto na UI do Portainer
     # (aba de Environment da stack) ou, em ambiente local, via `docker compose --env-file .env up`.
     # Se quiser definir variáveis estáticas baseadas no Traefik (substitua a URL pela real),

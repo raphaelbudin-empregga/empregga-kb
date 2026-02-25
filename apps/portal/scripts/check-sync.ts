@@ -1,5 +1,5 @@
-import { db } from './index';
-import { knowledgeUnits } from './schema';
+import { db } from '../src/db/index';
+import { knowledgeUnits } from '../src/db/schema';
 import { isNotNull } from 'drizzle-orm';
 import * as dotenv from 'dotenv';
 
