@@ -8,9 +8,10 @@ services:
     # Substitua "orion-portal-empregga" por um nome único se quiser
     container_name: orion-portal
     restart: always
-    env_file:
-      - .env # O Portainer vai injetar as variáveis através da UI
-    # Se quiser definir variáveis estáticas baseadas no Traefik (substitua a URL pela real)
+    # As variáveis de ambiente devem ser definidas direto na UI do Portainer
+    # (aba de Environment da stack) ou, em ambiente local, via `docker compose --env-file .env up`.
+    # Se quiser definir variáveis estáticas baseadas no Traefik (substitua a URL pela real),
+    # use o bloco abaixo como exemplo:
     # environment:
     #   NODE_ENV: production
     labels:
