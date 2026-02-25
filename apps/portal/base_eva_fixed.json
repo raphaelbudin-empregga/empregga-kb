@@ -1,0 +1,2036 @@
+[
+  {
+    "categoria": "CORPORATIVO",
+    "autor": "Equipe Administrativa",
+    "titulo_do_conhecimento": "Dados Cadastrais e CNPJ do Empregga",
+    "pergunta_ou_chamado_original": "Qual é o CNPJ do Empregga?",
+    "resolucao_padronizada": "O CNPJ do Empregga é **23.731.256/0001-74**.\n\n- **Razão Social:** EMPREGGA TECNOLOGIA LTDA.\n- **Endereço da sede:** Rua Navajas, 247, Centro, Mogi das Cruzes/SP, CEP: 08.710-250.",
+    "tags_semanticas": [
+      "CNPJ",
+      "Razão Social",
+      "Endereço",
+      "Dados Cadastrais",
+      "Corporativo"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Transferência de Processo Seletivo entre Agentes",
+    "pergunta_ou_chamado_original": "Como eu faço para transferir um processo seletivo para outra Agente?",
+    "resolucao_padronizada": "Em alguns casos, pode ser necessário transferir uma vaga em andamento para outra Agente. Isso pode ocorrer por diversos motivos, como:\n- Dificuldades com a região da vaga\n- Diferenças salariais que impactam a condução\n- Relacionamento com o cliente\n- Ou até mesmo motivos pessoais ou de força maior, como afastamento ou doença.\n\n**Passo a passo para redirecionar o processo:**\n1. **Avalie se há possibilidade de continuidade:** Antes de transferir, verifique se há qualquer possibilidade de seguir com o atendimento. Se não for possível, é importante não deixar o processo parado.\n2. **Responsabilidade:** A nova Agente passa a ser integralmente responsável pelo processo e pela comissão total.\n3. **Reembolso:** Caso a Agente original já tenha recebido algum valor de comissão (indevidamente), é necessário fazer o reembolso integral antes da transferência oficial.",
+    "tags_semanticas": [
+      "Transferência de Vaga",
+      "Processo Seletivo",
+      "Repasse de Vaga",
+      "Comissão",
+      "Operacional"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Geração de Proposta Comercial no App Empregga",
+    "pergunta_ou_chamado_original": "Como faço para gerar proposta para um cliente?",
+    "resolucao_padronizada": "A proposta é gerada através do **App Empregga**, disponível no link: https://app.empregga.com.br. É necessário já ter o perfil de Agente Empregga.\n\n**Passo a passo:**\n1. No menu Lateral selecione “**Vendas**”.\n2. No submenu clique em “**Propostas**”.\n3. No canto superior direito clique no botão “**Criar Proposta**”.\n4. O sistema irá te guiar no processo de criação da proposta. Preencha o máximo de informações possíveis em cada tela.\n\n**Recursos Adicionais:**\nHá uma aula disponível na comunidade sobre o tema que trata sobre o CRM como um todo, e a partir do minuto 38, especificamente sobre propostas, disponível no link: https://comunidade.empregga.com.br/course/9b38d22b-258e-400a-db45-08dda38924f5/lesson/2049d0c2-9331-44f6-0b32-08de10c31ba3",
+    "tags_semanticas": [
+      "Proposta Comercial",
+      "App Empregga",
+      "CRM",
+      "Vendas",
+      "Plataforma"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Cadastro de Leads no CRM do App Empregga",
+    "pergunta_ou_chamado_original": "Como eu cadastro meus Leads no App?",
+    "resolucao_padronizada": "O Lead é criado através do **App Empregga**, disponível no link: https://app.empregga.com.br. É necessário já ter o perfil de Agente Empregga.\n\n**Passo a passo:**\n1. No menu Lateral selecione “**Vendas**”.\n2. No submenu clique em “**Leads**”.\n3. No canto superior direito clique no botão “**Criar Leads**”.\n4. O sistema irá te guiar no processo de criação do Lead. Preencha o máximo de informações possíveis em cada tela.\n\n**Recursos Adicionais:**\nHá uma aula disponível na comunidade sobre o tema que trata sobre o CRM como um todo, e a primeira parte do vídeo trata especificamente sobre Leads. Aula disponível no link: https://comunidade.empregga.com.br/course/9b38d22b-258e-400a-db45-08dda38924f5/lesson/2049d0c2-9331-44f6-0b32-08de10c31ba3",
+    "tags_semanticas": [
+      "Leads",
+      "Cadastro de Clientes",
+      "App Empregga",
+      "CRM",
+      "Vendas"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Conclusão de Processo Seletivo no Aplicativo",
+    "pergunta_ou_chamado_original": "Como eu concluo um processo seletivo no Aplicativo?",
+    "resolucao_padronizada": "O processo seletivo pode ser concluído de duas formas:\n\n1.  **Movendo o Processo Seletivo para o status “Candidato Aprovado” no App.**\n    - Ao fazer isso, o cliente receberá automaticamente um link para avaliar o Processo Seletivo, dando notas tanto para a plataforma Empregga quanto para o atendimento da Agente.\n2.  **Movendo o Processo Seletivo para o status “Vaga Cancelada” no App.**\n    - Isso ocorre quando a vaga não será mais preenchida ou o cliente desistiu do processo.",
+    "tags_semanticas": [
+      "Conclusão de Vaga",
+      "Processo Seletivo",
+      "Status",
+      "Avaliação de Cliente",
+      "Plataforma"
+    ]
+  },
+  {
+    "categoria": "PAGAMENTO",
+    "autor": "Equipe Administrativa",
+    "titulo_do_conhecimento": "Alteração de Conta Bancária e Chave PIX para Recebimento",
+    "pergunta_ou_chamado_original": "Como altero minha conta de recebimento?",
+    "resolucao_padronizada": "Para trocar a conta de recebimento (para onde o dinheiro é enviado ao sacar o saldo da plataforma), você deve alterar a sua chave PIX no aplicativo.\n\n**Passo a passo para alterar a Chave PIX:**\n1. Clique na sua foto de perfil no App (canto superior direito).\n2. Acesse **Meu Perfil**.\n3. Vá em **Info Agente**.\n4. Altere a sua chave PIX. **Importante:** Certifique-se de alterar também o *tipo* de Chave PIX (CNPJ, CPF, E-mail, etc.) para que fique correspondente.\n\n**Alteração de conta Asaas:**\nSe precisar alterar a conta do Asaas cadastrada na plataforma, é necessário abrir um ticket de suporte: [Abertura de Ticket](https://empregga.com.br/abertura-de-ticket-agentes-empregga/)",
+    "tags_semanticas": [
+      "Conta Bancária",
+      "Chave PIX",
+      "Recebimento",
+      "Comissão",
+      "Asaas",
+      "Pagamento"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Resolução de Erro de Zoom ao Gerar Proposta",
+    "pergunta_ou_chamado_original": "Não consigo gerar proposta / Erro: Workflows could not run because too many requests events triggered at the same time",
+    "resolucao_padronizada": "Se ao clicar em 'Criar Proposta' o sistema retornar o erro *'Workflows could not run because too many requests events triggered at the same time'*, trata-se de um bug de responsividade de tela.\n\n**Solução:**\n1. Diminua o zoom da tela do seu navegador para **80%**.\n2. Clique novamente no botão de **Criar Proposta**.\n3. Após a tela carregar, você pode voltar o zoom ao normal (100%).\n\n**Como reduzir o zoom:**\n- Segure a tecla `Ctrl` e role a bolinha do mouse para trás.\n- Ou segure `Ctrl` e aperte a tecla `-` (menos).\n- No Google Chrome, clique nos três pontinhos (canto superior direito) e reduza na opção 'Zoom'.",
+    "tags_semanticas": [
+      "Erro",
+      "Bug",
+      "Workflows could not run",
+      "Proposta",
+      "Zoom",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "SLA e Tempo de Aceite de Vagas no App",
+    "pergunta_ou_chamado_original": "Qual é o tempo de aceite de uma vaga no App Empregga e como funcionam as notificações?",
+    "resolucao_padronizada": "O tempo de SLA para aceite de uma vaga no App Empregga é de **30 minutos**.\n\n**Como funciona o prazo:**\n- A partir do momento em que a vaga é disponibilizada para a Agente, inicia-se o cronômetro de 30 minutos.\n- Caso a vaga não seja aceita dentro desse prazo, ela é **liberada automaticamente para outra Agente**.\n- A Agente que perdeu o prazo é movida para o final da fila de distribuição.",
+    "tags_semanticas": [
+      "SLA",
+      "Aceite de Vaga",
+      "Distribuição de Vagas",
+      "Fila",
+      "Notificações"
+    ]
+  },
+  {
+    "categoria": "UNIVERSIDADE",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Configuração de Assinatura de E-mail no MailCow",
+    "pergunta_ou_chamado_original": "Como adicionar ou alterar uma assinatura no MailCow / meu email de Agente Empregga?",
+    "resolucao_padronizada": "O processo para adicionar ou alterar a assinatura no webmail oficial das Agentes (MailCow) está documentado em vídeo na Universidade Empregga.\n\n**Caminho de acesso:**\nComunidade -> Ferramentas -> Tutoriais -> Email Agentes -> Adicionar a assinatura no Mailcow.\n\n> [Acessar Tutorial Completo](https://universidadeempregga.app.cativa.digital/course/9b38d22b-258e-400a-db45-08dda30a1535)",
+    "tags_semanticas": [
+      "E-mail",
+      "Assinatura",
+      "MailCow",
+      "Tutorial",
+      "Configuração"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Fluxo de Cadastro e Publicação de Vagas",
+    "pergunta_ou_chamado_original": "Onde cadastro minha vaga?",
+    "resolucao_padronizada": "O fluxo de cadastro e publicação de vagas segue uma ordem específica de sistemas:\n\n1.  **Selecty (ATS Principal):** Inicialmente, o cadastro da vaga é feito no ATS Selecty (https://selecty.app/home). Se for sua primeira vaga, solicite login/senha via canais de suporte na Comunidade.\n2.  **PandaPé e Catho:** Na sequência, a vaga deve ser publicada nestas duas ferramentas, que são oficiais do Empregga.\n3.  **Canais Adicionais:** Você pode (e deve) publicar a vaga em outros portais, grupos de WhatsApp, LinkedIn e onde mais achar estratégico para atrair candidatos.\n\n> **Dica:** Assista ao treinamento completo do Selecty na Comunidade (Aula 7: Softwares de Recrutamento e Fluxos Empregga).",
+    "tags_semanticas": [
+      "Cadastro de Vaga",
+      "Selecty",
+      "PandaPé",
+      "Catho",
+      "Publicação de Vagas",
+      "ATS"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como funciona o processo de Recrutamento e Seleção (R&S) no Empregga?",
+    "pergunta_ou_chamado_original": "Como funciona o processo de R&S no Empregga?",
+    "resolucao_padronizada": "O processo de Recrutamento e Seleção (R&S) no Empregga é dividido em 7 etapas principais:\n\n1.  **Briefing:** Coleta de informações detalhadas sobre a vaga e o perfil desejado.\n2.  **Divulgação:** Publicação da vaga em diversos canais (Selecty, PandaPé, Catho, LinkedIn, etc.).\n3.  **Triagem:** Análise dos currículos e perfis dos candidatos para identificar os mais aderentes.\n4.  **Entrevistas:** Realização de entrevistas com os candidatos pré-selecionados.\n5.  **Testes e Avaliações:** Aplicação de testes técnicos, comportamentais ou psicológicos, se necessário.\n6.  **Apresentação de Finalistas:** Envio dos melhores candidatos para o cliente.\n7.  **Fechamento:** Acompanhamento da contratação e feedback.",
+    "tags_semanticas": [
+      "R&S",
+      "Recrutamento",
+      "Seleção",
+      "Etapas",
+      "Processo"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como acessar o Selecty?",
+    "pergunta_ou_chamado_original": "Como acessar o Selecty?",
+    "resolucao_padronizada": "O Selecty é o ATS principal do Empregga. Você pode acessá-lo através do link: https://selecty.app/home.\n\n- Se for seu primeiro acesso ou primeira vaga, solicite seu login e senha através dos canais de suporte na Comunidade Empregga.\n- Certifique-se de ter as credenciais corretas para evitar problemas de acesso.",
+    "tags_semanticas": [
+      "Selecty",
+      "ATS",
+      "Acesso",
+      "Login",
+      "Plataforma"
+    ]
+  },
+  {
+    "categoria": "PLATAFORMA",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o PandaPé e Catho?",
+    "pergunta_ou_chamado_original": "Como usar o PandaPé e Catho?",
+    "resolucao_padronizada": "PandaPé e Catho são ferramentas oficiais do Empregga para divulgação de vagas.\n\n- Após cadastrar a vaga no Selecty, você deve publicá-la também no PandaPé e na Catho.\n- As credenciais de acesso para essas plataformas são fornecidas pela equipe de suporte.\n- Utilize-as para ampliar o alcance da sua divulgação e atrair mais candidatos.",
+    "tags_semanticas": [
+      "PandaPé",
+      "Catho",
+      "Divulgação de Vagas",
+      "Ferramentas",
+      "Plataforma"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer um bom Briefing de Vaga?",
+    "pergunta_ou_chamado_original": "Como fazer um bom Briefing de Vaga?",
+    "resolucao_padronizada": "Um bom briefing é crucial para o sucesso do processo seletivo. Ele deve conter informações detalhadas sobre a vaga e o perfil do candidato ideal.\n\n**Pontos essenciais para um briefing completo:**\n- **Título da Vaga:** Claro e objetivo.\n- **Descrição da Vaga:** Responsabilidades, desafios, objetivos.\n- **Requisitos Obrigatórios:** Formação, experiência, idiomas, ferramentas.\n- **Requisitos Desejáveis:** Diferenciais que agregam valor.\n- **Salário e Benefícios:** Faixa salarial, tipo de contratação, benefícios (VR, VT, plano de saúde, etc.).\n- **Local de Trabalho:** Presencial, híbrido, remoto.\n- **Cultura da Empresa:** Valores, ambiente de trabalho.\n- **Prazo para Contratação:** Urgência da vaga.\n\n> **Dica:** Utilize um formulário padronizado ou checklist para garantir que nenhuma informação importante seja esquecida.",
+    "tags_semanticas": [
+      "Briefing",
+      "Vaga",
+      "Recrutamento",
+      "Informações",
+      "Operacional"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como realizar a Triagem de Currículos?",
+    "pergunta_ou_chamado_original": "Como realizar a Triagem de Currículos?",
+    "resolucao_padronizada": "A triagem de currículos é a etapa de análise inicial para identificar os candidatos mais aderentes à vaga.\n\n**Melhores práticas:**\n1.  **Filtros:** Utilize os filtros do ATS (Selecty) para pré-selecionar candidatos com base em requisitos obrigatórios (formação, experiência, localização).\n2.  **Palavras-chave:** Busque por palavras-chave relevantes na descrição do currículo que correspondam às habilidades e responsabilidades da vaga.\n3.  **Experiência:** Verifique a relevância da experiência profissional e o tempo de atuação em cada cargo.\n4.  **Formação:** Confirme a formação acadêmica e cursos complementares.\n5.  **Atenção aos detalhes:** Observe a clareza, organização e a presença de erros de português no currículo.\n\n> **Objetivo:** Reduzir o volume de candidatos para as próximas etapas, focando nos mais qualificados.",
+    "tags_semanticas": [
+      "Triagem",
+      "Currículos",
+      "Candidatos",
+      "ATS",
+      "Seleção"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Dicas para uma Entrevista de Sucesso",
+    "pergunta_ou_chamado_original": "Dicas para uma Entrevista de Sucesso",
+    "resolucao_padronizada": "A entrevista é uma das etapas mais importantes do processo seletivo. Prepare-se para conduzi-la de forma eficaz.\n\n**Dicas:**\n- **Prepare-se:** Estude o currículo do candidato e o briefing da vaga.\n- **Roteiro:** Tenha um roteiro de perguntas para guiar a conversa, mas esteja aberto a perguntas espontâneas.\n- **Escuta Ativa:** Preste atenção às respostas do candidato, não apenas ao que ele diz, mas como diz.\n- **Perguntas Comportamentais:** Utilize perguntas situacionais ou comportamentais para entender como o candidato agiria em cenários reais.\n- **Ambiente:** Garanta um ambiente tranquilo e profissional para a entrevista (seja online ou presencial).\n- **Feedback:** Anote suas impressões e pontos importantes para o feedback posterior.",
+    "tags_semanticas": [
+      "Entrevista",
+      "Seleção",
+      "Candidato",
+      "Recrutamento",
+      "Dicas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Quais testes e avaliações posso usar?",
+    "pergunta_ou_chamado_original": "Quais testes e avaliações posso usar?",
+    "resolucao_padronizada": "A escolha de testes e avaliações depende do perfil da vaga e das competências que precisam ser avaliadas.\n\n**Tipos comuns de testes:**\n- **Testes Comportamentais:** Avaliam traços de personalidade, estilo de trabalho e adequação à cultura (ex: DISC, MBTI).\n- **Testes de Raciocínio Lógico:** Medem a capacidade de resolver problemas e pensar criticamente.\n- **Testes de Conhecimentos Específicos:** Avaliam habilidades técnicas (ex: programação, idiomas, Excel).\n- **Dinâmicas de Grupo:** Observam a interação, liderança e trabalho em equipe.\n- **Cases:** Propostas de problemas reais para o candidato resolver, demonstrando suas habilidades práticas.\n\n> **Importante:** Utilize testes que sejam relevantes para a vaga e que complementem as informações obtidas nas entrevistas.",
+    "tags_semanticas": [
+      "Testes",
+      "Avaliações",
+      "Competências",
+      "Seleção",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como apresentar os finalistas ao cliente?",
+    "pergunta_ou_chamado_original": "Como apresentar os finalistas ao cliente?",
+    "resolucao_padronizada": "A apresentação dos finalistas ao cliente é um momento chave para fechar a vaga.\n\n**Orientações:**\n1.  **Relatório Consolidado:** Prepare um relatório conciso para cada candidato finalista, destacando:\n    - Pontos fortes e fracos em relação à vaga.\n    - Experiência relevante.\n    - Resultados dos testes e avaliações.\n    - Impressões da entrevista.\n2.  **Recomendação:** Se possível, faça uma recomendação clara do candidato que você considera mais adequado, justificando sua escolha.\n3.  **Agendamento:** Facilite o agendamento das entrevistas do cliente com os finalistas.\n4.  **Acompanhamento:** Mantenha o cliente atualizado sobre o status e esteja disponível para tirar dúvidas.",
+    "tags_semanticas": [
+      "Finalistas",
+      "Apresentação",
+      "Cliente",
+      "Relatório",
+      "Fechamento de Vaga"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer o Fechamento da Vaga e Feedback?",
+    "pergunta_ou_chamado_original": "Como fazer o Fechamento da Vaga e Feedback?",
+    "resolucao_padronizada": "O fechamento da vaga envolve o acompanhamento da contratação e a coleta de feedback.\n\n**Etapas:**\n1.  **Confirmação da Contratação:** Certifique-se de que o cliente formalizou a contratação do candidato escolhido.\n2.  **Feedback ao Cliente:** Peça feedback ao cliente sobre o processo, a qualidade dos candidatos e o seu atendimento.\n3.  **Feedback aos Candidatos:** Forneça feedback construtivo aos candidatos não aprovados. Isso é importante para a imagem da Empregga e para o desenvolvimento dos profissionais.\n4.  **Pós-Contratação:** Mantenha contato com o cliente e o candidato contratado nos primeiros meses para garantir a adaptação e satisfação.\n\n> **Lembre-se:** Um bom feedback fortalece o relacionamento e a reputação.",
+    "tags_semanticas": [
+      "Fechamento de Vaga",
+      "Feedback",
+      "Contratação",
+      "Pós-Contratação",
+      "Relacionamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como funciona a distribuição de vagas para Agentes?",
+    "pergunta_ou_chamado_original": "Como funciona a distribuição de vagas para Agentes?",
+    "resolucao_padronizada": "A distribuição de vagas para as Agentes Empregga segue um sistema de rodízio e priorização.\n\n**Critérios de Distribuição:**\n- **Rodízio:** As vagas são distribuídas de forma equitativa entre as Agentes disponíveis e qualificadas.\n- **Especialização:** Vagas específicas podem ser direcionadas a Agentes com expertise na área ou segmento.\n- **Performance:** Agentes com bom histórico de fechamento e satisfação do cliente podem ter prioridade.\n- **Localização:** Vagas presenciais ou híbridas são direcionadas a Agentes na região ou proximidade.\n- **SLA de Aceite:** Conforme mencionado, o aceite da vaga em 30 minutos é crucial para manter a posição na fila.\n\n> **Objetivo:** Garantir que as vagas sejam atendidas com agilidade e qualidade pela Agente mais adequada.",
+    "tags_semanticas": [
+      "Distribuição de Vagas",
+      "Rodízio",
+      "Prioridade",
+      "Performance",
+      "SLA"
+    ]
+  },
+  {
+    "categoria": "PAGAMENTO",
+    "autor": "Equipe Administrativa",
+    "titulo_do_conhecimento": "Como funciona o pagamento de comissões?",
+    "pergunta_ou_chamado_original": "Como funciona o pagamento de comissões?",
+    "resolucao_padronizada": "O pagamento de comissões no Empregga é realizado após a confirmação da contratação e o cumprimento das condições estabelecidas em contrato.\n\n**Pontos importantes:**\n- **Confirmação:** A comissão é liberada após o cliente confirmar a contratação do candidato indicado e o início das atividades.\n- **Prazo:** O prazo para pagamento pode variar conforme o acordo contratual com o cliente e o ciclo de faturamento da Empregga.\n- **Extrato:** Você pode acompanhar o status das suas comissões e o saldo disponível no App Empregga, na seção de 'Financeiro'.\n- **Saque:** O saque do saldo é feito para a conta bancária ou chave PIX cadastrada no seu perfil.\n\n> **Dúvidas:** Em caso de dúvidas sobre valores ou prazos, entre em contato com a Equipe Administrativa.",
+    "tags_semanticas": [
+      "Comissão",
+      "Pagamento",
+      "Contratação",
+      "Financeiro",
+      "Extrato"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como lidar com a desistência de um candidato?",
+    "pergunta_ou_chamado_original": "Como lidar com a desistência de um candidato?",
+    "resolucao_padronizada": "A desistência de um candidato pode ocorrer em qualquer etapa do processo. É importante agir rapidamente para minimizar o impacto.\n\n**Procedimentos:**\n1.  **Comunique o Cliente:** Informe o cliente imediatamente sobre a desistência, explicando a situação de forma transparente.\n2.  **Reative o Processo:** Verifique se há outros candidatos finalistas que possam ser considerados.\n3.  **Reinicie a Busca:** Se não houver outros candidatos adequados, reinicie a busca e divulgação da vaga.\n4.  **Análise:** Tente entender os motivos da desistência para identificar possíveis pontos de melhoria no processo ou na proposta da vaga.\n\n> **Objetivo:** Manter o cliente informado e garantir a continuidade do processo até o preenchimento da vaga.",
+    "tags_semanticas": [
+      "Desistência",
+      "Candidato",
+      "Processo Seletivo",
+      "Reativação",
+      "Comunicação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como lidar com a desistência de um cliente?",
+    "pergunta_ou_chamado_original": "Como lidar com a desistência de um cliente?",
+    "resolucao_padronizada": "A desistência de um cliente pode ser frustrante, mas é importante gerenciar a situação de forma profissional.\n\n**Procedimentos:**\n1.  **Entenda os Motivos:** Tente compreender o porquê da desistência. Pode ser por mudança de prioridade, orçamento, ou até mesmo insatisfação com o processo.\n2.  **Ofereça Soluções:** Se possível, tente reverter a situação oferecendo alternativas ou ajustando a proposta.\n3.  **Mantenha o Relacionamento:** Mesmo que o cliente desista da vaga atual, mantenha um bom relacionamento para futuras oportunidades.\n4.  **Feedback Interno:** Compartilhe o feedback com a equipe Empregga para identificar pontos de melhoria no atendimento ou nos serviços.\n\n> **Lembre-se:** Nem toda desistência é definitiva. Um bom relacionamento pode abrir portas no futuro.",
+    "tags_semanticas": [
+      "Desistência",
+      "Cliente",
+      "Relacionamento",
+      "Feedback",
+      "Gestão de Crise"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como funciona o suporte para Agentes?",
+    "pergunta_ou_chamado_original": "Como funciona o suporte para Agentes?",
+    "resolucao_padronizada": "O Empregga oferece diversos canais de suporte para as Agentes, garantindo que você tenha o apoio necessário em todas as etapas.\n\n**Canais de Suporte:**\n- **Comunidade Empregga:** Fórum e base de conhecimento com FAQs, tutoriais e discussões entre Agentes.\n- **Chat Online:** Disponível no App Empregga para dúvidas rápidas e suporte técnico.\n- **Ticket de Suporte:** Para questões mais complexas ou que exigem acompanhamento, abra um ticket através do link: [Abertura de Ticket](https://empregga.com.br/abertura-de-ticket-agentes-empregga/)\n- **Reuniões Periódicas:** Encontros online para alinhamento, treinamentos e troca de experiências.\n\n> **Horário de Atendimento:** Verifique os horários de atendimento de cada canal na Comunidade.",
+    "tags_semanticas": [
+      "Suporte",
+      "Agentes",
+      "Comunidade",
+      "Ticket",
+      "Atendimento"
+    ]
+  },
+  {
+    "categoria": "UNIVERSIDADE",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como acessar a Universidade Empregga?",
+    "pergunta_ou_chamado_original": "Como acessar a Universidade Empregga?",
+    "resolucao_padronizada": "A Universidade Empregga é a nossa plataforma de ensino e desenvolvimento para Agentes. Você pode acessá-la através do link: https://universidadeempregga.app.cativa.digital/\n\n- Utilize suas credenciais de Agente para fazer login.\n- Lá você encontrará cursos, tutoriais, webinars e materiais de apoio para aprimorar suas habilidades e conhecimentos.\n\n> **Recomendação:** Explore todo o conteúdo disponível para maximizar seu desempenho.",
+    "tags_semanticas": [
+      "Universidade",
+      "Treinamento",
+      "Educação",
+      "Acesso",
+      "Desenvolvimento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o LinkedIn para Recrutamento?",
+    "pergunta_ou_chamado_original": "Como usar o LinkedIn para Recrutamento?",
+    "resolucao_padronizada": "O LinkedIn é uma ferramenta poderosa para recrutamento e seleção. Utilize-o de forma estratégica.\n\n**Dicas de uso:**\n1.  **Perfil Otimizado:** Mantenha seu perfil profissional atualizado e completo, destacando sua atuação como Agente Empregga.\n2.  **Busca de Candidatos:** Utilize a busca avançada para encontrar profissionais com as qualificações desejadas.\n3.  **Publicação de Vagas:** Compartilhe as vagas abertas na sua rede e em grupos relevantes.\n4.  **Networking:** Conecte-se com profissionais da área e outros recrutadores.\n5.  **InMail:** Use o InMail para entrar em contato direto com candidatos passivos.\n6.  **Conteúdo:** Publique conteúdo relevante sobre o mercado de trabalho e dicas de carreira para atrair talentos.\n\n> **Atenção:** Respeite as políticas de uso do LinkedIn para evitar bloqueios.",
+    "tags_semanticas": [
+      "LinkedIn",
+      "Recrutamento",
+      "Networking",
+      "Candidatos",
+      "Mídias Sociais"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer uma boa entrevista por vídeo?",
+    "pergunta_ou_chamado_original": "Como fazer uma boa entrevista por vídeo?",
+    "resolucao_padronizada": "Entrevistas por vídeo se tornaram comuns. Garanta que a sua seja profissional e eficaz.\n\n**Melhores práticas:**\n- **Ambiente:** Escolha um local tranquilo, bem iluminado e com fundo neutro.\n- **Tecnologia:** Teste sua conexão de internet, câmera e microfone antes da entrevista.\n- **Vestimenta:** Vista-se de forma profissional, como faria em uma entrevista presencial.\n- **Contato Visual:** Olhe para a câmera para simular contato visual com o candidato.\n- **Linguagem Corporal:** Mantenha uma postura ereta e demonstre interesse.\n- **Evite Interrupções:** Avise as pessoas em sua casa para não interromperem.\n- **Roteiro:** Tenha seu roteiro de perguntas e anotações à mão.\n\n> **Dica:** Tenha um copo d'água por perto e evite distrações no seu campo de visão.",
+    "tags_semanticas": [
+      "Entrevista por Vídeo",
+      "Online",
+      "Dicas",
+      "Tecnologia",
+      "Comunicação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como gerenciar múltiplas vagas simultaneamente?",
+    "pergunta_ou_chamado_original": "Como gerenciar múltiplas vagas simultaneamente?",
+    "resolucao_padronizada": "Gerenciar múltiplas vagas exige organização e disciplina. Utilize ferramentas e estratégias para otimizar seu tempo.\n\n**Estratégias:**\n1.  **Priorização:** Classifique as vagas por urgência e complexidade.\n2.  **Ferramentas:** Utilize o Selecty e o App Empregga para acompanhar o status de cada vaga e candidato.\n3.  **Agenda:** Organize sua agenda com blocos de tempo dedicados a cada vaga (triagem, entrevistas, feedback).\n4.  **Automação:** Use recursos de automação para envio de e-mails e agendamentos.\n5.  **Delegação (se aplicável):** Se tiver equipe, delegue tarefas específicas.\n6.  **Comunicação:** Mantenha clientes e candidatos informados sobre o andamento.\n\n> **Foco:** Não tente fazer tudo ao mesmo tempo. Concentre-se em uma tarefa por vez para evitar erros.",
+    "tags_semanticas": [
+      "Gestão de Vagas",
+      "Multitarefas",
+      "Organização",
+      "Produtividade",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "PAGAMENTO",
+    "autor": "Equipe Administrativa",
+    "titulo_do_conhecimento": "Como emitir Nota Fiscal (NF) para o Empregga?",
+    "pergunta_ou_chamado_original": "Como emitir Nota Fiscal (NF) para o Empregga?",
+    "resolucao_padronizada": "A emissão de Nota Fiscal para o Empregga é um procedimento padrão para o recebimento de suas comissões.\n\n**Orientações:**\n1.  **MEI ou PJ:** Você deve ter um CNPJ (preferencialmente MEI ou PJ) para emitir NF de serviços.\n2.  **Dados do Tomador:** Os dados do Empregga (CNPJ, Razão Social, Endereço) devem ser preenchidos corretamente na NF.\n    - **CNPJ:** 23.731.256/0001-74\n    - **Razão Social:** EMPREGGA TECNOLOGIA LTDA.\n    - **Endereço:** Rua Navajas, 247, Centro, Mogi das Cruzes/SP, CEP: 08.710-250\n3.  **Descrição do Serviço:** A descrição deve ser clara, como 'Serviços de Recrutamento e Seleção' ou 'Intermediação de Mão de Obra'.\n4.  **Valor:** O valor da NF deve corresponder exatamente ao valor da comissão a ser recebida.\n5.  **Envio:** A NF deve ser enviada para o e-mail financeiro@empregga.com.br ou conforme orientação da Equipe Administrativa.\n\n> **Dúvidas Fiscais:** Consulte seu contador para garantir a correta emissão e tributação.",
+    "tags_semanticas": [
+      "Nota Fiscal",
+      "NF",
+      "Comissão",
+      "MEI",
+      "PJ",
+      "Financeiro"
+    ]
+  },
+  {
+    "categoria": "CORPORATIVO",
+    "autor": "Equipe Administrativa",
+    "titulo_do_conhecimento": "Quais são os valores e a cultura do Empregga?",
+    "pergunta_ou_chamado_original": "Quais são os valores e a cultura do Empregga?",
+    "resolucao_padronizada": "A cultura do Empregga é pautada em valores que guiam nossas ações e o relacionamento com Agentes, clientes e candidatos.\n\n**Nossos Valores:**\n- **Transparência:** Agir com clareza e honestidade em todas as interações.\n- **Inovação:** Buscar constantemente novas soluções e melhorias para o mercado de R&S.\n- **Colaboração:** Trabalhar em equipe, valorizando a troca de experiências e o apoio mútuo.\n- **Excelência:** Buscar a alta performance e a qualidade em todos os serviços prestados.\n- **Respeito:** Valorizar a diversidade e tratar a todos com dignidade.\n- **Foco no Cliente:** Entender as necessidades e superar as expectativas dos clientes e candidatos.\n\n> **Missão:** Conectar talentos a oportunidades, transformando vidas e negócios.",
+    "tags_semanticas": [
+      "Valores",
+      "Cultura",
+      "Missão",
+      "Visão",
+      "Empresa"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o WhatsApp Business para Recrutamento?",
+    "pergunta_ou_chamado_original": "Como usar o WhatsApp Business para Recrutamento?",
+    "resolucao_padronizada": "O WhatsApp Business é uma ferramenta eficaz para comunicação rápida com candidatos e clientes.\n\n**Funcionalidades úteis:**\n- **Mensagens Automáticas:** Configure mensagens de saudação, ausência ou respostas rápidas.\n- **Etiquetas:** Organize seus contatos com etiquetas (ex: 'Candidato Vaga X', 'Cliente Potencial').\n- **Catálogo:** Crie um catálogo de serviços ou vagas em destaque.\n- **Perfil Comercial:** Mantenha seu perfil completo com informações da Empregga e seus contatos.\n- **Listas de Transmissão:** Envie mensagens para múltiplos contatos de uma vez (com moderação para evitar spam).\n\n> **Atenção:** Utilize o WhatsApp Business de forma profissional, respeitando a privacidade dos contatos.",
+    "tags_semanticas": [
+      "WhatsApp Business",
+      "Comunicação",
+      "Candidatos",
+      "Clientes",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer follow-up com candidatos e clientes?",
+    "pergunta_ou_chamado_original": "Como fazer follow-up com candidatos e clientes?",
+    "resolucao_padronizada": "O follow-up é essencial para manter o engajamento e a transparência no processo seletivo.\n\n**Com Candidatos:**\n- **Prazos:** Informe os prazos das próximas etapas e cumpra-os.\n- **Atualizações:** Envie atualizações sobre o status da vaga, mesmo que não haja novidades.\n- **Feedback:** Forneça feedback construtivo, mesmo para os não aprovados.\n- **Canais:** Utilize e-mail, WhatsApp ou telefone, conforme a preferência do candidato.\n\n**Com Clientes:**\n- **Status:** Mantenha o cliente informado sobre o andamento da busca, número de candidatos, entrevistas realizadas.\n- **Dúvidas:** Esteja disponível para tirar dúvidas e fornecer informações adicionais.\n- **Relatórios:** Envie relatórios periódicos de progresso, se acordado.\n\n> **Regra de Ouro:** Não deixe ninguém sem resposta por muito tempo.",
+    "tags_semanticas": [
+      "Follow-up",
+      "Comunicação",
+      "Candidatos",
+      "Clientes",
+      "Engajamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como lidar com objeções de clientes?",
+    "pergunta_ou_chamado_original": "Como lidar com objeções de clientes?",
+    "resolucao_padronizada": "Objeções são parte do processo de vendas e negociação. Prepare-se para respondê-las de forma eficaz.\n\n**Estratégias:**\n1.  **Escute Atentamente:** Deixe o cliente expressar sua objeção completamente.\n2.  **Compreenda:** Faça perguntas para entender a raiz da objeção.\n3.  **Valide:** Reconheça a preocupação do cliente ('Entendo sua preocupação com...').\n4.  **Responda com Soluções:** Apresente argumentos e soluções que abordem a objeção diretamente.\n5.  **Benefícios:** Reafirme os benefícios da Empregga e do seu serviço.\n6.  **Exemplos:** Use cases de sucesso ou depoimentos para reforçar seus argumentos.\n\n> **Comum:** Objeções sobre preço, prazo, qualidade dos candidatos. Prepare-se para elas.",
+    "tags_semanticas": [
+      "Objeções",
+      "Negociação",
+      "Vendas",
+      "Cliente",
+      "Comunicação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como construir um bom relacionamento com o cliente?",
+    "pergunta_ou_chamado_original": "Como construir um bom relacionamento com o cliente?",
+    "resolucao_padronizada": "Um bom relacionamento com o cliente é a chave para a fidelização e novas oportunidades.\n\n**Pilares:**\n- **Confiança:** Seja transparente, cumpra o que promete e demonstre expertise.\n- **Comunicação:** Mantenha o cliente informado, seja proativo e responda rapidamente.\n- **Entendimento:** Compreenda as necessidades e expectativas do cliente, oferecendo soluções personalizadas.\n- **Resultados:** Entregue candidatos de qualidade e ajude o cliente a atingir seus objetivos.\n- **Pós-Venda:** Mantenha contato mesmo após o fechamento da vaga, oferecendo suporte e acompanhamento.\n- **Feedback:** Peça e utilize o feedback do cliente para aprimorar seus serviços.\n\n> **Objetivo:** Tornar-se um parceiro estratégico para o cliente, não apenas um fornecedor.",
+    "tags_semanticas": [
+      "Relacionamento com Cliente",
+      "Fidelização",
+      "Comunicação",
+      "Confiança",
+      "Pós-Venda"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer prospecção de novos clientes?",
+    "pergunta_ou_chamado_original": "Como fazer prospecção de novos clientes?",
+    "resolucao_padronizada": "A prospecção é fundamental para expandir sua carteira de clientes. Utilize diferentes abordagens.\n\n**Estratégias de Prospecção:**\n1.  **Indicações:** Peça indicações a clientes satisfeitos e sua rede de contatos.\n2.  **LinkedIn Sales Navigator:** Utilize a ferramenta para identificar empresas e decisores.\n3.  **Eventos e Feiras:** Participe de eventos do setor para fazer networking.\n4.  **Cold Call/Cold E-mail:** Entre em contato direto com empresas que se encaixam no perfil de cliente ideal.\n5.  **Marketing de Conteúdo:** Crie conteúdo relevante (artigos, posts) que atraia empresas interessadas em R&S.\n6.  **Parcerias:** Busque parcerias com outras empresas ou consultorias.\n\n> **Persistência:** A prospecção exige persistência e um bom planejamento.",
+    "tags_semanticas": [
+      "Prospecção",
+      "Novos Clientes",
+      "Vendas",
+      "Networking",
+      "Estratégias"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Quais são os diferenciais do Empregga?",
+    "pergunta_ou_chamado_original": "Quais são os diferenciais do Empregga?",
+    "resolucao_padronizada": "O Empregga se destaca no mercado de R&S por diversos diferenciais que agregam valor a clientes e Agentes.\n\n**Nossos Diferenciais:**\n- **Tecnologia:** Plataforma intuitiva e robusta (App Empregga, Selecty) que otimiza o processo.\n- **Agilidade:** Processos otimizados para um tempo de resposta rápido na apresentação de candidatos.\n- **Qualidade:** Rede de Agentes qualificadas e treinadas para encontrar os melhores talentos.\n- **Custo-Benefício:** Soluções flexíveis e competitivas para empresas de todos os portes.\n- **Suporte:** Atendimento dedicado e personalizado para Agentes e clientes.\n- **Comunidade:** Ambiente de troca de conhecimento e apoio mútuo entre Agentes.\n\n> **Mensagem:** Oferecemos uma solução completa e inovadora para as necessidades de recrutamento.",
+    "tags_semanticas": [
+      "Diferenciais",
+      "Vantagens",
+      "Tecnologia",
+      "Qualidade",
+      "Mercado"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o CRM do Empregga?",
+    "pergunta_ou_chamado_original": "Como usar o CRM do Empregga?",
+    "resolucao_padronizada": "O CRM do Empregga, integrado ao App, é sua ferramenta principal para gerenciar leads, clientes e propostas.\n\n**Funcionalidades:**\n- **Gestão de Leads:** Cadastre, qualifique e acompanhe seus leads desde o primeiro contato.\n- **Gestão de Clientes:** Mantenha um histórico completo de interações, vagas e contratos.\n- **Criação de Propostas:** Gere propostas personalizadas diretamente pelo sistema.\n- **Pipeline de Vendas:** Visualize o funil de vendas e o status de cada negociação.\n- **Relatórios:** Acesse relatórios para analisar seu desempenho e identificar oportunidades.\n\n> **Recurso:** Há uma aula completa sobre o CRM na Comunidade Empregga: [Acessar Aula](https://comunidade.empregga.com.br/course/9b38d22b-258e-400a-db45-08dda38924f5/lesson/2049d0c2-9331-44f6-0b32-08de10c31ba3)",
+    "tags_semanticas": [
+      "CRM",
+      "Gestão de Clientes",
+      "Leads",
+      "Propostas",
+      "Vendas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a qualificação de leads?",
+    "pergunta_ou_chamado_original": "Como fazer a qualificação de leads?",
+    "resolucao_padronizada": "Qualificar leads é essencial para focar seus esforços nos potenciais clientes com maior chance de conversão.\n\n**Critérios de Qualificação (BANT):**\n- **Budget (Orçamento):** O lead tem orçamento para contratar o serviço?\n- **Authority (Autoridade):** O lead tem poder de decisão ou influência na contratação?\n- **Need (Necessidade):** O lead realmente precisa dos serviços de R&S do Empregga?\n- **Timeline (Prazo):** Qual o prazo para a contratação? Há urgência?\n\n**Outros pontos:**\n- **Fit:** A empresa se encaixa no perfil de cliente ideal do Empregga?\n- **Engajamento:** O lead demonstra interesse e responde às suas abordagens?\n\n> **Objetivo:** Identificar os leads mais promissores e priorizá-los no seu pipeline de vendas.",
+    "tags_semanticas": [
+      "Qualificação de Leads",
+      "BANT",
+      "Vendas",
+      "Prospecção",
+      "CRM"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como criar um bom pitch de vendas?",
+    "pergunta_ou_chamado_original": "Como criar um bom pitch de vendas?",
+    "resolucao_padronizada": "Um pitch de vendas eficaz é conciso, persuasivo e focado nos benefícios para o cliente.\n\n**Elementos de um bom pitch:**\n1.  **Gancho:** Comece com uma pergunta ou afirmação que chame a atenção para um problema comum do cliente.\n2.  **Problema:** Descreva o problema que o cliente enfrenta (ex: dificuldade em encontrar talentos, alto custo de R&S).\n3.  **Solução:** Apresente o Empregga como a solução, destacando como resolvemos o problema.\n4.  **Benefícios:** Foque nos benefícios para o cliente (agilidade, qualidade, custo-benefício, redução de turnover).\n5.  **Diferenciais:** Mencione o que torna o Empregga único (tecnologia, rede de Agentes).\n6.  **Chamada para Ação (CTA):** Convide o cliente para o próximo passo (reunião, demonstração, envio de proposta).\n\n> **Pratique:** Treine seu pitch para que ele soe natural e confiante.",
+    "tags_semanticas": [
+      "Pitch de Vendas",
+      "Vendas",
+      "Comunicação",
+      "Prospecção",
+      "Argumentação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer networking eficaz?",
+    "pergunta_ou_chamado_original": "Como fazer networking eficaz?",
+    "resolucao_padronizada": "Networking é a construção de uma rede de contatos profissionais que pode gerar oportunidades.\n\n**Dicas para Networking:**\n1.  **Seja Genuíno:** Construa relacionamentos autênticos, não apenas por interesse.\n2.  **Participe de Eventos:** Feiras, workshops, palestras e encontros do setor são ótimas oportunidades.\n3.  **Use o LinkedIn:** Conecte-se com profissionais da sua área e de áreas complementares.\n4.  **Ofereça Ajuda:** Esteja disposto a ajudar seus contatos, não apenas a pedir.\n5.  **Mantenha Contato:** Faça follow-up com seus contatos periodicamente.\n6.  **Seja Visível:** Compartilhe seu conhecimento e experiência em plataformas online e offline.\n\n> **Lembre-se:** Networking é uma via de mão dupla. Contribua para a sua rede.",
+    "tags_semanticas": [
+      "Networking",
+      "Contatos",
+      "Relacionamento",
+      "Carreira",
+      "Oportunidades"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar as redes sociais para atrair candidatos?",
+    "pergunta_ou_chamado_original": "Como usar as redes sociais para atrair candidatos?",
+    "resolucao_padronizada": "As redes sociais são canais poderosos para atrair e engajar candidatos, especialmente os passivos.\n\n**Estratégias:**\n- **LinkedIn:** Publicação de vagas, artigos, participação em grupos, InMail.\n- **Facebook/Instagram:** Crie posts atraentes sobre a cultura da empresa, benefícios, depoimentos. Use anúncios segmentados.\n- **Grupos e Comunidades:** Participe de grupos específicos de profissionais para divulgar vagas.\n- **Conteúdo Relevante:** Compartilhe dicas de carreira, tendências do mercado, informações sobre a Empregga.\n- **Employer Branding:** Mostre o lado humano das empresas e o ambiente de trabalho.\n\n> **Adapte:** Cada rede social tem sua linguagem e público. Adapte sua comunicação.",
+    "tags_semanticas": [
+      "Redes Sociais",
+      "Recrutamento",
+      "Candidatos",
+      "Employer Branding",
+      "Marketing"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer uma boa descrição de vaga?",
+    "pergunta_ou_chamado_original": "Como fazer uma boa descrição de vaga?",
+    "resolucao_padronizada": "Uma descrição de vaga clara e atraente é fundamental para atrair os candidatos certos.\n\n**Elementos essenciais:**\n1.  **Título da Vaga:** Preciso e descritivo.\n2.  **Resumo da Empresa:** Breve apresentação da Empregga e do cliente (se permitido).\n3.  **Responsabilidades:** Liste as principais tarefas e desafios do cargo.\n4.  **Requisitos:** Separe em 'Obrigatórios' e 'Desejáveis' (formação, experiência, habilidades).\n5.  **Benefícios:** Destaque os benefícios oferecidos (salário, VR, VT, plano de saúde, flexibilidade).\n6.  **Local de Trabalho:** Informe se é presencial, híbrido ou remoto.\n7.  **Cultura:** Mencione aspectos da cultura da empresa para atrair candidatos alinhados.\n8.  **Chamada para Ação:** Indique como o candidato deve se candidatar.\n\n> **Linguagem:** Use uma linguagem inclusiva e evite jargões excessivos.",
+    "tags_semanticas": [
+      "Descrição de Vaga",
+      "Job Description",
+      "Recrutamento",
+      "Candidatos",
+      "Atração de Talentos"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de expectativas com clientes e candidatos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de expectativas com clientes e candidatos?",
+    "resolucao_padronizada": "Gerenciar expectativas é crucial para evitar frustrações e garantir a satisfação de todas as partes.\n\n**Com Clientes:**\n- **Prazos Realistas:** Informe prazos realistas para cada etapa do processo.\n- **Qualidade dos Candidatos:** Alinhe o perfil dos candidatos que serão apresentados.\n- **Feedback:** Explique a importância do feedback e os prazos para recebê-lo.\n- **Desafios:** Comunique proativamente sobre possíveis desafios na busca (ex: vaga muito específica, salário abaixo do mercado).\n\n**Com Candidatos:**\n- **Etapas do Processo:** Explique claramente todas as etapas do processo seletivo.\n- **Prazos:** Informe sobre os prazos para retorno e próximas etapas.\n- **Feedback:** Garanta que o candidato receberá feedback, mesmo que negativo.\n- **Transparência:** Seja transparente sobre a vaga, salário e cultura da empresa.\n\n> **Comunicação:** A chave é a comunicação clara e constante.",
+    "tags_semanticas": [
+      "Gestão de Expectativas",
+      "Comunicação",
+      "Clientes",
+      "Candidatos",
+      "Transparência"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o Google para Recrutamento (Google for Jobs)?",
+    "pergunta_ou_chamado_original": "Como usar o Google para Recrutamento (Google for Jobs)?",
+    "resolucao_padronizada": "O Google for Jobs é uma ferramenta poderosa para que suas vagas sejam encontradas por candidatos diretamente na busca do Google.\n\n**Como funciona:**\n- O Google for Jobs agrega vagas de diversos sites (ATS, portais de emprego) e as exibe em destaque nos resultados de busca.\n- Para que suas vagas apareçam, elas precisam estar publicadas em plataformas que o Google indexa (como o Selecty, PandaPé, Catho).\n\n**Dicas para otimização:**\n- **Descrições Claras:** Use títulos e descrições de vagas claras e com palavras-chave relevantes.\n- **Informações Completas:** Inclua salário, localização, tipo de contrato, requisitos.\n- **Mobile-Friendly:** Garanta que a página da vaga seja responsiva para dispositivos móveis.\n\n> **Importante:** O Google for Jobs não é um portal de vagas, mas um agregador. A publicação em ATS e portais é o primeiro passo.",
+    "tags_semanticas": [
+      "Google for Jobs",
+      "Recrutamento",
+      "SEO para Vagas",
+      "Divulgação",
+      "Busca de Talentos"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a retenção de talentos para o cliente?",
+    "pergunta_ou_chamado_original": "Como fazer a retenção de talentos para o cliente?",
+    "resolucao_padronizada": "Embora a retenção seja responsabilidade do cliente, você pode oferecer insights e boas práticas para ajudá-lo.\n\n**Dicas para o cliente:**\n- **Onboarding Eficaz:** Um bom processo de integração faz diferença nos primeiros meses.\n- **Plano de Carreira:** Oferecer oportunidades de crescimento e desenvolvimento.\n- **Cultura e Ambiente:** Promover um ambiente de trabalho positivo e inclusivo.\n- **Reconhecimento:** Valorizar e reconhecer o trabalho dos colaboradores.\n- **Feedback Contínuo:** Oferecer feedback regular e construtivo.\n- **Benefícios:** Pacote de benefícios competitivo e alinhado às necessidades dos colaboradores.\n\n> **Seu papel:** Ser um consultor estratégico, oferecendo mais do que apenas a contratação.",
+    "tags_semanticas": [
+      "Retenção de Talentos",
+      "Onboarding",
+      "Cultura Organizacional",
+      "Engajamento",
+      "Consultoria"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como lidar com a contraproposta de um candidato?",
+    "pergunta_ou_chamado_original": "Como lidar com a contraproposta de um candidato?",
+    "resolucao_padronizada": "A contraproposta de um candidato pode surgir após a oferta de emprego. É preciso gerenciar a situação com cuidado.\n\n**Procedimentos:**\n1.  **Escute o Candidato:** Entenda os motivos da contraproposta (salário, benefícios, desafios, etc.).\n2.  **Comunique o Cliente:** Repasse a contraproposta ao cliente, com todos os detalhes.\n3.  **Negociação:** Auxilie o cliente na avaliação e negociação da contraproposta, se for o caso.\n4.  **Alinhamento:** Garanta que a decisão final do cliente seja comunicada ao candidato de forma clara.\n5.  **Alternativas:** Se a contraproposta não for aceita, verifique se há outros candidatos finalistas ou se a busca precisa ser reiniciada.\n\n> **Objetivo:** Buscar um acordo que seja satisfatório para ambas as partes, mas sempre priorizando a decisão do cliente.",
+    "tags_semanticas": [
+      "Contraproposta",
+      "Negociação",
+      "Candidato",
+      "Oferta de Emprego",
+      "Fechamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a integração de novos Agentes?",
+    "pergunta_ou_chamado_original": "Como fazer a integração de novos Agentes?",
+    "resolucao_padronizada": "A integração de novos Agentes é fundamental para que eles se sintam acolhidos e produtivos rapidamente.\n\n**Processo de Onboarding para Agentes:**\n1.  **Boas-Vindas:** Envio de material de boas-vindas e acesso à Comunidade Empregga.\n2.  **Treinamento Inicial:** Acesso à Universidade Empregga com cursos sobre a plataforma, processos e técnicas de R&S.\n3.  **Acesso às Ferramentas:** Liberação de acesso ao App Empregga, Selecty, MailCow, etc.\n4.  **Mentor/Padrinho:** Designação de um Agente mais experiente para apoio e dúvidas iniciais.\n5.  **Primeiras Vagas:** Acompanhamento nas primeiras vagas para garantir o sucesso.\n6.  **Reuniões de Alinhamento:** Participação em reuniões periódicas com a equipe.\n\n> **Objetivo:** Capacitar o novo Agente para que ele possa atuar com autonomia e excelência.",
+    "tags_semanticas": [
+      "Onboarding",
+      "Novos Agentes",
+      "Integração",
+      "Treinamento",
+      "Suporte"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o e-mail corporativo (MailCow)?",
+    "pergunta_ou_chamado_original": "Como usar o e-mail corporativo (MailCow)?",
+    "resolucao_padronizada": "O e-mail corporativo (MailCow) é a ferramenta oficial de comunicação para Agentes Empregga. É essencial para manter a profissionalismo e a segurança.\n\n**Funcionalidades e Dicas:**\n- **Acesso:** Acesse via webmail ou configure em seu cliente de e-mail (Outlook, Thunderbird).\n- **Assinatura:** Configure sua assinatura profissional com seus dados e os da Empregga (ver FAQ específico sobre assinatura).\n- **Organização:** Utilize pastas e filtros para organizar suas mensagens.\n- **Segurança:** Não compartilhe sua senha e esteja atento a e-mails suspeitos (phishing).\n- **Comunicação:** Utilize-o para todas as comunicações oficiais com clientes e candidatos.\n\n> **Importante:** Mantenha a caixa de entrada organizada e responda aos e-mails em tempo hábil.",
+    "tags_semanticas": [
+      "E-mail Corporativo",
+      "MailCow",
+      "Comunicação",
+      "Ferramentas",
+      "Segurança"
+    ]
+  },
+  {
+    "categoria": "PAGAMENTO",
+    "autor": "Equipe Administrativa",
+    "titulo_do_conhecimento": "Como funciona o reajuste de comissões?",
+    "pergunta_ou_chamado_original": "Como funciona o reajuste de comissões?",
+    "resolucao_padronizada": "O reajuste de comissões pode ocorrer em situações específicas e é sempre comunicado pela Equipe Administrativa.\n\n**Cenários de Reajuste:**\n- **Alteração Contratual:** Mudanças nos termos do contrato com o cliente que impactem o valor da vaga.\n- **Performance:** Reajustes baseados na performance da Agente, conforme políticas internas.\n- **Acordos Específicos:** Negociações pontuais para vagas de alta complexidade ou volume.\n- **Políticas da Empregga:** Revisões periódicas das tabelas de comissão da plataforma.\n\n> **Comunicação:** Qualquer alteração será previamente comunicada e detalhada pela Equipe Administrativa. Em caso de dúvidas, entre em contato.",
+    "tags_semanticas": [
+      "Reajuste",
+      "Comissão",
+      "Pagamento",
+      "Contrato",
+      "Financeiro"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como lidar com a falta de candidatos para uma vaga?",
+    "pergunta_ou_chamado_original": "Como lidar com a falta de candidatos para uma vaga?",
+    "resolucao_padronizada": "A falta de candidatos pode ser um desafio. É preciso revisar a estratégia e ser proativo.\n\n**Estratégias:**\n1.  **Revisar o Briefing:** O perfil da vaga está realista? O salário e benefícios são competitivos?\n2.  **Ampliar Divulgação:** Utilize mais canais (redes sociais, grupos específicos, headhunting).\n3.  **Headhunting Ativo:** Busque candidatos passivos no LinkedIn e outras plataformas.\n4.  **Networking:** Ative sua rede de contatos para indicações.\n5.  **Employer Branding:** Destaque os pontos positivos da empresa cliente.\n6.  **Feedback ao Cliente:** Comunique a dificuldade e sugira ajustes na vaga ou nos requisitos.\n\n> **Flexibilidade:** O cliente pode precisar ser flexível em alguns requisitos para preencher a vaga.",
+    "tags_semanticas": [
+      "Falta de Candidatos",
+      "Recrutamento",
+      "Estratégia",
+      "Divulgação",
+      "Headhunting"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo e produtividade?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo e produtividade?",
+    "resolucao_padronizada": "A gestão de tempo e produtividade é essencial para Agentes que gerenciam múltiplas tarefas e vagas.\n\n**Técnicas e Dicas:**\n- **Priorização:** Use métodos como a Matriz de Eisenhower (Urgente/Importante) para priorizar tarefas.\n- **Bloqueio de Tempo:** Dedique blocos de tempo específicos para cada tipo de atividade (triagem, entrevistas, prospecção).\n- **Técnica Pomodoro:** Trabalhe em ciclos de 25 minutos com pausas curtas para manter o foco.\n- **Ferramentas:** Utilize agendas (Google Calendar), listas de tarefas (Trello, Asana) ou o próprio CRM do Empregga.\n- **Evite Distrações:** Desligue notificações, feche abas desnecessárias no navegador.\n- **Descanso:** Faça pausas regulares e garanta um bom descanso para manter a energia.\n\n> **Autoconhecimento:** Entenda seus picos de produtividade e organize seu dia em torno deles.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Produtividade",
+      "Organização",
+      "Técnicas",
+      "Autogestão"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o Google Meet/Zoom para entrevistas?",
+    "pergunta_ou_chamado_original": "Como usar o Google Meet/Zoom para entrevistas?",
+    "resolucao_padronizada": "Google Meet e Zoom são as plataformas mais utilizadas para entrevistas por vídeo. Garanta um uso profissional.\n\n**Dicas de Uso:**\n- **Agendamento:** Envie o link da reunião com antecedência e inclua as instruções de acesso.\n- **Teste:** Faça um teste de áudio e vídeo antes de cada entrevista.\n- **Fundo:** Utilize um fundo neutro ou o recurso de fundo virtual (se apropriado).\n- **Gravação:** Peça permissão ao candidato antes de gravar a entrevista (se for o caso).\n- **Silenciar:** Mantenha seu microfone silenciado quando não estiver falando.\n- **Compartilhamento de Tela:** Use com moderação, apenas se necessário para apresentar algo.\n\n> **Profissionalismo:** A forma como você conduz a entrevista online reflete na imagem da Empregga.",
+    "tags_semanticas": [
+      "Google Meet",
+      "Zoom",
+      "Entrevista Online",
+      "Ferramentas",
+      "Comunicação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de feedback para candidatos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de feedback para candidatos?",
+    "resolucao_padronizada": "O feedback é um direito do candidato e uma oportunidade de fortalecer a marca empregadora do Empregga.\n\n**Princípios do Feedback:**\n- **Seja Rápido:** Não demore para dar o feedback, especialmente para os não aprovados.\n- **Seja Construtivo:** Foque em pontos de melhoria, não apenas nos negativos.\n- **Seja Específico:** Evite generalizações. Use exemplos concretos (se possível e apropriado).\n- **Seja Empático:** Lembre-se que é um momento delicado para o candidato.\n- **Seja Transparente:** Explique o motivo da não aprovação de forma clara e honesta.\n- **Canais:** Prefira e-mail ou telefone para feedbacks mais detalhados.\n\n> **Impacto:** Um bom feedback, mesmo negativo, pode transformar a experiência do candidato em algo positivo.",
+    "tags_semanticas": [
+      "Feedback",
+      "Candidatos",
+      "Marca Empregadora",
+      "Comunicação",
+      "Desenvolvimento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como lidar com a recusa de oferta de emprego?",
+    "pergunta_ou_chamado_original": "Como lidar com a recusa de oferta de emprego?",
+    "resolucao_padronizada": "A recusa de uma oferta de emprego por parte do candidato é uma situação comum e deve ser gerenciada com profissionalismo.\n\n**Procedimentos:**\n1.  **Entenda os Motivos:** Converse com o candidato para compreender as razões da recusa (salário, benefícios, cultura, outra oferta).\n2.  **Comunique o Cliente:** Informe o cliente imediatamente sobre a recusa e os motivos, se o candidato permitir.\n3.  **Reavalie:** Com o cliente, decida se há espaço para uma contraproposta ou se é necessário seguir com outro candidato.\n4.  **Reinicie o Processo:** Se não houver alternativas, reinicie a busca ou considere outros finalistas.\n5.  **Agradeça:** Agradeça o candidato pelo tempo e interesse, mantendo as portas abertas para futuras oportunidades.\n\n> **Aprendizado:** A recusa pode fornecer insights valiosos sobre o mercado ou a atratividade da vaga.",
+    "tags_semanticas": [
+      "Recusa de Oferta",
+      "Candidato",
+      "Negociação",
+      "Fechamento",
+      "Feedback"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o Trello para organização de vagas?",
+    "pergunta_ou_chamado_original": "Como usar o Trello para organização de vagas?",
+    "resolucao_padronizada": "O Trello é uma ferramenta visual de gestão de projetos que pode ser adaptada para organizar suas vagas e processos seletivos.\n\n**Sugestão de Estrutura (Board):**\n- **Listas (Colunas):** Crie listas para cada etapa do processo (Ex: 'Briefing', 'Divulgação', 'Triagem', 'Entrevistas', 'Finalistas', 'Contratado', 'Arquivado').\n- **Cartões (Vagas/Candidatos):** Cada cartão pode representar uma vaga ou um candidato específico.\n- **Informações no Cartão:** Adicione checklists, datas de vencimento, anexos (currículos), comentários e etiquetas (prioridade, área).\n\n**Benefícios:**\n- **Visualização:** Tenha uma visão clara do status de todas as suas vagas.\n- **Colaboração:** Compartilhe o board com outros Agentes (se aplicável) para colaboração.\n- **Flexibilidade:** Adapte o Trello às suas necessidades e fluxo de trabalho.\n\n> **Alternativa:** O CRM do Empregga já oferece muitas dessas funcionalidades de forma integrada.",
+    "tags_semanticas": [
+      "Trello",
+      "Organização",
+      "Gestão de Vagas",
+      "Produtividade",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de documentos de candidatos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de documentos de candidatos?",
+    "resolucao_padronizada": "A gestão de documentos de candidatos exige organização e atenção à LGPD (Lei Geral de Proteção de Dados).\n\n**Melhores Práticas:**\n1.  **ATS (Selecty):** Utilize o Selecty para armazenar currículos e outros documentos de forma segura e organizada.\n2.  **Consentimento:** Obtenha o consentimento do candidato para o tratamento de seus dados pessoais.\n3.  **Anonimização:** Se for compartilhar informações com o cliente antes da aprovação, anonimize dados sensíveis.\n4.  **Segurança:** Garanta que os documentos estejam protegidos contra acessos não autorizados.\n5.  **Descarte:** Defina uma política de descarte para documentos de candidatos não aprovados após um período razoável.\n6.  **LGPD:** Esteja sempre em conformidade com a LGPD, que rege o tratamento de dados pessoais.\n\n> **Cuidado:** Nunca compartilhe dados pessoais de candidatos sem o devido consentimento e necessidade.",
+    "tags_semanticas": [
+      "Documentos",
+      "Candidatos",
+      "LGPD",
+      "ATS",
+      "Segurança de Dados"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de contratos com clientes?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de contratos com clientes?",
+    "resolucao_padronizada": "A gestão de contratos é fundamental para garantir a segurança jurídica e o cumprimento dos acordos com os clientes.\n\n**Procedimentos:**\n1.  **App Empregga:** Utilize o App para gerar e acompanhar as propostas e contratos iniciais.\n2.  **Armazenamento:** Mantenha uma cópia digital e/ou física de todos os contratos assinados em local seguro.\n3.  **Prazos:** Fique atento aos prazos de vigência, renovação e faturamento dos contratos.\n4.  **Cláusulas:** Conheça as principais cláusulas contratuais (escopo, valores, prazos, garantias).\n5.  **Alterações:** Qualquer alteração no contrato deve ser formalizada por aditivo.\n6.  **Suporte Jurídico:** Em caso de dúvidas complexas, consulte a Equipe Administrativa ou suporte jurídico.\n\n> **Organização:** Uma boa gestão de contratos evita problemas futuros e garante a conformidade.",
+    "tags_semanticas": [
+      "Contratos",
+      "Clientes",
+      "Gestão",
+      "Jurídico",
+      "App Empregga"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o Google Calendar para agendamentos?",
+    "pergunta_ou_chamado_original": "Como usar o Google Calendar para agendamentos?",
+    "resolucao_padronizada": "O Google Calendar é uma ferramenta essencial para organizar seus agendamentos de entrevistas, reuniões e follow-ups.\n\n**Dicas de Uso:**\n- **Crie Eventos:** Agende entrevistas com candidatos e reuniões com clientes, incluindo todos os detalhes (link da reunião, participantes).\n- **Convites:** Envie convites para os participantes, que podem aceitar e adicionar ao próprio calendário.\n- **Lembretes:** Configure lembretes para não perder nenhum compromisso.\n- **Compartilhamento:** Compartilhe seu calendário com a equipe (se necessário) para facilitar a coordenação.\n- **Cores:** Use cores diferentes para categorizar tipos de eventos (ex: entrevistas, reuniões internas, prospecção).\n\n> **Sincronização:** Sincronize o Google Calendar com seu celular para ter acesso aos agendamentos em qualquer lugar.",
+    "tags_semanticas": [
+      "Google Calendar",
+      "Agendamentos",
+      "Organização",
+      "Produtividade",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para prospecção?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para prospecção?",
+    "resolucao_padronizada": "A prospecção é uma atividade contínua que exige dedicação de tempo. Gerencie-o de forma estratégica.\n\n**Estratégias:**\n1.  **Blocos de Tempo:** Reserve blocos específicos na sua agenda para prospecção (ex: 1 hora pela manhã, 1 hora à tarde).\n2.  **Metas Diárias/Semanais:** Defina metas claras de prospecção (ex: 'contatar 10 novos leads por dia', 'enviar 5 propostas por semana').\n3.  **Ferramentas:** Utilize o CRM do Empregga e o LinkedIn Sales Navigator para otimizar a busca e o registro de leads.\n4.  **Automação:** Use ferramentas de automação para e-mails de prospecção (com moderação).\n5.  **Análise:** Monitore seus resultados de prospecção para identificar o que funciona melhor e ajustar sua estratégia.\n\n> **Consistência:** A chave para o sucesso na prospecção é a consistência.",
+    "tags_semanticas": [
+      "Prospecção",
+      "Gestão de Tempo",
+      "Vendas",
+      "Produtividade",
+      "Estratégias"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como lidar com a concorrência no mercado de R&S?",
+    "pergunta_ou_chamado_original": "Como lidar com a concorrência no mercado de R&S?",
+    "resolucao_padronizada": "O mercado de R&S é competitivo. Destaque-se focando nos diferenciais do Empregga e na sua própria expertise.\n\n**Estratégias:**\n1.  **Conheça a Concorrência:** Entenda o que seus concorrentes oferecem e como se posicionam.\n2.  **Destaque os Diferenciais:** Enfatize a tecnologia do Empregga, a agilidade, a qualidade das Agentes e o custo-benefício.\n3.  **Valor Agregado:** Ofereça mais do que apenas a contratação (consultoria, insights de mercado).\n4.  **Relacionamento:** Construa relacionamentos sólidos com clientes, tornando-se um parceiro de confiança.\n5.  **Especialização:** Considere se especializar em nichos específicos para se diferenciar.\n6.  **Feedback:** Use o feedback de clientes para aprimorar continuamente seus serviços.\n\n> **Seja Único:** Sua expertise e o modelo Empregga são seus maiores diferenciais.",
+    "tags_semanticas": [
+      "Concorrência",
+      "Mercado R&S",
+      "Diferenciais",
+      "Estratégia",
+      "Posicionamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de crises no R&S?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de crises no R&S?",
+    "resolucao_padronizada": "Crises podem surgir no processo de R&S (ex: candidato desiste após contratação, cliente insatisfeito). É preciso agir com calma e estratégia.\n\n**Passos para Gestão de Crises:**\n1.  **Avalie a Situação:** Entenda a gravidade e o impacto da crise.\n2.  **Comunique Rapidamente:** Informe as partes envolvidas (cliente, equipe Empregga) de forma transparente.\n3.  **Proponha Soluções:** Apresente um plano de ação para resolver o problema (ex: reiniciar busca, oferecer outro candidato).\n4.  **Mantenha a Calma:** Evite reações impulsivas e mantenha a postura profissional.\n5.  **Documente:** Registre todas as comunicações e ações tomadas.\n6.  **Aprendizado:** Após a resolução, analise o que aconteceu para evitar futuras crises.\n\n> **Prevenção:** Uma boa gestão de expectativas e comunicação proativa podem prevenir muitas crises.",
+    "tags_semanticas": [
+      "Gestão de Crises",
+      "R&S",
+      "Comunicação",
+      "Solução de Problemas",
+      "Contingência"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como usar o Canva para criar materiais de divulgação?",
+    "pergunta_ou_chamado_original": "Como usar o Canva para criar materiais de divulgação?",
+    "resolucao_padronizada": "O Canva é uma ferramenta de design gráfico online que pode ser usada para criar materiais de divulgação de vagas e da Empregga.\n\n**Aplicações:**\n- **Templates:** Utilize os templates prontos para criar posts para redes sociais, banners de vagas, apresentações.\n- **Personalização:** Adapte cores, fontes e imagens para seguir a identidade visual da Empregga.\n- **Imagens e Ícones:** Acesse uma vasta biblioteca de imagens e ícones para enriquecer seus materiais.\n- **Textos:** Adicione textos claros e objetivos, destacando os pontos fortes da vaga ou do serviço.\n- **Compartilhamento:** Exporte seus designs em diferentes formatos (JPG, PNG, PDF) e compartilhe diretamente nas redes.\n\n> **Criatividade:** Use o Canva para tornar suas divulgações mais profissionais e atraentes.",
+    "tags_semanticas": [
+      "Canva",
+      "Design",
+      "Divulgação",
+      "Marketing",
+      "Redes Sociais"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de indicadores de R&S?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de indicadores de R&S?",
+    "resolucao_padronizada": "A gestão de indicadores (KPIs) é fundamental para medir a eficácia do seu trabalho e identificar oportunidades de melhoria.\n\n**Principais KPIs de R&S:**\n- **Time to Fill:** Tempo médio para preencher uma vaga.\n- **Cost per Hire:** Custo médio por contratação.\n- **Quality of Hire:** Qualidade dos candidatos contratados (medida por performance, retenção).\n- **Source of Hire:** Quais canais trazem os melhores candidatos.\n- **Conversion Rate:** Taxa de conversão em cada etapa do funil (candidatos x entrevistas x ofertas).\n- **Turnover:** Taxa de rotatividade dos contratados.\n\n> **Análise:** Utilize os relatórios do Selecty e do App Empregga para acompanhar esses indicadores e apresentá-los aos clientes.",
+    "tags_semanticas": [
+      "KPIs",
+      "Indicadores",
+      "R&S",
+      "Métricas",
+      "Análise de Dados"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de talentos (pipeline)?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de talentos (pipeline)?",
+    "resolucao_padronizada": "A gestão de talentos, ou pipeline de talentos, envolve a construção de um banco de candidatos qualificados para futuras vagas.\n\n**Estratégias:**\n1.  **Banco de Dados:** Mantenha um banco de dados atualizado de candidatos que se destacaram em processos anteriores, mesmo que não tenham sido contratados.\n2.  **Networking:** Mantenha contato com profissionais promissores, mesmo que não haja uma vaga imediata.\n3.  **Eventos:** Participe de eventos e feiras de carreira para identificar novos talentos.\n4.  **Redes Sociais:** Monitore o LinkedIn e outras redes para identificar profissionais em ascensão.\n5.  **Programas de Estágio/Trainee:** Se o cliente tiver, ajude a desenvolver programas para formar talentos.\n\n> **Proatividade:** Um pipeline robusto permite preencher vagas com mais agilidade e qualidade.",
+    "tags_semanticas": [
+      "Pipeline de Talentos",
+      "Banco de Candidatos",
+      "Gestão de Talentos",
+      "Recrutamento",
+      "Proatividade"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para entrevistas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para entrevistas?",
+    "resolucao_padronizada": "Gerenciar o tempo das entrevistas de forma eficaz é crucial para otimizar seu dia e garantir a qualidade da avaliação.\n\n**Dicas:**\n1.  **Duração Padrão:** Defina uma duração padrão para cada tipo de entrevista (ex: 30 min para triagem, 60 min para aprofundamento).\n2.  **Buffer:** Deixe um tempo de 'buffer' entre as entrevistas para anotações e pequenos atrasos.\n3.  **Roteiro:** Tenha um roteiro de perguntas para guiar a entrevista e evitar desvios.\n4.  **Foco:** Mantenha o foco nos objetivos da entrevista e nas competências a serem avaliadas.\n5.  **Ferramentas:** Use o Google Calendar para agendar e enviar convites com links de reunião.\n6.  **Anotações:** Faça anotações concisas durante ou logo após a entrevista para não esquecer detalhes importantes.\n\n> **Pontualidade:** Comece e termine as entrevistas no horário para respeitar o tempo de todos.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Entrevistas",
+      "Produtividade",
+      "Agendamento",
+      "Organização"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para feedback?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para feedback?",
+    "resolucao_padronizada": "Dedicar tempo ao feedback é um investimento na sua reputação e no relacionamento com candidatos e clientes.\n\n**Dicas:**\n1.  **Agende:** Bloqueie um tempo na sua agenda especificamente para dar feedbacks (ex: final do dia, um dia na semana).\n2.  **Padronize:** Tenha modelos de e-mail para feedbacks comuns (ex: 'não aprovado', 'avançou para próxima etapa') para agilizar o processo.\n3.  **Priorize:** Dê feedback mais detalhado para candidatos que avançaram mais no processo.\n4.  **Seja Conciso:** O feedback não precisa ser longo, mas deve ser claro e objetivo.\n5.  **Ferramentas:** Utilize o CRM do Empregga para registrar os feedbacks e acompanhar o status.\n\n> **Consistência:** A regularidade no feedback é mais importante do que a duração.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Feedback",
+      "Candidatos",
+      "Produtividade",
+      "Comunicação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para propostas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para propostas?",
+    "resolucao_padronizada": "A criação e envio de propostas é uma etapa crítica. Otimize seu tempo para ser ágil e eficaz.\n\n**Dicas:**\n1.  **Templates:** Utilize os templates de proposta disponíveis no App Empregga para agilizar a criação.\n2.  **Informações Prontas:** Tenha as informações do cliente e da vaga organizadas para preenchimento rápido.\n3.  **Blocos de Tempo:** Reserve um tempo específico na sua agenda para criar e revisar propostas.\n4.  **Revisão:** Peça para outra pessoa revisar a proposta antes de enviar, se possível.\n5.  **Follow-up:** Agende o follow-up da proposta logo após o envio.\n6.  **Priorize:** Foque nas propostas com maior chance de fechamento ou maior valor.\n\n> **Agilidade:** Quanto mais rápido e preciso você for na proposta, maior a chance de fechar o negócio.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Propostas",
+      "Vendas",
+      "Produtividade",
+      "App Empregga"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para reuniões?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para reuniões?",
+    "resolucao_padronizada": "Reuniões são importantes, mas podem consumir muito tempo se não forem bem gerenciadas.\n\n**Dicas:**\n1.  **Pauta:** Tenha uma pauta clara e objetivos definidos para cada reunião.\n2.  **Duração:** Defina um tempo máximo para a reunião e tente cumpri-lo.\n3.  **Participantes:** Convide apenas as pessoas essenciais para a reunião.\n4.  **Comece e Termine no Horário:** Respeite o tempo de todos.\n5.  **Ata/Resumo:** Registre os pontos chave e as decisões tomadas.\n6.  **Ações:** Defina as próximas ações e os responsáveis.\n7.  **Alternativas:** Avalie se a reunião é realmente necessária ou se um e-mail/chat resolveria.\n\n> **Foco:** Mantenha o foco na pauta para evitar desvios e prolongamentos desnecessários.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Reuniões",
+      "Produtividade",
+      "Pauta",
+      "Organização"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para tarefas administrativas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para tarefas administrativas?",
+    "resolucao_padronizada": "Tarefas administrativas são necessárias, mas podem ser otimizadas para não consumir muito do seu tempo produtivo.\n\n**Dicas:**\n1.  **Blocos de Tempo:** Reserve um período específico do dia (ex: 30 minutos no início ou final do dia) para tarefas administrativas.\n2.  **Agrupe Tarefas:** Faça tarefas semelhantes em sequência (ex: responder e-mails, organizar documentos).\n3.  **Automação:** Utilize ferramentas que automatizem tarefas repetitivas (ex: agendamento de e-mails).\n4.  **Priorize:** Identifique as tarefas administrativas mais importantes e urgentes.\n5.  **Delegue (se possível):** Se tiver equipe, delegue tarefas que não exigem sua atenção direta.\n6.  **Digitalize:** Reduza o uso de papel e organize documentos digitalmente.\n\n> **Eficiência:** Busque sempre a forma mais eficiente de realizar as tarefas administrativas.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Tarefas Administrativas",
+      "Produtividade",
+      "Organização",
+      "Automação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para aprendizado e desenvolvimento?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para aprendizado e desenvolvimento?",
+    "resolucao_padronizada": "Investir em aprendizado e desenvolvimento é crucial para se manter atualizado e competitivo. Reserve tempo para isso.\n\n**Dicas:**\n1.  **Agenda:** Bloqueie um tempo semanal ou quinzenal na sua agenda para estudar (ex: 1 hora por semana).\n2.  **Universidade Empregga:** Explore os cursos e materiais disponíveis na plataforma.\n3.  **Leitura:** Dedique um tempo para ler artigos, livros e notícias do setor de R&S.\n4.  **Webinars/Cursos:** Participe de webinars e cursos online relevantes.\n5.  **Networking:** Aprenda com outros profissionais e Agentes da comunidade.\n6.  **Aplique:** Tente aplicar o que aprendeu no seu dia a dia para fixar o conhecimento.\n\n> **Prioridade:** O aprendizado contínuo deve ser uma prioridade na sua rotina.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Aprendizado",
+      "Desenvolvimento",
+      "Universidade Empregga",
+      "Conhecimento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para vida pessoal?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para vida pessoal?",
+    "resolucao_padronizada": "Equilibrar a vida profissional e pessoal é fundamental para sua saúde e bem-estar. A gestão de tempo se estende a isso.\n\n**Dicas:**\n1.  **Defina Limites:** Estabeleça horários para começar e terminar o trabalho e tente respeitá-los.\n2.  **Desconecte:** Desligue as notificações do trabalho fora do horário de expediente.\n3.  **Atividades Pessoais:** Agende atividades de lazer, exercícios físicos e tempo com a família/amigos como compromissos inadiáveis.\n4.  **Priorize o Sono:** Garanta uma boa noite de sono para ter energia e foco.\n5.  **Hobbies:** Dedique tempo a hobbies e atividades que te dão prazer.\n6.  **Férias/Descanso:** Planeje e tire suas férias para recarregar as energias.\n\n> **Bem-estar:** Sua saúde física e mental são tão importantes quanto seu desempenho profissional.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Vida Pessoal",
+      "Equilíbrio",
+      "Bem-estar",
+      "Saúde Mental"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para imprevistos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para imprevistos?",
+    "resolucao_padronizada": "Imprevistos acontecem. A chave é ter flexibilidade e uma margem na sua agenda para lidar com eles sem desorganizar todo o seu dia.\n\n**Dicas:**\n1.  **Buffer na Agenda:** Deixe pequenos espaços de tempo vazios entre as tarefas ou reuniões.\n2.  **Priorize:** Avalie a urgência do imprevisto. Ele precisa ser resolvido agora ou pode esperar?\n3.  **Reavalie a Pauta:** Se um imprevisto consumir muito tempo, reavalie as outras tarefas do dia e ajuste as prioridades.\n4.  **Comunique:** Se um imprevisto afetar um compromisso, comunique as partes envolvidas o mais rápido possível.\n5.  **Flexibilidade:** Esteja preparado para ajustar seu plano quando necessário.\n6.  **Não se Culpe:** Imprevistos são parte da vida. Não se culpe por eles.\n\n> **Planejamento:** Um bom planejamento inclui uma margem para o inesperado.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Imprevistos",
+      "Flexibilidade",
+      "Planejamento",
+      "Contingência"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para e-mails?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para e-mails?",
+    "resolucao_padronizada": "E-mails podem ser grandes ladrões de tempo. Gerencie sua caixa de entrada de forma eficiente.\n\n**Dicas:**\n1.  **Horários Fixos:** Defina 2-3 horários no dia para verificar e responder e-mails (ex: manhã, almoço, final do dia).\n2.  **Não Responda Imediatamente:** Evite a tentação de responder a cada e-mail assim que ele chega.\n3.  **Priorize:** Responda primeiro os e-mails mais importantes e urgentes.\n4.  **Ação Rápida:** Se um e-mail pode ser respondido em menos de 2 minutos, responda-o imediatamente.\n5.  **Organize:** Use pastas, etiquetas e filtros para categorizar e-mails.\n6.  **Desassine:** Cancele a inscrição de newsletters e e-mails desnecessários.\n\n> **Foco:** Evite que a caixa de entrada dite sua agenda. Você deve controlá-la.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "E-mails",
+      "Produtividade",
+      "Organização",
+      "Comunicação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para redes sociais?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para redes sociais?",
+    "resolucao_padronizada": "As redes sociais são importantes para prospecção e divulgação, mas podem ser uma distração. Gerencie seu tempo com sabedoria.\n\n**Dicas:**\n1.  **Defina Propósito:** Use as redes sociais com um objetivo claro (prospecção, divulgação de vagas, networking).\n2.  **Horários Fixos:** Reserve blocos de tempo específicos para atividades profissionais nas redes sociais.\n3.  **Ferramentas:** Utilize ferramentas de agendamento de posts para otimizar o tempo de publicação.\n4.  **Evite Distrações:** Não se perca em feeds pessoais durante o horário de trabalho.\n5.  **Foco:** Concentre-se nas redes mais relevantes para seu trabalho (ex: LinkedIn).\n6.  **Desconecte:** Desligue as notificações de redes sociais que não são essenciais para o trabalho.\n\n> **Disciplina:** A disciplina é fundamental para usar as redes sociais de forma produtiva.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Redes Sociais",
+      "Produtividade",
+      "Marketing",
+      "Prospecção"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para pausas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para pausas?",
+    "resolucao_padronizada": "Pausas são essenciais para manter a produtividade e evitar o esgotamento. Integre-as à sua gestão de tempo.\n\n**Dicas:**\n1.  **Pausas Curtas:** Faça pausas curtas (5-10 minutos) a cada 1-2 horas de trabalho intenso.\n2.  **Pausa para Almoço:** Garanta uma pausa adequada para o almoço, desconectando-se do trabalho.\n3.  **Movimente-se:** Use as pausas para se levantar, alongar, caminhar um pouco.\n4.  **Hidrate-se:** Beba água durante as pausas.\n5.  **Mude o Foco:** Faça algo diferente do trabalho (olhe pela janela, ouça uma música).\n6.  **Não Pule Pausas:** As pausas não são um luxo, são uma necessidade para o seu cérebro.\n\n> **Benefícios:** Pausas aumentam o foco, a criatividade e reduzem o estresse.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Pausas",
+      "Produtividade",
+      "Bem-estar",
+      "Saúde"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o planejamento diário/semanal?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o planejamento diário/semanal?",
+    "resolucao_padronizada": "O planejamento é a base de uma boa gestão de tempo. Dedique um tempo para organizar suas tarefas.\n\n**Dicas:**\n1.  **Planejamento Diário:** No final do dia anterior ou início do dia, reserve 15 minutos para planejar as tarefas do dia seguinte.\n2.  **Planejamento Semanal:** No domingo à noite ou segunda-feira de manhã, reserve 30-60 minutos para planejar a semana.\n3.  **Priorize:** Identifique as 3-5 tarefas mais importantes para o dia/semana.\n4.  **Ferramentas:** Use uma agenda, planner, ou ferramenta digital (Trello, Google Calendar).\n5.  **Revise:** Revise seu plano ao longo do dia/semana e faça ajustes se necessário.\n6.  **Metas:** Alinhe seu planejamento com suas metas de curto e longo prazo.\n\n> **Investimento:** O tempo gasto no planejamento é um investimento que economiza horas de trabalho.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Planejamento",
+      "Produtividade",
+      "Organização",
+      "Metas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o feedback do cliente?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o feedback do cliente?",
+    "resolucao_padronizada": "O feedback do cliente é valioso para aprimorar seus serviços e fortalecer o relacionamento. Gerencie o tempo para solicitá-lo e analisá-lo.\n\n**Dicas:**\n1.  **Momento Certo:** Solicite feedback em momentos chave (ex: após a contratação, após 30/60/90 dias do candidato).\n2.  **Canais:** Utilize pesquisas rápidas, e-mails ou conversas diretas.\n3.  **Agende:** Bloqueie um tempo na sua agenda para analisar o feedback recebido.\n4.  **Ação:** Transforme o feedback em ações de melhoria para seu processo ou atendimento.\n5.  **Comunique:** Informe o cliente sobre as ações que você tomou com base no feedback dele.\n6.  **NPS:** Utilize o Net Promoter Score (NPS) para medir a satisfação geral do cliente.\n\n> **Melhoria Contínua:** O feedback do cliente é um motor para a melhoria contínua.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Feedback do Cliente",
+      "Satisfação do Cliente",
+      "NPS",
+      "Melhoria Contínua"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o desenvolvimento de habilidades?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o desenvolvimento de habilidades?",
+    "resolucao_padronizada": "O desenvolvimento contínuo de habilidades é essencial para o sucesso como Agente Empregga. Integre-o à sua rotina.\n\n**Dicas:**\n1.  **Identifique Habilidades:** Quais habilidades são mais importantes para você desenvolver (ex: negociação, prospecção, uso de ATS)?\n2.  **Recursos:** Busque cursos, livros, artigos, webinars na Universidade Empregga e outras fontes.\n3.  **Blocos de Tempo:** Reserve um tempo fixo na sua agenda para o estudo e a prática dessas habilidades.\n4.  **Prática Deliberada:** Não apenas estude, mas pratique ativamente as novas habilidades no seu dia a dia.\n5.  **Mentoria:** Busque mentores ou colegas mais experientes para te guiar.\n6.  **Feedback:** Peça feedback sobre as habilidades que você está desenvolvendo.\n\n> **Crescimento:** O investimento em suas habilidades é um investimento em sua carreira.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Desenvolvimento de Habilidades",
+      "Aprendizado",
+      "Crescimento Profissional",
+      "Capacitação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o acompanhamento de vagas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o acompanhamento de vagas?",
+    "resolucao_padronizada": "O acompanhamento regular das vagas é crucial para garantir que o processo seletivo esteja no caminho certo e para identificar gargalos.\n\n**Dicas:**\n1.  **Check-ins Diários/Semanais:** Reserve um tempo para revisar o status de todas as suas vagas no App Empregga e Selecty.\n2.  **Priorize:** Foque nas vagas mais urgentes ou que estão paradas.\n3.  **Comunique:** Mantenha o cliente e os candidatos informados sobre o andamento.\n4.  **Identifique Gargalos:** Se uma vaga estiver demorando, investigue o motivo (falta de candidatos, feedback lento do cliente).\n5.  **Ações Corretivas:** Tome ações para resolver os gargalos (ex: ampliar divulgação, cobrar feedback).\n6.  **Relatórios:** Utilize os relatórios do sistema para ter uma visão geral e detalhada.\n\n> **Proatividade:** Um bom acompanhamento evita surpresas e acelera o fechamento das vagas.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Acompanhamento de Vagas",
+      "Processo Seletivo",
+      "Produtividade",
+      "Gargalos"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o relacionamento com Agentes?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o relacionamento com Agentes?",
+    "resolucao_padronizada": "O relacionamento com outros Agentes da comunidade Empregga é valioso para troca de experiências e apoio mútuo.\n\n**Dicas:**\n1.  **Comunidade Empregga:** Participe ativamente do fórum e grupos da comunidade.\n2.  **Reuniões:** Participe das reuniões periódicas de alinhamento e troca de experiências.\n3.  **Networking:** Conecte-se com outros Agentes no LinkedIn ou em eventos.\n4.  **Colaboração:** Esteja aberto a colaborar em vagas ou projetos, se surgir a oportunidade.\n5.  **Ajuda Mútua:** Ofereça e peça ajuda quando necessário.\n6.  **Compartilhe Conhecimento:** Contribua com suas experiências e aprendizados.\n\n> **Sinergia:** A força da comunidade está na colaboração e no apoio mútuo.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Relacionamento com Agentes",
+      "Comunidade",
+      "Networking",
+      "Colaboração"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o planejamento financeiro?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o planejamento financeiro?",
+    "resolucao_padronizada": "Como Agente autônomo, o planejamento financeiro é crucial para sua estabilidade e crescimento. Dedique tempo a ele.\n\n**Dicas:**\n1.  **Orçamento:** Crie um orçamento mensal detalhado com suas receitas (comissões) e despesas (pessoais e profissionais).\n2.  **Metas Financeiras:** Defina metas de curto, médio e longo prazo (ex: reserva de emergência, investimentos, aposentadoria).\n3.  **Controle:** Utilize planilhas ou aplicativos de gestão financeira para controlar seus gastos.\n4.  **Projeção:** Faça projeções de suas comissões para os próximos meses.\n5.  **Impostos:** Reserve um tempo para entender e organizar seus impostos (MEI, PJ).\n6.  **Consultoria:** Considere buscar a ajuda de um contador ou consultor financeiro.\n\n> **Disciplina:** A disciplina no planejamento financeiro garante sua segurança e liberdade.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Planejamento Financeiro",
+      "Finanças Pessoais",
+      "Orçamento",
+      "Comissões"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o marketing pessoal?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o marketing pessoal?",
+    "resolucao_padronizada": "Seu marketing pessoal é sua marca como Agente Empregga. Invista tempo para construí-lo e fortalecê-lo.\n\n**Dicas:**\n1.  **Perfil Profissional:** Mantenha seu perfil no LinkedIn e outras redes atualizado e otimizado.\n2.  **Conteúdo:** Crie e compartilhe conteúdo relevante sobre R&S, mercado de trabalho, dicas de carreira.\n3.  **Networking:** Participe de eventos e conecte-se com profissionais da sua área.\n4.  **Depoimentos:** Peça depoimentos a clientes e candidatos satisfeitos.\n5.  **Apresentação:** Cuide da sua imagem e comunicação em todas as interações.\n6.  **Especialização:** Destaque suas especialidades e nichos de atuação.\n\n> **Consistência:** O marketing pessoal é um trabalho contínuo que gera resultados a longo prazo.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Marketing Pessoal",
+      "Marca Pessoal",
+      "Networking",
+      "Conteúdo"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a análise de mercado?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a análise de mercado?",
+    "resolucao_padronizada": "Manter-se atualizado sobre o mercado de trabalho e as tendências de R&S é crucial para sua atuação.\n\n**Dicas:**\n1.  **Fontes:** Siga portais de notícias, blogs especializados, relatórios de mercado e influenciadores do setor.\n2.  **Leitura:** Reserve um tempo diário ou semanal para ler e se informar.\n3.  **Webinars/Eventos:** Participe de webinars e eventos sobre tendências de mercado.\n4.  **Networking:** Converse com outros profissionais e Agentes para trocar informações.\n5.  **Análise:** Analise como as tendências podem impactar suas vagas e clientes.\n6.  **Insights:** Utilize esses insights para oferecer um serviço mais consultivo aos seus clientes.\n\n> **Conhecimento:** O conhecimento de mercado é um diferencial competitivo.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Análise de Mercado",
+      "Tendências R&S",
+      "Conhecimento",
+      "Consultoria"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a criação de conteúdo?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a criação de conteúdo?",
+    "resolucao_padronizada": "A criação de conteúdo (posts, artigos) pode fortalecer sua marca e atrair clientes/candidatos. Gerencie seu tempo para isso.\n\n**Dicas:**\n1.  **Planejamento:** Crie um calendário editorial com temas e datas de publicação.\n2.  **Blocos de Tempo:** Reserve blocos de tempo específicos para a criação de conteúdo (pesquisa, escrita, revisão).\n3.  **Reaproveite:** Adapte um conteúdo para diferentes formatos (ex: artigo vira post, vídeo vira podcast).\n4.  **Ferramentas:** Use o Canva para criar imagens, ferramentas de escrita para otimizar o texto.\n5.  **Consistência:** É melhor publicar com regularidade do que criar muito e parar.\n6.  **Qualidade:** Foque em conteúdo de valor que realmente ajude sua audiência.\n\n> **Estratégia:** A criação de conteúdo é uma estratégia de longo prazo para construir autoridade.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Criação de Conteúdo",
+      "Marketing Digital",
+      "Marca Pessoal",
+      "Estratégia"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o acompanhamento de resultados?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o acompanhamento de resultados?",
+    "resolucao_padronizada": "Acompanhar seus resultados é fundamental para medir seu desempenho e identificar o que precisa ser ajustado.\n\n**Dicas:**\n1.  **Defina KPIs:** Saiba quais indicadores você precisa acompanhar (Time to Fill, Cost per Hire, etc.).\n2.  **Ferramentas:** Utilize os relatórios do App Empregga e Selecty para coletar dados.\n3.  **Blocos de Tempo:** Reserve um tempo semanal ou mensal para analisar seus resultados.\n4.  **Análise:** Não apenas olhe os números, mas entenda o que eles significam e por que estão assim.\n5.  **Ações:** Com base na análise, defina planos de ação para melhorar seus resultados.\n6.  **Compartilhe:** Compartilhe seus resultados com a equipe Empregga para obter insights e apoio.\n\n> **Decisão:** Acompanhar resultados permite tomar decisões baseadas em dados, não em achismos.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Acompanhamento de Resultados",
+      "KPIs",
+      "Análise de Dados",
+      "Desempenho"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o planejamento de carreira?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o planejamento de carreira?",
+    "resolucao_padronizada": "Planejar sua carreira como Agente Empregga é essencial para seu crescimento profissional e pessoal.\n\n**Dicas:**\n1.  **Visão:** Defina onde você quer estar em 1, 3, 5 anos como Agente Empregga.\n2.  **Metas:** Estabeleça metas claras e mensuráveis para alcançar sua visão (ex: número de vagas fechadas, faturamento, especialização).\n3.  **Plano de Ação:** Crie um plano com as etapas e ações necessárias para atingir suas metas.\n4.  **Desenvolvimento:** Identifique as habilidades e conhecimentos que você precisa desenvolver.\n5.  **Mentoria:** Busque mentores que possam te guiar e inspirar.\n6.  **Revisão:** Revise seu plano de carreira periodicamente e faça ajustes se necessário.\n\n> **Propósito:** Um planejamento de carreira claro te dá propósito e direção.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Planejamento de Carreira",
+      "Metas",
+      "Desenvolvimento Profissional",
+      "Crescimento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o autoconhecimento?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o autoconhecimento?",
+    "resolucao_padronizada": "O autoconhecimento é a base para uma gestão de tempo eficaz e para o bem-estar geral. Dedique tempo a ele.\n\n**Dicas:**\n1.  **Reflexão:** Reserve um tempo diário ou semanal para refletir sobre seu dia, suas emoções, seus desafios.\n2.  **Diário:** Escreva um diário para registrar seus pensamentos e sentimentos.\n3.  **Meditação/Mindfulness:** Pratique técnicas de meditação para aumentar a consciência.\n4.  **Feedback:** Peça feedback a pessoas de confiança sobre seus pontos fortes e fracos.\n5.  **Testes de Personalidade:** Faça testes para entender melhor seu perfil (ex: DISC, MBTI).\n6.  **Terapia:** Considere buscar apoio profissional para aprofundar o autoconhecimento.\n\n> **Base:** O autoconhecimento te ajuda a entender como você funciona e a otimizar sua vida.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Autoconhecimento",
+      "Bem-estar",
+      "Saúde Mental",
+      "Reflexão"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para o descanso?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para o descanso?",
+    "resolucao_padronizada": "O descanso é tão importante quanto o trabalho para manter a produtividade e a saúde. Priorize-o.\n\n**Dicas:**\n1.  **Sono:** Garanta 7-9 horas de sono de qualidade por noite. Crie uma rotina de sono.\n2.  **Pausas:** Faça pausas regulares durante o dia de trabalho (ver FAQ sobre pausas).\n3.  **Finais de Semana:** Desconecte-se do trabalho nos finais de semana. Dedique-se a atividades de lazer.\n4.  **Férias:** Planeje e tire suas férias anuais para um descanso prolongado.\n5.  **Atividades Relaxantes:** Inclua atividades que te relaxam na sua rotina (leitura, música, natureza).\n6.  **Evite Excesso:** Não se sobrecarregue com trabalho excessivo. O burnout é real.\n\n> **Recarga:** O descanso é a recarga necessária para você performar no seu melhor.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Descanso",
+      "Sono",
+      "Bem-estar",
+      "Saúde"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a saúde física?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a saúde física?",
+    "resolucao_padronizada": "Sua saúde física impacta diretamente sua energia e produtividade. Priorize-a na sua gestão de tempo.\n\n**Dicas:**\n1.  **Exercícios:** Agende atividades físicas na sua rotina (caminhada, academia, esporte).\n2.  **Alimentação:** Planeje suas refeições para garantir uma alimentação saudável e equilibrada.\n3.  **Hidratação:** Mantenha-se hidratado ao longo do dia.\n4.  **Consultas Médicas:** Agende e compareça a consultas e exames de rotina.\n5.  **Ergonomia:** Cuide da sua postura e ergonomia no ambiente de trabalho.\n6.  **Pausas Ativas:** Use as pausas para se movimentar e alongar.\n\n> **Investimento:** Cuidar da sua saúde física é um investimento na sua capacidade de trabalhar e viver bem.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Saúde Física",
+      "Exercícios",
+      "Alimentação",
+      "Bem-estar"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a saúde mental?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a saúde mental?",
+    "resolucao_padronizada": "A saúde mental é tão importante quanto a física. Dedique tempo para cuidar dela e prevenir o estresse e o burnout.\n\n**Dicas:**\n1.  **Limites:** Estabeleça limites claros entre trabalho e vida pessoal.\n2.  **Desconecte:** Desligue-se do trabalho fora do expediente.\n3.  **Atividades Relaxantes:** Inclua na sua rotina atividades que aliviam o estresse (meditação, hobbies, leitura).\n4.  **Conexões Sociais:** Mantenha contato com amigos e familiares.\n5.  **Busque Ajuda:** Não hesite em procurar apoio profissional (terapia) se sentir necessidade.\n6.  **Autocompaixão:** Seja gentil consigo mesmo e reconheça seus limites.\n\n> **Prioridade:** Sua saúde mental é um pilar para sua felicidade e sucesso profissional.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Saúde Mental",
+      "Bem-estar",
+      "Estresse",
+      "Autocuidado"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a família e amigos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a família e amigos?",
+    "resolucao_padronizada": "O tempo com a família e amigos é essencial para o seu bem-estar e apoio emocional. Priorize esses momentos.\n\n**Dicas:**\n1.  **Agende:** Inclua compromissos com a família e amigos na sua agenda como prioridades.\n2.  **Qualidade, não Quantidade:** Foque na qualidade do tempo juntos, estando presente de verdade.\n3.  **Desconecte:** Desligue o celular e evite distrações do trabalho durante esses momentos.\n4.  **Rotinas:** Crie rotinas com a família (ex: jantar juntos, noite de jogos).\n5.  **Comunique:** Converse com sua família sobre seus horários de trabalho e a importância do seu tempo livre.\n6.  **Flexibilidade:** Esteja aberto a adaptar seus planos quando necessário.\n\n> **Apoio:** Sua rede de apoio pessoal é fundamental para sua resiliência e felicidade.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Família",
+      "Amigos",
+      "Relacionamento",
+      "Bem-estar"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para hobbies e lazer?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para hobbies e lazer?",
+    "resolucao_padronizada": "Hobbies e atividades de lazer são cruciais para recarregar as energias e manter a criatividade. Reserve tempo para eles.\n\n**Dicas:**\n1.  **Agende:** Inclua seus hobbies e atividades de lazer na sua agenda como compromissos importantes.\n2.  **Desconecte:** Use esse tempo para se desconectar completamente do trabalho.\n3.  **Variedade:** Experimente diferentes hobbies para descobrir o que te dá mais prazer e relaxamento.\n4.  **Não se Culpe:** Lazer não é perda de tempo, é investimento na sua saúde e produtividade.\n5.  **Pequenos Prazeres:** Mesmo que não tenha muito tempo, dedique-se a pequenos prazeres diários.\n6.  **Priorize:** Faça do lazer uma prioridade, não algo que você faz 'se sobrar tempo'.\n\n> **Equilíbrio:** O equilíbrio entre trabalho e lazer é a chave para uma vida plena e produtiva.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Hobbies",
+      "Lazer",
+      "Bem-estar",
+      "Equilíbrio"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para voluntariado ou causas sociais?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para voluntariado ou causas sociais?",
+    "resolucao_padronizada": "Engajar-se em voluntariado ou causas sociais pode trazer grande satisfação pessoal e profissional. Integre isso à sua vida.\n\n**Dicas:**\n1.  **Identifique Causas:** Escolha causas que você se importa e que se alinham aos seus valores.\n2.  **Tempo Disponível:** Avalie quanto tempo você realisticamente pode dedicar (ex: algumas horas por semana/mês).\n3.  **Agende:** Bloqueie esse tempo na sua agenda como um compromisso fixo.\n4.  **Flexibilidade:** Busque oportunidades de voluntariado que ofereçam flexibilidade de horários.\n5.  **Habilidades:** Utilize suas habilidades profissionais para contribuir (ex: R&S para ONGs).\n6.  **Networking:** O voluntariado também pode expandir sua rede de contatos.\n\n> **Impacto:** Contribuir para uma causa maior enriquece sua vida e sua perspectiva.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Voluntariado",
+      "Causas Sociais",
+      "Impacto Social",
+      "Propósito"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a organização do ambiente de trabalho?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a organização do ambiente de trabalho?",
+    "resolucao_padronizada": "Um ambiente de trabalho organizado aumenta a produtividade e reduz o estresse. Dedique tempo para mantê-lo assim.\n\n**Dicas:**\n1.  **Rotina Diária:** Reserve 5-10 minutos no início ou final do dia para organizar sua mesa e arquivos digitais.\n2.  **Descarte:** Livre-se do que não é mais necessário (papéis, arquivos antigos).\n3.  **Digitalize:** Mantenha o máximo de documentos possível em formato digital.\n4.  **Categorize:** Organize arquivos e pastas de forma lógica e fácil de encontrar.\n5.  **Ergonomia:** Certifique-se de que seu espaço de trabalho é ergonômico para evitar dores e desconforto.\n6.  **Limpeza:** Mantenha seu espaço físico limpo e agradável.\n\n> **Benefícios:** Um ambiente organizado facilita o foco e a eficiência.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Organização",
+      "Ambiente de Trabalho",
+      "Produtividade",
+      "Ergonomia"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a revisão de metas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a revisão de metas?",
+    "resolucao_padronizada": "Revisar suas metas regularmente é crucial para garantir que você está no caminho certo e fazer ajustes quando necessário.\n\n**Dicas:**\n1.  **Frequência:** Defina uma frequência para revisar suas metas (ex: semanal, mensal, trimestral).\n2.  **Blocos de Tempo:** Reserve um tempo específico na sua agenda para essa revisão.\n3.  **Análise:** Avalie o progresso em relação a cada meta. O que funcionou? O que não funcionou?\n4.  **Ajustes:** Faça ajustes nas suas metas ou nos planos de ação, se as circunstâncias mudaram.\n5.  **Celebre:** Reconheça e celebre as metas alcançadas para manter a motivação.\n6.  **Novas Metas:** Defina novas metas à medida que as antigas são atingidas.\n\n> **Direção:** A revisão de metas garante que você está sempre caminhando na direção certa.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Revisão de Metas",
+      "Planejamento",
+      "Produtividade",
+      "Acompanhamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a delegação de tarefas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a delegação de tarefas?",
+    "resolucao_padronizada": "A delegação de tarefas, quando possível, é uma habilidade importante para otimizar seu tempo e focar no que é essencial.\n\n**Dicas:**\n1.  **Identifique:** Quais tarefas podem ser delegadas (ex: algumas tarefas administrativas, pesquisa básica)?\n2.  **Quem Delegar:** Se você tem uma equipe ou assistente, identifique quem tem as habilidades para realizar a tarefa.\n3.  **Instruções Claras:** Forneça instruções detalhadas e claras sobre a tarefa, os objetivos e os prazos.\n4.  **Acompanhamento:** Faça um acompanhamento para garantir que a tarefa está sendo executada corretamente.\n5.  **Feedback:** Dê feedback construtivo sobre o desempenho da tarefa delegada.\n6.  **Confiança:** Confie na pessoa para quem você delegou a tarefa.\n\n> **Foco:** Delegar libera seu tempo para atividades de maior valor estratégico.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Delegação",
+      "Produtividade",
+      "Liderança",
+      "Otimização"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a automação de processos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a automação de processos?",
+    "resolucao_padronizada": "A automação de processos repetitivos pode economizar um tempo significativo e aumentar sua eficiência.\n\n**Dicas:**\n1.  **Identifique:** Quais tarefas você faz repetidamente que poderiam ser automatizadas (ex: envio de e-mails de follow-up, agendamento de reuniões, triagem inicial)?\n2.  **Ferramentas:** Explore ferramentas de automação (ex: Zapier, IFTTT, recursos do CRM do Empregga).\n3.  **Aprenda:** Dedique um tempo para aprender a configurar e usar essas ferramentas.\n4.  **Teste:** Teste a automação para garantir que ela funciona corretamente.\n5.  **Monitore:** Monitore os processos automatizados para garantir que continuam eficazes.\n6.  **Comece Pequeno:** Comece automatizando tarefas simples e vá expandindo.\n\n> **Eficiência:** A automação libera seu tempo para tarefas que exigem sua inteligência e criatividade.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Automação",
+      "Processos",
+      "Produtividade",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a comunicação interna?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a comunicação interna?",
+    "resolucao_padronizada": "A comunicação interna com a equipe Empregga é importante para alinhamento e colaboração. Gerencie-a de forma eficaz.\n\n**Dicas:**\n1.  **Canais Oficiais:** Utilize os canais oficiais de comunicação (Comunidade, MailCow, reuniões).\n2.  **Horários:** Respeite os horários de trabalho dos colegas e evite mensagens fora do expediente.\n3.  **Clareza:** Seja claro e objetivo nas suas mensagens para evitar idas e vindas.\n4.  **Priorize:** Responda às mensagens mais importantes primeiro.\n5.  **Reuniões:** Participe das reuniões de alinhamento para se manter atualizado.\n6.  **Feedback:** Dê e receba feedback de forma construtiva com seus colegas.\n\n> **Colaboração:** Uma comunicação interna eficiente fortalece a equipe e o trabalho em conjunto.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Comunicação Interna",
+      "Colaboração",
+      "Equipe",
+      "Alinhamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a inovação e criatividade?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a inovação e criatividade?",
+    "resolucao_padronizada": "A inovação e a criatividade são essenciais para se destacar no mercado. Reserve tempo para cultivá-las.\n\n**Dicas:**\n1.  **Brainstorming:** Dedique um tempo para sessões de brainstorming, sozinho ou com colegas.\n2.  **Leitura Diversificada:** Leia sobre diferentes áreas, não apenas R&S, para expandir sua mente.\n3.  **Novas Experiências:** Busque novas experiências e perspectivas fora da sua rotina.\n4.  **Ambiente:** Crie um ambiente que estimule a criatividade (ex: música, espaço organizado).\n5.  **Pausas:** O ócio criativo é importante. Use suas pausas para deixar a mente divagar.\n6.  **Experimente:** Não tenha medo de testar novas abordagens e ideias.\n\n> **Diferenciação:** A inovação e a criatividade são seus maiores diferenciais competitivos.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Inovação",
+      "Criatividade",
+      "Desenvolvimento",
+      "Diferenciação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a resolução de problemas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a resolução de problemas?",
+    "resolucao_padronizada": "A resolução de problemas é uma parte inevitável do trabalho. Gerencie seu tempo para abordá-los de forma eficaz.\n\n**Dicas:**\n1.  **Priorize:** Avalie a urgência e o impacto do problema. Nem todo problema exige solução imediata.\n2.  **Blocos de Tempo:** Reserve um tempo específico para focar na resolução de problemas complexos.\n3.  **Análise:** Entenda a raiz do problema antes de buscar soluções.\n4.  **Brainstorming:** Gere diferentes opções de solução.\n5.  **Decisão:** Escolha a melhor solução e crie um plano de ação.\n6.  **Acompanhamento:** Monitore a implementação da solução e seus resultados.\n\n> **Eficácia:** Uma boa gestão de tempo para resolução de problemas evita que eles se tornem crises.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Resolução de Problemas",
+      "Crise",
+      "Análise",
+      "Estratégia"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a prospecção de parcerias?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a prospecção de parcerias?",
+    "resolucao_padronizada": "A prospecção de parcerias pode abrir novas portas e oportunidades de negócio. Dedique tempo a essa atividade.\n\n**Dicas:**\n1.  **Identifique Parceiros:** Pense em empresas ou profissionais que complementam seus serviços (ex: consultorias de RH, empresas de treinamento).\n2.  **Pesquisa:** Pesquise sobre potenciais parceiros e seus serviços.\n3.  **Abordagem:** Prepare uma abordagem clara sobre o benefício da parceria para ambas as partes.\n4.  **Networking:** Utilize o LinkedIn e eventos para se conectar com potenciais parceiros.\n5.  **Proposta de Valor:** Apresente uma proposta de valor clara sobre como a parceria pode gerar resultados.\n6.  **Follow-up:** Faça follow-up com os contatos de parceria.\n\n> **Crescimento:** Parcerias estratégicas podem acelerar seu crescimento e alcance.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Prospecção de Parcerias",
+      "Networking",
+      "Crescimento",
+      "Estratégia"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a organização de eventos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a organização de eventos?",
+    "resolucao_padronizada": "A organização de eventos (webinars, workshops) pode ser uma ótima estratégia de marketing e prospecção. Gerencie seu tempo para isso.\n\n**Dicas:**\n1.  **Planejamento:** Crie um cronograma detalhado com todas as etapas (tema, palestrantes, divulgação, logística).\n2.  **Tarefas:** Divida o evento em tarefas menores e atribua prazos.\n3.  **Ferramentas:** Utilize ferramentas de gestão de projetos (Trello) e de e-mail marketing para divulgação.\n4.  **Delegação:** Se tiver equipe, delegue tarefas específicas.\n5.  **Divulgação:** Reserve tempo para divulgar o evento nas redes sociais e para sua base de contatos.\n6.  **Pós-Evento:** Planeje o follow-up com os participantes e a análise dos resultados.\n\n> **Impacto:** Eventos bem organizados podem gerar leads qualificados e fortalecer sua marca.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Organização de Eventos",
+      "Marketing",
+      "Prospecção",
+      "Planejamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a análise de concorrência?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a análise de concorrência?",
+    "resolucao_padronizada": "Analisar a concorrência é importante para entender o mercado e identificar seus diferenciais. Dedique tempo a essa pesquisa.\n\n**Dicas:**\n1.  **Frequência:** Defina uma frequência para a análise (ex: trimestral, semestral).\n2.  **Fontes:** Pesquise sites de concorrentes, redes sociais, notícias do setor, relatórios de mercado.\n3.  **O que Analisar:** Observe os serviços oferecidos, preços, diferenciais, público-alvo, estratégias de marketing.\n4.  **SWOT:** Faça uma análise SWOT (Forças, Fraquezas, Oportunidades, Ameaças) da concorrência.\n5.  **Insights:** Utilize os insights para aprimorar seus próprios serviços e estratégias.\n6.  **Não Copie:** Use a análise para se inspirar e se diferenciar, não para copiar.\n\n> **Estratégia:** O conhecimento da concorrência é fundamental para um posicionamento estratégico.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Análise de Concorrência",
+      "Mercado R&S",
+      "Estratégia",
+      "Diferenciação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de projetos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de projetos?",
+    "resolucao_padronizada": "A gestão de projetos (seja uma vaga complexa ou um projeto interno) exige organização e acompanhamento.\n\n**Dicas:**\n1.  **Defina Escopo:** Tenha clareza sobre os objetivos, entregas e prazos do projeto.\n2.  **Divida em Tarefas:** Quebre o projeto em tarefas menores e gerenciáveis.\n3.  **Cronograma:** Crie um cronograma com as datas de início e fim de cada tarefa.\n4.  **Responsáveis:** Atribua responsáveis por cada tarefa (se for um projeto em equipe).\n5.  **Ferramentas:** Utilize ferramentas de gestão de projetos (Trello, Asana, Monday.com).\n6.  **Acompanhamento:** Faça reuniões de status regulares para acompanhar o progresso.\n7.  **Riscos:** Identifique e gerencie os riscos do projeto.\n\n> **Controle:** Uma boa gestão de projetos garante que ele seja entregue no prazo e com qualidade.",
+    "tags_semanticas": [
+      "Gestão de Projetos",
+      "Gestão de Tempo",
+      "Planejamento",
+      "Organização",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de riscos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de riscos?",
+    "resolucao_padronizada": "A gestão de riscos envolve identificar, analisar e planejar respostas a potenciais problemas que podem afetar seu trabalho.\n\n**Dicas:**\n1.  **Identifique Riscos:** Pense em tudo que pode dar errado em uma vaga ou projeto (ex: candidato desiste, cliente muda requisitos, atraso no feedback).\n2.  **Analise:** Avalie a probabilidade de cada risco e o impacto que ele teria.\n3.  **Plano de Resposta:** Crie um plano para mitigar ou responder a cada risco (ex: ter candidatos de backup, comunicar proativamente).\n4.  **Monitore:** Monitore os riscos ao longo do processo.\n5.  **Contingência:** Tenha planos de contingência para os riscos mais críticos.\n6.  **Aprendizado:** Após um risco se concretizar, aprenda com a experiência para evitar no futuro.\n\n> **Prevenção:** A gestão de riscos é sobre prevenção e preparação para o inesperado.",
+    "tags_semanticas": [
+      "Gestão de Riscos",
+      "Contingência",
+      "Planejamento",
+      "Prevenção",
+      "Problemas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de mudanças?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de mudanças?",
+    "resolucao_padronizada": "Mudanças são constantes no mercado de trabalho e nos processos. Gerencie seu tempo para se adaptar a elas.\n\n**Dicas:**\n1.  **Esteja Aberto:** Mantenha uma mentalidade aberta a novas ideias e formas de trabalhar.\n2.  **Compreenda:** Entenda o motivo da mudança e seus impactos.\n3.  **Planeje:** Crie um plano para se adaptar à mudança (ex: aprender uma nova ferramenta, ajustar um processo).\n4.  **Comunique:** Comunique as mudanças relevantes a clientes e candidatos, se necessário.\n5.  **Treinamento:** Busque treinamento para novas ferramentas ou processos.\n6.  **Flexibilidade:** Seja flexível e esteja disposto a ajustar seus planos.\n\n> **Adaptação:** A capacidade de se adaptar às mudanças é um diferencial competitivo.",
+    "tags_semanticas": [
+      "Gestão de Mudanças",
+      "Adaptação",
+      "Flexibilidade",
+      "Inovação",
+      "Processos"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de conhecimento?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de conhecimento?",
+    "resolucao_padronizada": "A gestão de conhecimento envolve organizar, compartilhar e utilizar informações para melhorar o desempenho. Dedique tempo a isso.\n\n**Dicas:**\n1.  **Documente:** Registre seus aprendizados, melhores práticas e informações importantes (ex: FAQs, tutoriais).\n2.  **Organize:** Utilize ferramentas (Comunidade Empregga, Google Drive) para organizar o conhecimento de forma acessível.\n3.  **Compartilhe:** Compartilhe seu conhecimento com outros Agentes e com a equipe Empregga.\n4.  **Busque:** Ativamente busque conhecimento na Comunidade, Universidade e outras fontes.\n5.  **Atualize:** Mantenha o conhecimento atualizado, revisando e corrigindo informações.\n6.  **Utilize:** Aplique o conhecimento no seu dia a dia para otimizar seu trabalho.\n\n> **Valor:** O conhecimento é um ativo valioso. Gerenciá-lo bem aumenta a eficiência de todos.",
+    "tags_semanticas": [
+      "Gestão de Conhecimento",
+      "Compartilhamento",
+      "Aprendizado",
+      "Documentação",
+      "Comunidade"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de reputação?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de reputação?",
+    "resolucao_padronizada": "Sua reputação como Agente Empregga é um ativo valioso. Gerencie seu tempo para construí-la e protegê-la.\n\n**Dicas:**\n1.  **Excelência:** Entregue um serviço de alta qualidade em todas as interações.\n2.  **Transparência:** Seja honesto e transparente com clientes e candidatos.\n3.  **Feedback:** Peça e utilize feedback para aprimorar seu trabalho.\n4.  **Redes Sociais:** Mantenha uma presença profissional e positiva nas redes sociais.\n5.  **Depoimentos:** Colete depoimentos de clientes e candidatos satisfeitos.\n6.  **Responda a Críticas:** Responda a críticas de forma profissional e busque soluções.\n\n> **Confiança:** Uma boa reputação constrói confiança e atrai mais oportunidades.",
+    "tags_semanticas": [
+      "Gestão de Reputação",
+      "Marca Pessoal",
+      "Feedback",
+      "Redes Sociais",
+      "Confiança"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de inovação?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de inovação?",
+    "resolucao_padronizada": "A gestão da inovação envolve buscar e implementar novas ideias para melhorar processos, produtos ou serviços. Dedique tempo a isso.\n\n**Dicas:**\n1.  **Pesquisa:** Reserve tempo para pesquisar novas tecnologias, metodologias e tendências em R&S.\n2.  **Brainstorming:** Faça sessões de brainstorming para gerar novas ideias.\n3.  **Experimentação:** Não tenha medo de testar novas abordagens em pequena escala.\n4.  **Feedback:** Peça feedback sobre suas ideias e experimentos.\n5.  **Colaboração:** Colabore com outros Agentes ou com a equipe Empregga para desenvolver inovações.\n6.  **Aprendizado:** Aprenda com os sucessos e fracassos dos seus experimentos.\n\n> **Diferenciação:** A inovação contínua é a chave para se manter relevante e competitivo.",
+    "tags_semanticas": [
+      "Gestão de Inovação",
+      "Novas Ideias",
+      "Tendências",
+      "Experimentação",
+      "Diferenciação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de qualidade?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de qualidade?",
+    "resolucao_padronizada": "A gestão de qualidade garante que seus serviços atendam ou superem as expectativas de clientes e candidatos. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Padrões:** Defina padrões de qualidade para cada etapa do processo de R&S (ex: qualidade do briefing, da triagem, da entrevista).\n2.  **Checklists:** Utilize checklists para garantir que todas as etapas sejam cumpridas com qualidade.\n3.  **Feedback:** Peça feedback regularmente a clientes e candidatos sobre a qualidade do seu serviço.\n4.  **Revisão:** Revise seus processos e resultados para identificar pontos de melhoria.\n5.  **Treinamento:** Invista em treinamento para aprimorar suas habilidades e conhecimentos.\n6.  **Melhoria Contínua:** Busque constantemente formas de melhorar a qualidade do seu trabalho.\n\n> **Excelência:** A gestão de qualidade é um compromisso com a excelência em tudo o que você faz.",
+    "tags_semanticas": [
+      "Gestão de Qualidade",
+      "Excelência",
+      "Padrões",
+      "Melhoria Contínua",
+      "Feedback"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de performance?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de performance?",
+    "resolucao_padronizada": "A gestão de performance envolve monitorar, avaliar e otimizar seu desempenho como Agente Empregga. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Defina Metas:** Tenha metas claras e mensuráveis para sua performance (ex: número de vagas fechadas, faturamento).\n2.  **KPIs:** Acompanhe seus KPIs (indicadores de performance) regularmente.\n3.  **Autoavaliação:** Faça autoavaliações periódicas sobre seu desempenho.\n4.  **Feedback:** Busque feedback de clientes, candidatos e da equipe Empregga.\n5.  **Plano de Desenvolvimento:** Crie um plano para desenvolver habilidades que impactam sua performance.\n6.  **Ajustes:** Faça ajustes em suas estratégias e processos com base na análise de performance.\n\n> **Crescimento:** A gestão de performance é a chave para o seu crescimento contínuo e sucesso.",
+    "tags_semanticas": [
+      "Gestão de Performance",
+      "KPIs",
+      "Metas",
+      "Autoavaliação",
+      "Desenvolvimento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de reputação online?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de reputação online?",
+    "resolucao_padronizada": "Sua reputação online é crucial no mercado atual. Gerencie seu tempo para construí-la e protegê-la nas plataformas digitais.\n\n**Dicas:**\n1.  **Perfis Profissionais:** Mantenha seus perfis no LinkedIn e outras redes sociais atualizados e profissionais.\n2.  **Conteúdo:** Compartilhe conteúdo relevante que demonstre sua expertise.\n3.  **Interaja:** Participe de discussões e grupos, oferecendo insights valiosos.\n4.  **Monitore:** Fique atento ao que é dito sobre você e a Empregga online.\n5.  **Responda:** Responda a comentários e mensagens de forma profissional e cortês.\n6.  **Depoimentos:** Incentive clientes e candidatos satisfeitos a deixar depoimentos online.\n\n> **Marca Digital:** Sua reputação online é parte integrante da sua marca profissional.",
+    "tags_semanticas": [
+      "Gestão de Reputação Online",
+      "Marca Digital",
+      "Redes Sociais",
+      "Networking",
+      "Conteúdo"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de feedback interno?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de feedback interno?",
+    "resolucao_padronizada": "O feedback interno (entre Agentes e com a equipe Empregga) é vital para o desenvolvimento e aprimoramento coletivo. Dedique tempo a ele.\n\n**Dicas:**\n1.  **Cultura de Feedback:** Promova uma cultura onde o feedback é bem-vindo e construtivo.\n2.  **Momentos:** Utilize reuniões de equipe, conversas individuais ou canais específicos para feedback.\n3.  **Seja Específico:** Ao dar feedback, foque em comportamentos e situações específicas, não na pessoa.\n4.  **Escute:** Ao receber feedback, escute atentamente e faça perguntas para entender.\n5.  **Ação:** Transforme o feedback em planos de ação para melhoria.\n6.  **Agradeça:** Agradeça pelo feedback, seja ele positivo ou construtivo.\n\n> **Crescimento Coletivo:** O feedback interno impulsiona o crescimento individual e da equipe.",
+    "tags_semanticas": [
+      "Gestão de Feedback Interno",
+      "Comunicação",
+      "Desenvolvimento",
+      "Cultura Organizacional",
+      "Equipe"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de ferramentas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de ferramentas?",
+    "resolucao_padronizada": "Gerenciar as diversas ferramentas que você utiliza (App Empregga, Selecty, MailCow, Trello, etc.) é crucial para a eficiência.\n\n**Dicas:**\n1.  **Treinamento:** Dedique tempo para aprender a usar todas as funcionalidades das ferramentas.\n2.  **Organização:** Mantenha suas ferramentas organizadas e acessíveis (ex: favoritos no navegador).\n3.  **Atualização:** Fique atento a atualizações e novas funcionalidades das ferramentas.\n4.  **Integração:** Explore integrações entre as ferramentas para otimizar fluxos de trabalho.\n5.  **Suporte:** Saiba onde buscar suporte para cada ferramenta em caso de dúvidas ou problemas.\n6.  **Avaliação:** Avalie periodicamente se as ferramentas ainda atendem às suas necessidades.\n\n> **Eficiência:** O domínio das ferramentas é um pilar da sua produtividade.",
+    "tags_semanticas": [
+      "Gestão de Ferramentas",
+      "Produtividade",
+      "Tecnologia",
+      "Treinamento",
+      "Otimização"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de informações?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de informações?",
+    "resolucao_padronizada": "A gestão de informações envolve coletar, organizar, armazenar e recuperar dados de forma eficiente. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Fontes:** Identifique as fontes de informação relevantes (clientes, candidatos, mercado, Empregga).\n2.  **Organização:** Crie um sistema de pastas e arquivos (digitais e físicos) lógico e consistente.\n3.  **Ferramentas:** Utilize o CRM do Empregga, Google Drive ou outras ferramentas para armazenar informações.\n4.  **Backup:** Faça backups regulares de informações importantes.\n5.  **Segurança:** Proteja informações sensíveis e esteja em conformidade com a LGPD.\n6.  **Descarte:** Descarte informações desnecessárias ou desatualizadas.\n\n> **Acesso:** Uma boa gestão de informações garante que você encontre o que precisa rapidamente.",
+    "tags_semanticas": [
+      "Gestão de Informações",
+      "Organização",
+      "Dados",
+      "LGPD",
+      "Produtividade"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de conhecimento pessoal?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de conhecimento pessoal?",
+    "resolucao_padronizada": "A gestão de conhecimento pessoal é sobre como você organiza e utiliza seu próprio aprendizado e experiências. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Anotações:** Faça anotações durante treinamentos, reuniões, leituras.\n2.  **Organize:** Crie um sistema para organizar suas anotações (ex: caderno, OneNote, Notion).\n3.  **Revise:** Revise suas anotações periodicamente para fixar o conhecimento.\n4.  **Aplique:** Tente aplicar o que você aprendeu no seu dia a dia.\n5.  **Compartilhe:** Compartilhe seu conhecimento com outros para reforçar o aprendizado.\n6.  **Reflexão:** Reserve um tempo para refletir sobre suas experiências e o que você aprendeu com elas.\n\n> **Crescimento:** A gestão de conhecimento pessoal impulsiona seu crescimento contínuo.",
+    "tags_semanticas": [
+      "Gestão de Conhecimento Pessoal",
+      "Aprendizado",
+      "Anotações",
+      "Organização",
+      "Desenvolvimento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de reputação profissional?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de reputação profissional?",
+    "resolucao_padronizada": "Sua reputação profissional é o que te diferencia no mercado. Gerencie seu tempo para construí-la e mantê-la.\n\n**Dicas:**\n1.  **Consistência:** Seja consistente na entrega de um trabalho de alta qualidade.\n2.  **Ética:** Atue sempre com ética e profissionalismo.\n3.  **Networking:** Construa uma rede de contatos sólida e positiva.\n4.  **Feedback:** Peça feedback e use-o para aprimorar sua imagem.\n5.  **Marca Pessoal:** Desenvolva sua marca pessoal, destacando seus diferenciais.\n6.  **Presença Online:** Mantenha uma presença online profissional e positiva.\n\n> **Confiança:** Uma boa reputação profissional gera confiança e abre portas para novas oportunidades.",
+    "tags_semanticas": [
+      "Gestão de Reputação Profissional",
+      "Marca Pessoal",
+      "Networking",
+      "Ética",
+      "Profissionalismo"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de relacionamento com parceiros?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de relacionamento com parceiros?",
+    "resolucao_padronizada": "O relacionamento com parceiros (outras consultorias, fornecedores) é importante para expandir sua rede e oportunidades. Dedique tempo a ele.\n\n**Dicas:**\n1.  **Comunicação:** Mantenha uma comunicação regular e transparente com seus parceiros.\n2.  **Valor:** Busque sempre agregar valor à parceria, não apenas receber.\n3.  **Reuniões:** Agende reuniões periódicas para alinhar expectativas e explorar novas oportunidades.\n4.  **Feedback:** Dê e receba feedback sobre a parceria.\n5.  **Colaboração:** Esteja aberto a colaborar em projetos ou vagas.\n6.  **Reconhecimento:** Reconheça a importância da parceria e celebre os sucessos conjuntos.\n\n> **Sinergia:** Um bom relacionamento com parceiros cria sinergia e novas possibilidades.",
+    "tags_semanticas": [
+      "Gestão de Tempo",
+      "Relacionamento com Parceiros",
+      "Networking",
+      "Colaboração",
+      "Sinergia"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de fornecedores?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de fornecedores?",
+    "resolucao_padronizada": "A gestão de fornecedores (ex: plataformas de testes, ferramentas de divulgação) garante que você tenha os recursos necessários para o trabalho.\n\n**Dicas:**\n1.  **Avaliação:** Avalie a qualidade e o custo-benefício dos seus fornecedores.\n2.  **Contratos:** Mantenha os contratos com fornecedores organizados e fique atento aos prazos.\n3.  **Comunicação:** Mantenha uma comunicação clara e regular com seus fornecedores.\n4.  **Feedback:** Dê feedback aos fornecedores sobre o serviço prestado.\n5.  **Alternativas:** Tenha alternativas para fornecedores críticos, caso haja algum problema.\n6.  **Negociação:** Negocie termos e condições favoráveis com seus fornecedores.\n\n> **Recursos:** Uma boa gestão de fornecedores garante que você tenha os melhores recursos à sua disposição.",
+    "tags_semanticas": [
+      "Gestão de Fornecedores",
+      "Recursos",
+      "Contratos",
+      "Negociação",
+      "Qualidade"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de custos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de custos?",
+    "resolucao_padronizada": "A gestão de custos é fundamental para a sua saúde financeira como Agente Empregga. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Orçamento:** Crie um orçamento detalhado com suas despesas profissionais (ferramentas, marketing, etc.).\n2.  **Controle:** Registre e monitore todos os seus gastos.\n3.  **Otimização:** Busque formas de otimizar seus custos sem comprometer a qualidade do serviço.\n4.  **Negociação:** Negocie com fornecedores para obter melhores preços.\n5.  **Análise:** Analise seus custos periodicamente para identificar onde você pode economizar.\n6.  **Investimento:** Diferencie custos de investimentos (ex: treinamento, ferramentas que aumentam a produtividade).\n\n> **Lucratividade:** Uma boa gestão de custos aumenta sua lucratividade.",
+    "tags_semanticas": [
+      "Gestão de Custos",
+      "Orçamento",
+      "Finanças",
+      "Otimização",
+      "Lucratividade"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de receitas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de receitas?",
+    "resolucao_padronizada": "A gestão de receitas envolve monitorar e otimizar suas fontes de renda como Agente Empregga. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Metas:** Defina metas claras de faturamento e comissões.\n2.  **Acompanhamento:** Monitore suas receitas regularmente no App Empregga.\n3.  **Prospecção:** Dedique tempo à prospecção para gerar novas oportunidades de receita.\n4.  **Vendas:** Aprimore suas habilidades de vendas para fechar mais negócios.\n5.  **Diversificação:** Explore diferentes tipos de vagas ou serviços para diversificar suas fontes de receita.\n6.  **Análise:** Analise quais tipos de vagas ou clientes geram mais receita e foque neles.\n\n> **Crescimento:** Uma boa gestão de receitas impulsiona seu crescimento financeiro.",
+    "tags_semanticas": [
+      "Gestão de Receitas",
+      "Faturamento",
+      "Comissões",
+      "Vendas",
+      "Prospecção"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de fluxo de caixa?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de fluxo de caixa?",
+    "resolucao_padronizada": "A gestão de fluxo de caixa é essencial para a saúde financeira do seu negócio como Agente Empregga. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Registro:** Registre todas as entradas (receitas) e saídas (despesas) de dinheiro.\n2.  **Projeção:** Faça projeções de fluxo de caixa para os próximos meses.\n3.  **Controle:** Utilize planilhas ou softwares de gestão financeira para controlar o fluxo.\n4.  **Análise:** Analise o fluxo de caixa para identificar períodos de sobra ou falta de dinheiro.\n5.  **Planejamento:** Planeje suas despesas e investimentos com base no fluxo de caixa.\n6.  **Reserva:** Mantenha uma reserva de emergência para imprevistos.\n\n> **Estabilidade:** Uma boa gestão de fluxo de caixa garante a estabilidade financeira do seu negócio.",
+    "tags_semanticas": [
+      "Gestão de Fluxo de Caixa",
+      "Finanças",
+      "Receitas",
+      "Despesas",
+      "Planejamento Financeiro"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de impostos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de impostos?",
+    "resolucao_padronizada": "A gestão de impostos é uma responsabilidade importante como Agente autônomo. Dedique tempo para entendê-la e cumpri-la.\n\n**Dicas:**\n1.  **Contador:** Considere contratar um contador para te auxiliar na gestão de impostos.\n2.  **Legislação:** Mantenha-se atualizado sobre a legislação fiscal para MEI ou PJ.\n3.  **Prazos:** Fique atento aos prazos de pagamento de impostos e envio de declarações.\n4.  **Documentação:** Mantenha toda a documentação fiscal organizada (Notas Fiscais, comprovantes).\n5.  **Planejamento:** Planeje seus impostos para evitar surpresas no final do mês/ano.\n6.  **Dúvidas:** Não hesite em tirar dúvidas com seu contador ou órgãos fiscais.\n\n> **Conformidade:** Uma boa gestão de impostos garante sua conformidade legal e evita problemas futuros.",
+    "tags_semanticas": [
+      "Gestão de Impostos",
+      "MEI",
+      "PJ",
+      "Contabilidade",
+      "Legislação Fiscal"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de investimentos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de investimentos?",
+    "resolucao_padronizada": "A gestão de investimentos é fundamental para o seu futuro financeiro. Dedique tempo para planejar e acompanhar seus investimentos.\n\n**Dicas:**\n1.  **Objetivos:** Defina seus objetivos de investimento (ex: aposentadoria, compra de imóvel, reserva de emergência).\n2.  **Perfil de Risco:** Entenda seu perfil de risco (conservador, moderado, arrojado).\n3.  **Pesquisa:** Pesquise sobre diferentes tipos de investimentos (renda fixa, renda variável, fundos).\n4.  **Consultor:** Considere buscar a ajuda de um consultor financeiro para te orientar.\n5.  **Acompanhamento:** Monitore seus investimentos regularmente e faça ajustes se necessário.\n6.  **Diversificação:** Diversifique seus investimentos para reduzir riscos.\n\n> **Futuro:** A gestão de investimentos é um passo importante para construir seu futuro financeiro.",
+    "tags_semanticas": [
+      "Gestão de Investimentos",
+      "Finanças",
+      "Renda Fixa",
+      "Renda Variável",
+      "Planejamento Financeiro"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de aposentadoria?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de aposentadoria?",
+    "resolucao_padronizada": "Planejar sua aposentadoria é crucial para garantir um futuro tranquilo. Dedique tempo a esse planejamento de longo prazo.\n\n**Dicas:**\n1.  **Objetivo:** Defina como você quer que seja sua aposentadoria e quanto dinheiro precisará.\n2.  **Previdência:** Entenda as opções de previdência (INSS, previdência privada).\n3.  **Investimentos:** Inclua a aposentadoria em seu plano de investimentos de longo prazo.\n4.  **Simulações:** Faça simulações para entender quanto você precisa poupar e investir.\n5.  **Consultor:** Busque a ajuda de um consultor financeiro especializado em aposentadoria.\n6.  **Revisão:** Revise seu plano de aposentadoria periodicamente e faça ajustes.\n\n> **Segurança:** A gestão da aposentadoria garante sua segurança financeira no futuro.",
+    "tags_semanticas": [
+      "Gestão de Aposentadoria",
+      "Previdência",
+      "Investimentos",
+      "Planejamento Financeiro",
+      "Futuro"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de seguros?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de seguros?",
+    "resolucao_padronizada": "A gestão de seguros (saúde, vida, patrimonial) é importante para proteger você e seu negócio. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Necessidades:** Avalie suas necessidades de seguro (pessoal e profissional).\n2.  **Pesquisa:** Pesquise diferentes tipos de seguros e seguradoras.\n3.  **Corretor:** Considere a ajuda de um corretor de seguros para encontrar as melhores opções.\n4.  **Prazos:** Fique atento aos prazos de renovação e pagamento dos seguros.\n5.  **Cobertura:** Entenda a cobertura de cada seguro e o que está incluído.\n6.  **Revisão:** Revise suas apólices periodicamente para garantir que ainda atendem às suas necessidades.\n\n> **Proteção:** A gestão de seguros oferece proteção contra imprevistos e riscos.",
+    "tags_semanticas": [
+      "Gestão de Seguros",
+      "Proteção",
+      "Seguro Saúde",
+      "Seguro de Vida",
+      "Planejamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de contratos pessoais?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de contratos pessoais?",
+    "resolucao_padronizada": "A gestão de contratos pessoais (aluguel, serviços, financiamentos) é importante para sua organização financeira e legal. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Organização:** Mantenha todos os seus contratos pessoais organizados em um local seguro.\n2.  **Prazos:** Fique atento aos prazos de vencimento, renovação e reajuste dos contratos.\n3.  **Cláusulas:** Conheça as principais cláusulas e seus direitos/deveres.\n4.  **Digitalize:** Mantenha cópias digitais dos contratos para fácil acesso.\n5.  **Revisão:** Revise seus contratos periodicamente para garantir que ainda são adequados.\n6.  **Dúvidas:** Em caso de dúvidas, consulte um advogado ou especialista.\n\n> **Organização:** Uma boa gestão de contratos pessoais evita problemas e garante sua tranquilidade.",
+    "tags_semanticas": [
+      "Gestão de Contratos Pessoais",
+      "Organização",
+      "Finanças",
+      "Legal",
+      "Planejamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de documentos pessoais?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de documentos pessoais?",
+    "resolucao_padronizada": "A gestão de documentos pessoais (RG, CPF, CNH, comprovantes) é fundamental para sua vida civil e financeira. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Organização:** Crie um sistema de pastas (físicas e digitais) para organizar seus documentos.\n2.  **Digitalize:** Mantenha cópias digitais de documentos importantes em um local seguro (nuvem, HD externo).\n3.  **Validade:** Fique atento à validade de documentos como CNH e passaporte.\n4.  **Segurança:** Proteja seus documentos contra perdas, roubos ou acessos não autorizados.\n5.  **Descarte:** Descarte documentos antigos que não são mais necessários, com segurança.\n6.  **Acesso:** Garanta que você possa acessar seus documentos rapidamente quando precisar.\n\n> **Tranquilidade:** Uma boa gestão de documentos pessoais evita burocracias e problemas.",
+    "tags_semanticas": [
+      "Gestão de Documentos Pessoais",
+      "Organização",
+      "Segurança",
+      "Burocracia",
+      "Planejamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de senhas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de senhas?",
+    "resolucao_padronizada": "A gestão de senhas é crucial para sua segurança online e para evitar perda de acesso a contas importantes. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Gerenciador de Senhas:** Utilize um gerenciador de senhas (ex: LastPass, 1Password, Bitwarden) para armazenar suas senhas de forma segura.\n2.  **Senhas Fortes:** Crie senhas longas, complexas e únicas para cada serviço.\n3.  **Autenticação de Dois Fatores (2FA):** Ative o 2FA sempre que possível para uma camada extra de segurança.\n4.  **Não Compartilhe:** Nunca compartilhe suas senhas com ninguém.\n5.  **Atualize:** Altere suas senhas periodicamente, especialmente as mais importantes.\n6.  **Cuidado com Phishing:** Esteja atento a e-mails e sites falsos que tentam roubar suas senhas.\n\n> **Segurança:** Uma boa gestão de senhas protege sua vida digital e profissional.",
+    "tags_semanticas": [
+      "Gestão de Senhas",
+      "Segurança Online",
+      "Gerenciador de Senhas",
+      "2FA",
+      "Cibersegurança"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de backups?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de backups?",
+    "resolucao_padronizada": "A gestão de backups é fundamental para proteger seus dados importantes contra perdas acidentais ou falhas de hardware. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Frequência:** Defina uma frequência para seus backups (ex: diário, semanal, mensal).\n2.  **Locais:** Utilize múltiplos locais para backup (nuvem, HD externo, outro computador).\n3.  **Automatize:** Utilize ferramentas que automatizam o processo de backup.\n4.  **Teste:** Teste seus backups periodicamente para garantir que os dados podem ser recuperados.\n5.  **Priorize:** Faça backup dos dados mais importantes primeiro.\n6.  **Segurança:** Proteja seus backups contra acessos não autorizados.\n\n> **Prevenção:** A gestão de backups é sua rede de segurança contra a perda de dados.",
+    "tags_semanticas": [
+      "Gestão de Backups",
+      "Segurança de Dados",
+      "Nuvem",
+      "HD Externo",
+      "Prevenção"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de licenças de software?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de licenças de software?",
+    "resolucao_padronizada": "A gestão de licenças de software (ferramentas de R&S, produtividade) é importante para garantir a conformidade e evitar interrupções no trabalho.\n\n**Dicas:**\n1.  **Inventário:** Mantenha um inventário de todos os softwares que você utiliza e suas licenças.\n2.  **Prazos:** Fique atento aos prazos de vencimento e renovação das licenças.\n3.  **Custos:** Monitore os custos das licenças e busque otimização.\n4.  **Conformidade:** Garanta que você está utilizando os softwares de acordo com os termos de licença.\n5.  **Alternativas:** Avalie se existem alternativas gratuitas ou mais baratas para alguns softwares.\n6.  **Suporte:** Saiba onde buscar suporte para cada software em caso de problemas.\n\n> **Continuidade:** Uma boa gestão de licenças garante a continuidade do seu trabalho.",
+    "tags_semanticas": [
+      "Gestão de Licenças",
+      "Software",
+      "Conformidade",
+      "Custos",
+      "Ferramentas"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de hardware?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de hardware?",
+    "resolucao_padronizada": "A gestão de hardware (computador, monitor, periféricos) é importante para garantir que você tenha as ferramentas de trabalho funcionando bem.\n\n**Dicas:**\n1.  **Manutenção:** Faça manutenções preventivas (limpeza, atualização de drivers) regularmente.\n2.  **Backup:** Faça backup de dados importantes antes de qualquer manutenção ou atualização.\n3.  **Atualização:** Avalie a necessidade de atualizar ou substituir hardware antigo.\n4.  **Suporte:** Saiba onde buscar suporte técnico em caso de problemas.\n5.  **Ergonomia:** Garanta que seu hardware está configurado de forma ergonômica.\n6.  **Segurança:** Proteja seu hardware contra roubos ou danos.\n\n> **Produtividade:** Um hardware funcionando bem é essencial para sua produtividade.",
+    "tags_semanticas": [
+      "Gestão de Hardware",
+      "Manutenção",
+      "Tecnologia",
+      "Produtividade",
+      "Ergonomia"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de rede?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de rede?",
+    "resolucao_padronizada": "A gestão da sua rede de internet (Wi-Fi, cabo) é crucial para garantir uma conexão estável e produtiva.\n\n**Dicas:**\n1.  **Velocidade:** Verifique regularmente a velocidade da sua internet e contrate um plano adequado.\n2.  **Estabilidade:** Garanta que sua conexão é estável para evitar quedas durante entrevistas ou reuniões.\n3.  **Segurança:** Proteja sua rede Wi-Fi com senha forte e firewall.\n4.  **Roteador:** Mantenha seu roteador atualizado e posicionado em um local estratégico.\n5.  **Alternativas:** Tenha um plano B (ex: 4G do celular) para casos de falha da internet principal.\n6.  **Suporte:** Saiba como contatar seu provedor de internet em caso de problemas.\n\n> **Conectividade:** Uma boa gestão de rede garante sua conectividade e produtividade.",
+    "tags_semanticas": [
+      "Gestão de Rede",
+      "Internet",
+      "Wi-Fi",
+      "Conectividade",
+      "Produtividade"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de energia?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de energia?",
+    "resolucao_padronizada": "A gestão de energia (física e mental) é fundamental para manter sua produtividade e bem-estar ao longo do dia.\n\n**Dicas:**\n1.  **Sono:** Priorize um sono de qualidade para recarregar as energias.\n2.  **Alimentação:** Tenha uma alimentação equilibrada para manter os níveis de energia.\n3.  **Exercícios:** Inclua atividades físicas na sua rotina para aumentar a energia.\n4.  **Pausas:** Faça pausas regulares para descansar a mente e o corpo.\n5.  **Hidratação:** Mantenha-se hidratado.\n6.  **Gerencie o Estresse:** Utilize técnicas de relaxamento para gerenciar o estresse.\n\n> **Sustentabilidade:** A gestão de energia garante que você trabalhe de forma sustentável e sem esgotamento.",
+    "tags_semanticas": [
+      "Gestão de Energia",
+      "Bem-estar",
+      "Produtividade",
+      "Saúde",
+      "Equilíbrio"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de foco?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de foco?",
+    "resolucao_padronizada": "A gestão de foco é essencial para realizar tarefas com qualidade e evitar distrações. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Ambiente:** Crie um ambiente de trabalho livre de distrações (silencioso, organizado).\n2.  **Desligue Notificações:** Desative notificações de celular e redes sociais durante o trabalho focado.\n3.  **Técnicas:** Utilize técnicas como Pomodoro para manter o foco em blocos de tempo.\n4.  **Uma Tarefa por Vez:** Evite multitarefas. Concentre-se em uma tarefa até finalizá-la.\n5.  **Priorize:** Comece o dia com as tarefas mais importantes que exigem mais foco.\n6.  **Pausas:** Faça pausas para descansar a mente e retomar o foco.\n\n> **Produtividade:** Uma boa gestão de foco aumenta sua produtividade e a qualidade do seu trabalho.",
+    "tags_semanticas": [
+      "Gestão de Foco",
+      "Produtividade",
+      "Distrações",
+      "Técnicas de Foco",
+      "Concentração"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de distrações?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de distrações?",
+    "resolucao_padronizada": "As distrações são inimigas da produtividade. Gerencie seu tempo para minimizá-las e manter o foco.\n\n**Dicas:**\n1.  **Identifique:** Quais são suas maiores distrações (redes sociais, e-mails, notificações, pessoas)?\n2.  **Bloqueie:** Utilize aplicativos ou extensões de navegador para bloquear sites e apps que te distraem.\n3.  **Silencie:** Desative notificações do celular e do computador durante o trabalho focado.\n4.  **Ambiente:** Crie um ambiente de trabalho que minimize interrupções (porta fechada, fones de ouvido).\n5.  **Horários:** Defina horários específicos para verificar e-mails e redes sociais.\n6.  **Pausas:** Use as pausas para se permitir distrair um pouco, mas volte ao trabalho focado depois.\n\n> **Controle:** Assuma o controle sobre suas distrações para aumentar sua produtividade.",
+    "tags_semanticas": [
+      "Gestão de Distrações",
+      "Produtividade",
+      "Foco",
+      "Interrupções",
+      "Autodisciplina"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de interrupções?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de interrupções?",
+    "resolucao_padronizada": "Interrupções podem quebrar seu fluxo de trabalho e reduzir a produtividade. Gerencie seu tempo para minimizá-las.\n\n**Dicas:**\n1.  **Comunique:** Informe colegas ou familiares sobre seus horários de trabalho focado.\n2.  **Sinalize:** Use um sinal (ex: fones de ouvido, placa de 'não perturbe') para indicar que você está focado.\n3.  **Agrupe:** Agrupe perguntas e interrupções para responder em um único momento.\n4.  **Responda Depois:** Se a interrupção não for urgente, peça para a pessoa voltar em um horário específico.\n5.  **Ambiente:** Crie um ambiente de trabalho que minimize interrupções físicas.\n6.  **Priorize:** Avalie a urgência da interrupção antes de parar o que está fazendo.\n\n> **Fluxo:** Minimizar interrupções ajuda a manter seu fluxo de trabalho e a produtividade.",
+    "tags_semanticas": [
+      "Gestão de Interrupções",
+      "Produtividade",
+      "Foco",
+      "Comunicação",
+      "Ambiente de Trabalho"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de prioridades?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de prioridades?",
+    "resolucao_padronizada": "A gestão de prioridades é a base de uma gestão de tempo eficaz. Foque no que realmente importa.\n\n**Dicas:**\n1.  **Defina Objetivos:** Tenha clareza sobre seus objetivos diários, semanais e de longo prazo.\n2.  **Matriz de Eisenhower:** Utilize a matriz Urgente/Importante para classificar suas tarefas.\n3.  **Regra 80/20 (Pareto):** Identifique as 20% das tarefas que geram 80% dos seus resultados.\n4.  **Comece pelo Mais Difícil:** Faça a tarefa mais importante ou difícil primeiro (Eat the Frog).\n5.  **Reavalie:** Revise suas prioridades ao longo do dia e faça ajustes se necessário.\n6.  **Diga Não:** Aprenda a dizer não a tarefas que não se alinham às suas prioridades.\n\n> **Impacto:** Focar nas prioridades garante que você esteja trabalhando no que realmente gera impacto.",
+    "tags_semanticas": [
+      "Gestão de Prioridades",
+      "Produtividade",
+      "Matriz de Eisenhower",
+      "Regra 80/20",
+      "Foco"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de metas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de metas?",
+    "resolucao_padronizada": "A gestão de metas é fundamental para direcionar seus esforços e medir seu progresso. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Metas SMART:** Defina metas Específicas, Mensuráveis, Atingíveis, Relevantes e com Prazo.\n2.  **Quebre em Etapas:** Divida metas grandes em etapas menores e gerenciáveis.\n3.  **Cronograma:** Crie um cronograma para cada meta e suas etapas.\n4.  **Acompanhamento:** Monitore seu progresso regularmente e registre os resultados.\n5.  **Revisão:** Revise suas metas periodicamente e faça ajustes se necessário.\n6.  **Celebre:** Celebre as metas alcançadas para manter a motivação.\n\n> **Direção:** A gestão de metas te dá direção e motivação para alcançar seus objetivos.",
+    "tags_semanticas": [
+      "Gestão de Metas",
+      "Metas SMART",
+      "Planejamento",
+      "Acompanhamento",
+      "Motivação"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de tarefas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de tarefas?",
+    "resolucao_padronizada": "A gestão de tarefas é a base da sua produtividade diária. Organize suas tarefas de forma eficiente.\n\n**Dicas:**\n1.  **Lista de Tarefas:** Crie uma lista de todas as tarefas que você precisa fazer.\n2.  **Priorize:** Classifique as tarefas por prioridade e urgência.\n3.  **Estime Tempo:** Estime o tempo necessário para cada tarefa.\n4.  **Agrupe:** Agrupe tarefas semelhantes para otimizar o tempo.\n5.  **Ferramentas:** Utilize ferramentas de lista de tarefas (Trello, Google Tasks, papel e caneta).\n6.  **Revise:** Revise sua lista de tarefas diariamente e marque o que foi concluído.\n\n> **Organização:** Uma boa gestão de tarefas garante que nada seja esquecido e que você seja mais produtivo.",
+    "tags_semanticas": [
+      "Gestão de Tarefas",
+      "Lista de Tarefas",
+      "Produtividade",
+      "Organização",
+      "Priorização"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de projetos pessoais?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de projetos pessoais?",
+    "resolucao_padronizada": "A gestão de projetos pessoais (ex: reforma, viagem, curso) é importante para sua vida pessoal e bem-estar. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Defina Objetivos:** Tenha clareza sobre o que você quer alcançar com o projeto pessoal.\n2.  **Divida em Tarefas:** Quebre o projeto em tarefas menores e gerenciáveis.\n3.  **Cronograma:** Crie um cronograma com as datas de início e fim de cada tarefa.\n4.  **Recursos:** Identifique os recursos necessários (tempo, dinheiro, ajuda de terceiros).\n5.  **Ferramentas:** Utilize ferramentas de gestão de projetos (Trello) ou um planner pessoal.\n6.  **Acompanhamento:** Monitore o progresso e faça ajustes se necessário.\n\n> **Realização:** A gestão de projetos pessoais te ajuda a realizar seus sonhos e objetivos fora do trabalho.",
+    "tags_semanticas": [
+      "Gestão de Projetos Pessoais",
+      "Planejamento",
+      "Organização",
+      "Metas Pessoais",
+      "Bem-estar"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de rotinas?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de rotinas?",
+    "resolucao_padronizada": "A gestão de rotinas (diárias, semanais) é fundamental para criar hábitos produtivos e otimizar seu tempo.\n\n**Dicas:**\n1.  **Identifique Rotinas:** Quais são as rotinas que você já tem ou quer criar (ex: rotina matinal, rotina de trabalho, rotina noturna)?\n2.  **Estruture:** Estruture suas rotinas com horários e tarefas definidas.\n3.  **Automatize:** Transforme tarefas repetitivas em hábitos automáticos.\n4.  **Flexibilidade:** Permita alguma flexibilidade nas suas rotinas para lidar com imprevistos.\n5.  **Avalie:** Avalie suas rotinas periodicamente e faça ajustes para otimizá-las.\n6.  **Consistência:** A chave para o sucesso das rotinas é a consistência.\n\n> **Hábitos:** Uma boa gestão de rotinas cria hábitos que impulsionam sua produtividade e bem-estar.",
+    "tags_semanticas": [
+      "Gestão de Rotinas",
+      "Hábitos",
+      "Produtividade",
+      "Organização",
+      "Planejamento"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de hábitos?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de hábitos?",
+    "resolucao_padronizada": "A gestão de hábitos envolve criar hábitos positivos e eliminar os negativos para melhorar sua vida e produtividade.\n\n**Dicas:**\n1.  **Identifique:** Quais hábitos você quer criar ou eliminar?\n2.  **Pequenos Passos:** Comece com pequenos passos para criar novos hábitos.\n3.  **Gatilhos:** Identifique os gatilhos que levam a hábitos negativos.\n4.  **Recompensa:** Crie recompensas para reforçar hábitos positivos.\n5.  **Consistência:** A repetição é a chave para formar novos hábitos.\n6.  **Monitore:** Monitore seu progresso e celebre as pequenas vitórias.\n\n> **Transformação:** A gestão de hábitos é uma ferramenta poderosa para a transformação pessoal e profissional.",
+    "tags_semanticas": [
+      "Gestão de Hábitos",
+      "Hábitos",
+      "Autodisciplina",
+      "Desenvolvimento Pessoal",
+      "Produtividade"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de aprendizado?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de aprendizado?",
+    "resolucao_padronizada": "A gestão de aprendizado envolve planejar, executar e aplicar o conhecimento adquirido. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Objetivos:** Defina o que você quer aprender e por que.\n2.  **Recursos:** Identifique os recursos de aprendizado (cursos, livros, tutoriais, mentores).\n3.  **Cronograma:** Crie um cronograma para suas atividades de aprendizado.\n4.  **Prática:** Aplique o que você aprendeu no seu dia a dia para fixar o conhecimento.\n5.  **Feedback:** Peça feedback sobre suas novas habilidades.\n6.  **Compartilhe:** Compartilhe seu aprendizado com outros para reforçar o conhecimento.\n\n> **Crescimento:** A gestão de aprendizado é um motor para seu crescimento contínuo.",
+    "tags_semanticas": [
+      "Gestão de Aprendizado",
+      "Desenvolvimento",
+      "Conhecimento",
+      "Cursos",
+      "Crescimento Profissional"
+    ]
+  },
+  {
+    "categoria": "OPERACIONAL",
+    "autor": "Suporte Empregga",
+    "titulo_do_conhecimento": "Como fazer a gestão de tempo para a gestão de informações pessoais?",
+    "pergunta_ou_chamado_original": "Como fazer a gestão de tempo para a gestão de informações pessoais?",
+    "resolucao_padronizada": "A gestão de informações pessoais (contatos, compromissos, dados bancários) é crucial para sua organização e segurança. Dedique tempo a ela.\n\n**Dicas:**\n1.  **Organização:** Crie um sistema para organizar suas informações (agenda, aplicativos, pastas).\n2.  **Digitalize:** Mantenha cópias digitais de informações importantes em um local seguro.\n3.  **Segurança:** Proteja suas informações contra acessos não autorizados (senhas fortes, 2FA).\n4.  **Backup:** Faça backups regulares de informações críticas.\n5.  **Atualize:** Mantenha suas informações atualizadas.\n6.  **Descarte:** Descarte informações antigas que não são mais necessárias, com segurança.\n\n> **Tranquilidade:** Uma boa gestão de informações pessoais evita problemas e garante sua tranquilidade.",
+    "tags_semanticas": [
+      "Gestão de Informações Pessoais",
+      "Organização",
+      "Segurança",
+      "Dados Pessoais",
+      "Privacidade"
+    ]
+  }
+]

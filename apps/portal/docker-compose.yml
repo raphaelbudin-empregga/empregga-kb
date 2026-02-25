@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  orion-portal:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    # Substitua "orion-portal-empregga" por um nome único se quiser
+    container_name: orion-portal
+    restart: always
+    env_file:
+      - .env # O Portainer vai injetar as variáveis através da UI
+    # Se quiser definir variáveis estáticas baseadas no Traefik (substitua a URL pela real)
+    # environment:
+    #   NODE_ENV: production
+    labels:
+      - "traefik.enable=true"
+      # URL externa para agentes acessarem o bot: intel.empregga.com.br
+      - "traefik.http.routers.orion.rule=Host(`intel.empregga.com.br`)"
+      - "traefik.http.routers.orion.entrypoints=websecure"
+      - "traefik.http.routers.orion.tls=true"
+      - "traefik.http.routers.orion.tls.certresolver=letsencrypt" # Nome do resolver no seu Traefik VPS
+      - "traefik.http.services.orion.loadbalancer.server.port=3000"
+    networks:
+      - traefik-proxy # NOME da rede do traefik já existente no seu Portainer
+
+# Declarando a conexão com a rede externa que o Traefik usa
+networks:
+  traefik-proxy:
+    external: true

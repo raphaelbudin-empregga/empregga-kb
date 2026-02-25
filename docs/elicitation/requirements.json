@@ -1,0 +1,91 @@
+{
+  "storyId": "KBASE-INIT",
+  "gatheredAt": "2026-02-24T12:50:00Z",
+  "source": "user",
+  "gatheredBy": "@aios-master",
+  "elicitationVersion": "2.0",
+  "functional": [
+    {
+      "id": "FR-0",
+      "description": "Interface amigável para inserção manual de Unidades de Conhecimento (UK) com campos padronizados.",
+      "priority": "P0",
+      "rationale": "Estabelecer base de dados limpa e formatada antes da automação.",
+      "acceptance": [
+        "Campos obrigatórios: Categoria, Pergunta/Chamado, Resposta/Solução, Tags.",
+        "Apoio de IA para sugerir tags ou melhorar a redação durante o preenchimento."
+      ]
+    },
+    {
+      "id": "FR-1",
+      "description": "Ingestão automática de chamados do Zammad para identificação de lacunas (Fase Posterior).",
+      "priority": "P1",
+      "rationale": "Automatizar a curadoria após o sistema manual estar estável.",
+      "acceptance": [
+        "IA identifica padrões em chamados recorrentes"
+      ]
+    },
+    {
+      "id": "FR-2",
+      "description": "Interface de consulta (EVA) integrada ao App atual (Bubble) e futuramente à Plataforma própria.",
+      "priority": "P0",
+      "rationale": "Reduzir tempo de suporte das Agentes consumindo a base manual inicial.",
+      "acceptance": [
+        "Resposta baseada em RAG",
+        "Opção de abrir chamado no Zammad via interface caso falha."
+      ]
+    },
+    {
+      "id": "FR-3",
+      "description": "Dashboard de Insights para melhoria operacional (Universidade Empregga e Plataforma).",
+      "priority": "P1",
+      "rationale": "Maximizar faturamento por funcionário através de inteligência de negócio.",
+      "acceptance": [
+        "Relatórios de erros técnicos",
+        "Sugestões de ferramentas para Agentes."
+      ]
+    }
+  ],
+  "domainModel": [
+    {
+      "entity": "Unidade de Conhecimento (UK)",
+      "description": "Registro padronizado contendo ID, Categoria, Pergunta, Resposta, Tags e Autor.",
+      "relationships": [
+        "Criada pelo Time Interno",
+        "Sugestionada por análise de Zammad"
+      ]
+    },
+    {
+      "entity": "Agente Empregga",
+      "description": "Profissional de RH credenciada.",
+      "relationships": [
+        "Consulta a EVA"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "id": "CON-1",
+      "type": "technical",
+      "description": "Interface final em React/Next.js integrando ao Portal de Vagas (lançamento em 60 dias).",
+      "impact": "Deve ser modular e seguir padrões de componentes de UI modernos."
+    },
+    {
+      "id": "CON-2",
+      "type": "business",
+      "description": "Economia de custos agressiva (Startup Bootstrap).",
+      "impact": "Uso de modelos de IA eficientes (Ex: GPT-4o-mini ou Claude Haiku) para processamento em massa."
+    }
+  ],
+  "infrastructure": {
+    "access": [
+      "Portainer",
+      "SSH",
+      "Zammad Admin"
+    ],
+    "systems": [
+      "Zammad (Helpdesk)",
+      "Bubble (Current App)",
+      "Next.js (Upcoming)"
+    ]
+  }
+}
