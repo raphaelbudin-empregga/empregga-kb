@@ -1,29 +1,55 @@
+#
+# Git ignore - Empregga KB / AIOS
+#
+# Baseado no template Node/Next.js e regras específicas do AIOS.
 
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+node_modules/
+node_modules
 
-# Environment & Secrets (AIOS)
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production / Build
+/build
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# Environment & Secrets
 .env
+.env*.local
 .env.local
 .env.*.local
 *.key
 *.pem
 
-# Dependencies (AIOS)
-node_modules/
-node_modules
+# Vercel
+.vercel
 
-# Build & Logs (AIOS)
-dist/
-build/
-*.log
-logs/
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
-# IDE & OS (AIOS)
+# IDE & OS
 .DS_Store
 Thumbs.db
 .idea/
 *.swp
 
-# AIOS Local (AIOS)
+# AIOS Local
 .aios-core/local/
 .claude/settings.local.json
 .aios/install-log.txt
