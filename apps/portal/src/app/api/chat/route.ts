@@ -24,7 +24,7 @@ export async function POST(req: NextRequest) {
         }
 
         // 1. Pega a última pergunta do usuário
-        const lastUserMessage = messages.slice().reverse().find(m => m.role === 'user');
+        const lastUserMessage = messages.slice().reverse().find((m: ChatMessage) => m.role === 'user');
         if (!lastUserMessage) {
             return NextResponse.json({ error: 'Nenhuma pergunta de usuário encontrada' }, { status: 400 });
         }
