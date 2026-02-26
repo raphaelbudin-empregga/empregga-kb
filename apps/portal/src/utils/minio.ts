@@ -5,10 +5,10 @@ if (!process.env.MINIO_ENDPOINT) {
 }
 
 export const minioClient = new Minio.Client({
-    endPoint: process.env.MINIO_ENDPOINT || '',
+    endPoint: process.env.MINIO_ENDPOINT || 'localhost',
     useSSL: process.env.MINIO_USE_SSL === 'true',
-    accessKey: process.env.MINIO_ACCESS_KEY || '',
-    secretKey: process.env.MINIO_SECRET_KEY || '',
+    accessKey: process.env.MINIO_ACCESS_KEY || 'dummy_access_key',
+    secretKey: process.env.MINIO_SECRET_KEY || 'dummy_secret_key',
 });
 
 export const BUCKET_NAME = process.env.MINIO_BUCKET || 'knowledge-base';
