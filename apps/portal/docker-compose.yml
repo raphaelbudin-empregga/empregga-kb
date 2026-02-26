@@ -18,9 +18,9 @@ services:
       - "traefik.http.routers.orion.tls.certresolver=letsencrypt" # Nome do resolver no seu Traefik VPS
       - "traefik.http.services.orion.loadbalancer.server.port=3000"
     networks:
-      - traefik-proxy # NOME da rede do traefik já existente no seu Portainer
+      - network_public # NOME da rede do traefik já existente no seu Portainer
 
 # Declarando a conexão com a rede externa que o Traefik usa
 networks:
-  traefik-proxy:
+  network_public:
     external: true
