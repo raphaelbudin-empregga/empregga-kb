@@ -9,14 +9,15 @@ services:
     # use o bloco abaixo como exemplo:
     # environment:
     #   NODE_ENV: production
-    labels:
-      - "traefik.enable=true"
-      # URL externa para agentes acessarem o bot: intel.empregga.com.br
-      - "traefik.http.routers.orion.rule=Host(`intel.empregga.com.br`)"
-      - "traefik.http.routers.orion.entrypoints=websecure"
-      - "traefik.http.routers.orion.tls=true"
-      - "traefik.http.routers.orion.tls.certresolver=letsencrypt" # Nome do resolver no seu Traefik VPS
-      - "traefik.http.services.orion.loadbalancer.server.port=3000"
+    deploy:
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.orion.rule=Host(`intel.empregga.com.br`)"
+        - "traefik.http.routers.orion.entrypoints=websecure"
+        - "traefik.http.routers.orion.tls=true"
+        - "traefik.http.routers.orion.tls.certresolver=letsencrypt" # Nome do resolver no seu Traefik VPS
+        - "traefik.http.services.orion.loadbalancer.server.port=3000"
+        - "traefik.docker.network=network_public"
     networks:
       - network_public # NOME da rede do traefik já existente no seu Portainer
 
