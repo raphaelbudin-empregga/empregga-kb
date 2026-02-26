@@ -1,7 +1,7 @@
 import { db } from '@/db';
 import { knowledgeUnits, knowledgeFeedbacks } from '@/db/schema';
 import { NextResponse } from 'next/server';
-import { eq, sql, desc } from 'drizzle-orm';
+import { eq, sql, desc, isNull, isNotNull } from 'drizzle-orm';
 
 export async function POST(request: Request) {
     try {
@@ -30,8 +30,11 @@ export async function POST(request: Request) {
     }
 }
 
-export async function GET() {
+export async function GET(request: Request) {
     try {
+        const { searchParams } = new URL(request.url);
+        const trash = searchParams.get('trash') === 'true';
+
         const unitsWithFeedback = await db
             .select({
                 id: knowledgeUnits.id,
@@ -42,11 +45,13 @@ export async function GET() {
                 officialResolution: knowledgeUnits.officialResolution,
                 createdAt: knowledgeUnits.createdAt,
                 updatedAt: knowledgeUnits.updatedAt,
+                deletedAt: knowledgeUnits.deletedAt,
                 status: knowledgeUnits.status,
                 positiveFeedbacks: sql<number>`count(case when ${knowledgeFeedbacks.isPositive} = true then 1 end)::int`,
                 negativeFeedbacks: sql<number>`count(case when ${knowledgeFeedbacks.isPositive} = false then 1 end)::int`,
             })
             .from(knowledgeUnits)
+            .where(trash ? isNotNull(knowledgeUnits.deletedAt) : isNull(knowledgeUnits.deletedAt))
             .leftJoin(knowledgeFeedbacks, eq(knowledgeUnits.id, knowledgeFeedbacks.knowledgeUnitId))
             .groupBy(knowledgeUnits.id)
             .orderBy(desc(knowledgeUnits.createdAt));
