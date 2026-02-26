@@ -7,8 +7,15 @@ services:
     # (aba de Environment da stack) ou, em ambiente local, via `docker compose --env-file .env up`.
     # Se quiser definir variáveis estáticas baseadas no Traefik (substitua a URL pela real),
     # use o bloco abaixo como exemplo:
-    # environment:
-    #   NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL
+      - OPENAI_API_KEY
+      - MINIO_ENDPOINT
+      - MINIO_ACCESS_KEY
+      - MINIO_SECRET_KEY
+      - MINIO_USE_SSL
+      - MINIO_BUCKET
     deploy:
       labels:
         - "traefik.enable=true"
