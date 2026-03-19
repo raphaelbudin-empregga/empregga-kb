@@ -1,4 +1,5 @@
 'use client';
+// Refinement Trigger: 2026-03-19T17:45
 
 import React, { useState, useEffect, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
