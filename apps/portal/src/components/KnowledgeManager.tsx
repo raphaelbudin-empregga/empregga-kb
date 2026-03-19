@@ -307,11 +307,11 @@ export default function KnowledgeManager() {
                 </select>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-primary/5">
+            <div className={`rounded-2xl shadow-xl overflow-hidden border transition-all duration-300 ${isTrash ? 'bg-[#1a1c1e] border-white/10' : 'bg-white border-primary/5'}`}>
                 <div className="overflow-x-auto">
                     <table className="w-full text-left text-sm">
                         <thead>
-                            <tr className="bg-primary/[0.02] text-[10px] font-bold uppercase tracking-widest text-primary/60 border-b border-primary/5">
+                            <tr className={`${isTrash ? 'bg-white/5 text-white/60' : 'bg-primary/[0.02] text-primary/60'} text-[10px] font-bold uppercase tracking-widest border-b ${isTrash ? 'border-white/5' : 'border-primary/5'}`}>
                                 <th className="px-6 py-5 w-10">
                                     <input
                                         type="checkbox"
@@ -344,7 +344,7 @@ export default function KnowledgeManager() {
                                     };
 
                                     return (
-                                        <tr key={unit.id} className={`hover:bg-primary/[0.02] transition-colors group ${selectedIds.includes(unit.id) ? 'bg-primary/5' : ''}`}>
+                                        <tr key={unit.id} className={`hover:bg-primary/[0.02] transition-colors group ${selectedIds.includes(unit.id) ? (isTrash ? 'bg-white/10' : 'bg-primary/5') : ''} ${isTrash ? 'border-white/5' : 'border-primary/5'}`}>
                                             <td className="px-6 py-5">
                                                 <input
                                                     type="checkbox"
@@ -369,7 +369,7 @@ export default function KnowledgeManager() {
                                             </td>
                                             <td className="px-6 py-5">
                                                 <div
-                                                    className="font-bold text-foreground mb-0.5 group-hover:text-primary transition-colors cursor-pointer"
+                                                    className={`font-bold mb-0.5 group-hover:text-primary transition-colors cursor-pointer ${isTrash ? 'text-white/90' : 'text-foreground'}`}
                                                     onClick={() => {
                                                         setSelectedUnit(unit);
                                                         setEditForm({
@@ -381,7 +381,7 @@ export default function KnowledgeManager() {
                                                 >
                                                     {unit.title}
                                                 </div>
-                                                <div className="text-[10px] opacity-40 uppercase font-black tracking-widest">Autor: {unit.author}</div>
+                                                <div className={`text-[10px] uppercase font-black tracking-widest ${isTrash ? 'text-white/40' : 'opacity-40'}`}>Autor: {unit.author}</div>
                                             </td>
                                             <td className="px-6 py-5">
                                                 <div className="flex flex-wrap gap-1">
@@ -397,10 +397,10 @@ export default function KnowledgeManager() {
                                                 </div>
                                             </td>
                                             <td className="px-6 py-5">
-                                                <div className="text-xs font-bold text-foreground">
+                                                <div className={`text-xs font-bold ${isTrash ? 'text-white/80' : 'text-foreground'}`}>
                                                     {new Date(unit.updatedAt).toLocaleDateString('pt-BR')}
                                                 </div>
-                                                <div className="text-[10px] opacity-40">
+                                                <div className={`text-[10px] ${isTrash ? 'text-white/30' : 'opacity-40'}`}>
                                                     Há {Math.floor((new Date().getTime() - new Date(unit.updatedAt).getTime()) / (1000 * 3600 * 24))} dias
                                                 </div>
                                             </td>
