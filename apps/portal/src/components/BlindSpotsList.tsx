@@ -33,6 +33,19 @@ export default function BlindSpotsList() {
         return () => clearInterval(interval);
     }, []);
 
+    const handleDelete = async (id: string, e: React.MouseEvent) => {
+        e.stopPropagation();
+        if (!window.confirm('Deseja excluir este blind spot?')) return;
+        try {
+            const res = await fetch(`/api/blindspots/${id}`, { method: 'DELETE' });
+            if (res.ok) {
+                fetchSpots();
+            }
+        } catch (error) {
+            console.error('Error deleting blind spot:', error);
+        }
+    };
+
     if (loading) {
         return null; // ou um esqueleto / loader discreto
     }
@@ -55,12 +68,21 @@ export default function BlindSpotsList() {
             <div className="p-4">
                 <ul className="space-y-3">
                     {spots.map((spot) => (
-                        <li key={spot.id} className="text-sm bg-white p-3 rounded shadow-sm border border-red-100 flex justify-between items-start gap-4">
+                        <li key={spot.id} className="text-sm bg-white p-3 rounded shadow-sm border border-red-100 flex justify-between items-start gap-4 group">
                             <span className="text-foreground/80 flex-1 leading-relaxed">"{spot.query}"</span>
-                            <div className="flex flex-col items-end gap-1">
-                                <span className="text-[10px] text-red-500 font-bold bg-red-50 px-2 py-0.5 rounded">
-                                    Não Respondido
-                                </span>
+                            <div className="flex flex-col items-end gap-2">
+                                <div className="flex items-center gap-2">
+                                    <span className="text-[10px] text-red-500 font-bold bg-red-50 px-2 py-0.5 rounded">
+                                        Não Respondido
+                                    </span>
+                                    <button
+                                        onClick={(e) => handleDelete(spot.id, e)}
+                                        className="text-[10px] bg-red-600 text-white font-bold px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-700"
+                                        title="Excluir"
+                                    >
+                                        ✕
+                                    </button>
+                                </div>
                                 <span className="text-[10px] opacity-50">
                                     {new Date(spot.createdAt).toLocaleDateString('pt-BR')}
                                 </span>
