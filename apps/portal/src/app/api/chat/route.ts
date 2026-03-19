@@ -51,9 +51,15 @@ export async function POST(req: NextRequest) {
         ... (resto da lógica interna)
         */
 
-        // Extrai a última pergunta para facilitar o RAG no n8n
+        // Adapta o histórico para o formato que o n8n espera (user/ai e campo 'history')
+        const history = messages.map((m: any) => ({
+            role: m.role === 'assistant' ? 'ai' : 'user',
+            content: m.content
+        }));
+
+        // Extrai a última pergunta para o campo 'question' (n8n padrão)
         const lastUserMessage = messages.slice().reverse().find((m: any) => m.role === 'user');
-        const query = lastUserMessage?.content || '';
+        const question = lastUserMessage?.content || '';
 
         // --- INTEGRAÇÃO N8N WEBHOOK ---
         const response = await fetch('https://n8nwebhook.empregga.com.br/webhook/cx-cativa-teste', {
@@ -62,8 +68,8 @@ export async function POST(req: NextRequest) {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                query,
-                messages,
+                question,
+                history,
                 timestamp: new Date().toISOString(),
                 source: 'orion-portal'
             })
