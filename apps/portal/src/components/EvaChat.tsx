@@ -160,7 +160,7 @@ export default function EvaChat() {
                         <div className={`space-y-2 ${msg.role === 'user' ? 'items-end flex flex-col' : 'items-start flex flex-col'}`}>
                             <div className={`p-4 rounded-2xl shadow-sm text-sm leading-relaxed ${msg.role === 'user'
                                 ? 'bg-[#260A00] text-white rounded-tr-none'
-                                : 'bg-white text-[#260A00] border border-primary/10 rounded-tl-none prose prose-sm max-w-none prose-p:leading-relaxed prose-a:text-primary prose-a:font-bold'
+                                : 'bg-white text-[#260A00] border border-primary/10 rounded-tl-none prose prose-sm max-w-none prose-p:leading-relaxed prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800 prose-a:transition-colors'
                                 }`}>
                                 {msg.role === 'assistant' ? (
                                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
