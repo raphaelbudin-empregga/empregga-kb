@@ -45,7 +45,7 @@ export default function AnalyticsDashboard() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* Taxa de Resolução */}
                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-primary/10 flex flex-col justify-center">
-                    <div className="text-[10px] font-black uppercase tracking-widest text-primary opacity-60 mb-2">Taxa de Resolução (RAG)</div>
+                    <div className="text-[10px] font-black uppercase tracking-widest text-primary opacity-60 mb-2 cursor-help" title="Percentual de perguntas respondidas diretamente pela IA sem necessidade de intervenção humana (Handoff).">Taxa de Resolução (RAG)</div>
                     <div className="flex items-end gap-2">
                         <span className="text-5xl font-title text-[#260A00] leading-none">{stats.resolutionRate}%</span>
                         <span className="text-sm font-bold text-green-600 mb-1">Retido</span>
@@ -55,18 +55,18 @@ export default function AnalyticsDashboard() {
                 {/* Volumes */}
                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-primary/10 grid grid-cols-2 gap-4">
                     <div>
-                        <div className="text-[10px] font-black uppercase tracking-widest opacity-40 mb-1">Sessões Totais</div>
+                        <div className="text-[10px] font-black uppercase tracking-widest opacity-40 mb-1 cursor-help" title="Número total de interações únicas iniciadas pelos usuários no chat da EVA.">Sessões Totais</div>
                         <div className="text-3xl font-title text-[#260A00]">{stats.totalQueries}</div>
                     </div>
                     <div>
-                        <div className="text-[10px] font-black uppercase tracking-widest text-orange-600 opacity-60 mb-1">Escalonamentos</div>
+                        <div className="text-[10px] font-black uppercase tracking-widest text-orange-600 opacity-60 mb-1 cursor-help" title="Número de vezes que a conversa foi transferida para um atendente humano ou a IA não soube responder.">Escalonamentos</div>
                         <div className="text-3xl font-title text-orange-600">{stats.totalHandoffs}</div>
                     </div>
                 </div>
 
                 {/* Qualidade e Menos Confiáveis */}
                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-red-500/10 h-full flex flex-col">
-                    <div className="text-[10px] font-black uppercase tracking-widest text-red-600 mb-4 flex items-center gap-2">
+                    <div className="text-[10px] font-black uppercase tracking-widest text-red-600 mb-4 flex items-center gap-2 cursor-help" title="Unidades de conhecimento com maior número acumulado de feedbacks negativos.">
                         <span className="text-red-500">⚠</span> Artigos Menos Confiáveis
                     </div>
                     {stats.worstUnits.length === 0 ? (
