@@ -1,9 +1,10 @@
+import { sql } from 'drizzle-orm';
 import { pgTable, text, timestamp, uuid, integer, jsonb, vector, boolean } from 'drizzle-orm/pg-core';
 
 export const knowledgeUnits = pgTable('knowledge_units', {
     id: uuid('id').primaryKey().defaultRandom(),
     title: text('title').notNull(),
-    category: text('category').notNull(),
+    category: text('category').array().notNull().default(sql`ARRAY[]::text[]`),
     problemDescription: text('problem_description').notNull(),
     officialResolution: text('official_resolution').notNull(),
     tags: jsonb('tags').$type<string[]>().default([]).notNull(),
