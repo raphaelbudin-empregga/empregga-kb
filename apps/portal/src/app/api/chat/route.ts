@@ -51,6 +51,10 @@ export async function POST(req: NextRequest) {
         ... (resto da lógica interna)
         */
 
+        // Extrai a última pergunta para facilitar o RAG no n8n
+        const lastUserMessage = messages.slice().reverse().find((m: any) => m.role === 'user');
+        const query = lastUserMessage?.content || '';
+
         // --- INTEGRAÇÃO N8N WEBHOOK ---
         const response = await fetch('https://n8nwebhook.empregga.com.br/webhook/cx-cativa-teste', {
             method: 'POST',
@@ -58,6 +62,7 @@ export async function POST(req: NextRequest) {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
+                query,
                 messages,
                 timestamp: new Date().toISOString(),
                 source: 'orion-portal'
@@ -70,11 +75,11 @@ export async function POST(req: NextRequest) {
 
         const n8nData = await response.json();
 
-        // Mapeamento do retorno do n8n para o formato esperado pelo EvaChat
-        // Assumindo que o n8n retorna { response: string, hasAnswer: boolean, sources?: [] }
+        // Mapeamento robusto do retorno do n8n
+        // n8n pode retornar os dados em campos variados como 'output', 'response' ou 'text'
         return NextResponse.json({
-            hasAnswer: n8nData.hasAnswer ?? true,
-            response: n8nData.response || n8nData.output || 'Desculpe, não recebi uma resposta válida do motor n8n.',
+            hasAnswer: n8nData.hasAnswer ?? (!!(n8nData.response || n8nData.output || n8nData.text)),
+            response: n8nData.response || n8nData.output || n8nData.text || 'Desculpe, não recebi uma resposta válida do motor n8n.',
             sources: n8nData.sources || []
         });
 
