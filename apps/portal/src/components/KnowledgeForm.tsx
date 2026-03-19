@@ -223,7 +223,34 @@ export default function KnowledgeForm() {
                         rows={6}
                         value={formData.officialResolution}
                         onChange={handleInputChange}
-                        placeholder="DICA: Arraste imagens para o Minio ou use o botão anexo. Suporte a Markdown ativo."
+                        onKeyDown={(e) => {
+                            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                                e.preventDefault();
+                                const textarea = e.currentTarget;
+                                const start = textarea.selectionStart;
+                                const end = textarea.selectionEnd;
+                                const selectedText = formData.officialResolution.substring(start, end);
+
+                                const url = prompt('Insira a URL para o link:', 'https://');
+                                if (url) {
+                                    const markdownLink = `[${selectedText || 'Link'}](${url})`;
+                                    const newValue =
+                                        formData.officialResolution.substring(0, start) +
+                                        markdownLink +
+                                        formData.officialResolution.substring(end);
+
+                                    setFormData(prev => ({ ...prev, officialResolution: newValue }));
+
+                                    // Opcional: reposicionar cursor após o link
+                                    setTimeout(() => {
+                                        textarea.focus();
+                                        const newCursorPos = start + markdownLink.length;
+                                        textarea.setSelectionRange(newCursorPos, newCursorPos);
+                                    }, 0);
+                                }
+                            }
+                        }}
+                        placeholder="DICA: Selecione um texto e use Ctrl + K para inserir um link. Suporte a Markdown ativo."
                         className="w-full p-3 rounded-lg border border-gray-200 bg-background focus:ring-2 focus:ring-primary outline-none transition-all text-sm leading-relaxed font-mono"
                         required
                     />
