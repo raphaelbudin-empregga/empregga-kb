@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm';
 interface KnowledgeUnit {
     id: string;
     title: string;
-    category: string;
+    category: string[];
     problemDescription: string;
     officialResolution: string;
     author: string;
@@ -33,7 +33,7 @@ export default function KnowledgeManager() {
     const [selectedUnit, setSelectedUnit] = useState<KnowledgeUnit | null>(null);
     const [isSemanticSearch, setIsSemanticSearch] = useState(false);
     const [isSearching, setIsSearching] = useState(false);
-    
+
     const [isTrash, setIsTrash] = useState(false);
     const [selectedIds, setSelectedIds] = useState<string[]>([]);
     const [isEditing, setIsEditing] = useState(false);
@@ -181,7 +181,10 @@ export default function KnowledgeManager() {
                 : (unit.title?.toLowerCase() || '').includes(filters.search.toLowerCase()) ||
                 (unit.author?.toLowerCase() || '').includes(filters.search.toLowerCase());
 
-            const matchesCategory = filters.category === 'ALL' || unit.category === filters.category;
+            const matchesCategory = filters.category === 'ALL' ||
+                (Array.isArray(unit.category)
+                    ? unit.category.includes(filters.category)
+                    : unit.category === filters.category);
             const health = calculateHealth(unit);
             const matchesHealth = filters.health === 'ALL' || health === filters.health;
 
@@ -237,7 +240,7 @@ export default function KnowledgeManager() {
                             {isTrash ? `Restaurar Selecionados (${selectedIds.length})` : `Excluir Selecionados (${selectedIds.length})`}
                         </button>
                     )}
-                    
+
                     <div className="w-px h-8 bg-gray-200 mx-2 hidden md:block"></div>
 
                     <button
@@ -310,8 +313,8 @@ export default function KnowledgeManager() {
                         <thead>
                             <tr className="bg-primary/[0.02] text-[10px] font-bold uppercase tracking-widest text-primary/60 border-b border-primary/5">
                                 <th className="px-6 py-5 w-10">
-                                    <input 
-                                        type="checkbox" 
+                                    <input
+                                        type="checkbox"
                                         className="rounded border-gray-300 text-primary focus:ring-primary/20"
                                         checked={selectedIds.length > 0 && selectedIds.length === filteredUnits.length}
                                         onChange={toggleAll}
@@ -343,8 +346,8 @@ export default function KnowledgeManager() {
                                     return (
                                         <tr key={unit.id} className={`hover:bg-primary/[0.02] transition-colors group ${selectedIds.includes(unit.id) ? 'bg-primary/5' : ''}`}>
                                             <td className="px-6 py-5">
-                                                <input 
-                                                    type="checkbox" 
+                                                <input
+                                                    type="checkbox"
                                                     className="rounded border-gray-300 text-primary focus:ring-primary/20"
                                                     checked={selectedIds.includes(unit.id)}
                                                     onChange={() => toggleSelection(unit.id)}
@@ -369,7 +372,10 @@ export default function KnowledgeManager() {
                                                     className="font-bold text-foreground mb-0.5 group-hover:text-primary transition-colors cursor-pointer"
                                                     onClick={() => {
                                                         setSelectedUnit(unit);
-                                                        setEditForm(unit);
+                                                        setEditForm({
+                                                            ...unit,
+                                                            category: Array.isArray(unit.category) ? unit.category : [unit.category].filter(Boolean)
+                                                        });
                                                         setIsEditing(false);
                                                     }}
                                                 >
@@ -377,8 +383,18 @@ export default function KnowledgeManager() {
                                                 </div>
                                                 <div className="text-[10px] opacity-40 uppercase font-black tracking-widest">Autor: {unit.author}</div>
                                             </td>
-                                            <td className="px-6 py-5 italic text-gray-500 font-medium">
-                                                {unit.category}
+                                            <td className="px-6 py-5">
+                                                <div className="flex flex-wrap gap-1">
+                                                    {Array.isArray(unit.category) ? unit.category.map(cat => (
+                                                        <span key={cat} className="bg-secondary/10 text-secondary text-[9px] font-bold px-1.5 py-0.5 rounded border border-secondary/20">
+                                                            {cat}
+                                                        </span>
+                                                    )) : (
+                                                        <span className="bg-secondary/10 text-secondary text-[9px] font-bold px-1.5 py-0.5 rounded border border-secondary/20">
+                                                            {String(unit.category)}
+                                                        </span>
+                                                    )}
+                                                </div>
                                             </td>
                                             <td className="px-6 py-5">
                                                 <div className="text-xs font-bold text-foreground">
@@ -392,7 +408,10 @@ export default function KnowledgeManager() {
                                                 <button
                                                     onClick={() => {
                                                         setSelectedUnit(unit);
-                                                        setEditForm(unit);
+                                                        setEditForm({
+                                                            ...unit,
+                                                            category: Array.isArray(unit.category) ? unit.category : [unit.category].filter(Boolean)
+                                                        });
                                                         setIsEditing(false);
                                                     }}
                                                     className="text-primary font-black text-[10px] uppercase tracking-widest hover:underline px-4 py-2 rounded-lg hover:bg-primary/5 transition-all"
@@ -427,10 +446,10 @@ export default function KnowledgeManager() {
                                     {!isEditing ? (
                                         <h3 className="text-2xl font-title text-[#260A00] leading-tight">{selectedUnit.title}</h3>
                                     ) : (
-                                        <input 
-                                            type="text" 
-                                            value={editForm.title || ''} 
-                                            onChange={e => setEditForm({...editForm, title: e.target.value})}
+                                        <input
+                                            type="text"
+                                            value={editForm.title || ''}
+                                            onChange={e => setEditForm({ ...editForm, title: e.target.value })}
                                             className="w-full text-xl font-title p-2 border border-primary/20 rounded-lg bg-white outline-none focus:ring-2 focus:ring-primary/20"
                                         />
                                     )}
@@ -445,19 +464,49 @@ export default function KnowledgeManager() {
 
                             <div className="grid grid-cols-3 gap-4 p-4 bg-white/50 rounded-2xl border border-primary/5 mb-6">
                                 <div>
-                                    <div className="text-[10px] uppercase font-bold opacity-40 mb-1">Categoria</div>
+                                    <div className="text-[10px] uppercase font-bold opacity-40 mb-1">Categorias</div>
                                     {!isEditing ? (
-                                        <div className="text-xs font-bold">{selectedUnit.category}</div>
+                                        <div className="flex flex-wrap gap-1">
+                                            {Array.isArray(selectedUnit.category) ? selectedUnit.category.map(cat => (
+                                                <span key={cat} className="bg-secondary/10 text-secondary text-[9px] font-bold px-1.5 py-0.5 rounded">
+                                                    {cat}
+                                                </span>
+                                            )) : (
+                                                <span className="bg-secondary/10 text-secondary text-[9px] font-bold px-1.5 py-0.5 rounded">
+                                                    {String(selectedUnit.category)}
+                                                </span>
+                                            )}
+                                        </div>
                                     ) : (
-                                        <select 
-                                            value={editForm.category || ''}
-                                            onChange={e => setEditForm({...editForm, category: e.target.value})}
-                                            className="w-full text-xs font-bold p-1 border border-primary/20 rounded-md bg-white outline-none"
-                                        >
-                                            <option value="PLATAFORMA">PLATAFORMA</option>
-                                            <option value="OPERACIONAL">OPERACIONAL</option>
-                                            <option value="PAGAMENTO">PAGAMENTO</option>
-                                        </select>
+                                        <div className="grid grid-cols-2 gap-1 p-2 border border-primary/20 rounded-md bg-white">
+                                            {[
+                                                'PLATAFORMA',
+                                                'OPERACIONAL',
+                                                'UNIVERSIDADE',
+                                                'PAGAMENTO',
+                                                'CORPORATIVO',
+                                                'OUTROS',
+                                            ].map((cat) => (
+                                                <label key={cat} className="flex items-center gap-1 cursor-pointer">
+                                                    <input
+                                                        type="checkbox"
+                                                        checked={(editForm.category as string[] || []).includes(cat)}
+                                                        onChange={(e) => {
+                                                            const checked = e.target.checked;
+                                                            const currentCats = (editForm.category as string[] || []);
+                                                            setEditForm({
+                                                                ...editForm,
+                                                                category: checked
+                                                                    ? [...currentCats, cat]
+                                                                    : currentCats.filter(c => c !== cat)
+                                                            });
+                                                        }}
+                                                        className="w-3 h-3 rounded text-primary focus:ring-primary"
+                                                    />
+                                                    <span className="text-[9px] font-bold text-gray-600">{cat}</span>
+                                                </label>
+                                            ))}
+                                        </div>
                                     )}
                                 </div>
                                 <div>
@@ -483,7 +532,7 @@ export default function KnowledgeManager() {
                                     ) : (
                                         <textarea
                                             value={editForm.problemDescription || ''}
-                                            onChange={e => setEditForm({...editForm, problemDescription: e.target.value})}
+                                            onChange={e => setEditForm({ ...editForm, problemDescription: e.target.value })}
                                             className="w-full h-24 text-sm leading-relaxed text-[#260A00]/80 bg-white p-4 rounded-xl border border-primary/20 outline-none focus:ring-2 focus:ring-primary/20 resize-none"
                                         />
                                     )}
@@ -503,7 +552,7 @@ export default function KnowledgeManager() {
                                     ) : (
                                         <textarea
                                             value={editForm.officialResolution || ''}
-                                            onChange={e => setEditForm({...editForm, officialResolution: e.target.value})}
+                                            onChange={e => setEditForm({ ...editForm, officialResolution: e.target.value })}
                                             className="w-full h-40 text-sm leading-relaxed text-[#260A00] bg-white p-4 rounded-xl border border-primary/20 outline-none focus:ring-2 focus:ring-primary/20 font-mono resize-none"
                                         />
                                     )}
