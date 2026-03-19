@@ -21,7 +21,7 @@ export default function KnowledgeForm() {
     // States para os campos do formulário
     const [formData, setFormData] = useState({
         title: '',
-        category: 'PLATAFORMA',
+        category: [] as string[],
         problemDescription: '',
         officialResolution: '',
         tags: '',
@@ -96,7 +96,7 @@ export default function KnowledgeForm() {
                 alert('✅ Conhecimento salvo com sucesso na Base da EVA!');
                 setFormData({
                     title: '',
-                    category: 'PLATAFORMA',
+                    category: [],
                     problemDescription: '',
                     officialResolution: '',
                     tags: '',
@@ -126,18 +126,29 @@ export default function KnowledgeForm() {
 
             <form className="space-y-6" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-2">
-                        <label className="text-xs font-bold uppercase tracking-wider opacity-60 text-foreground">Categoria</label>
-                        <select
-                            name="category"
-                            value={formData.category}
-                            onChange={handleInputChange}
-                            className="w-full p-3 rounded-lg border border-gray-200 bg-background focus:ring-2 focus:ring-primary outline-none transition-all text-sm"
-                        >
+                    <div className="space-y-2 col-span-2">
+                        <label className="text-xs font-bold uppercase tracking-wider opacity-60 text-foreground">Categorias</label>
+                        <div className="grid grid-cols-3 gap-2 p-4 rounded-lg border border-gray-100 bg-gray-50/50">
                             {categories.map((cat) => (
-                                <option key={cat} value={cat}>{cat}</option>
+                                <label key={cat} className="flex items-center gap-2 cursor-pointer group">
+                                    <input
+                                        type="checkbox"
+                                        checked={formData.category.includes(cat)}
+                                        onChange={(e) => {
+                                            const checked = e.target.checked;
+                                            setFormData(prev => ({
+                                                ...prev,
+                                                category: checked
+                                                    ? [...prev.category, cat]
+                                                    : prev.category.filter(c => c !== cat)
+                                            }));
+                                        }}
+                                        className="w-4 h-4 rounded border-gray-300 text-primary focus:ring-primary"
+                                    />
+                                    <span className="text-[11px] font-medium text-gray-600 group-hover:text-primary transition-colors">{cat}</span>
+                                </label>
                             ))}
-                        </select>
+                        </div>
                     </div>
                     <div className="space-y-2">
                         <label className="text-xs font-bold uppercase tracking-wider opacity-60 text-foreground">Autor</label>

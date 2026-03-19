@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 interface KnowledgeUnit {
     id: string;
     title: string;
-    category: string;
+    category: string[];
     author: string;
     createdAt: string;
     updatedAt: string;
@@ -103,9 +103,17 @@ export default function KnowledgeList() {
                                         {unit.title}
                                     </td>
                                     <td className="px-6 py-4">
-                                        <span className="bg-secondary/10 text-secondary text-[10px] font-bold px-2 py-1 rounded">
-                                            {unit.category}
-                                        </span>
+                                        <div className="flex flex-wrap gap-1">
+                                            {Array.isArray(unit.category) ? unit.category.map(cat => (
+                                                <span key={cat} className="bg-secondary/10 text-secondary text-[9px] font-bold px-1.5 py-0.5 rounded border border-secondary/20">
+                                                    {cat}
+                                                </span>
+                                            )) : (
+                                                <span className="bg-secondary/10 text-secondary text-[9px] font-bold px-1.5 py-0.5 rounded border border-secondary/20">
+                                                    {unit.category}
+                                                </span>
+                                            )}
+                                        </div>
                                     </td>
                                     <td className="px-6 py-4">
                                         {(() => {
