@@ -12,7 +12,10 @@
     "test:ui": "vitest --ui",
     "test:smoke": "vitest run src/__tests__/smoke.test.ts",
     "e2e": "playwright test",
-    "e2e:smoke": "playwright test smoke"
+    "e2e:smoke": "playwright test smoke",
+    "test:integration": "vitest run --config vitest.integration.config.ts",
+    "test:mutation": "stryker run",
+    "prepare": "cd ../.. && husky apps/portal/.husky"
   },
   "dependencies": {
     "drizzle-orm": "^0.45.1",
@@ -46,7 +49,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "fast-check": "^4.6.0",
+    "husky": "^9.1.7",
     "jsdom": "^25.0.1",
+    "lint-staged": "^15.2.11",
     "msw": "^2.7.0",
     "tailwindcss": "^4",
     "typescript": "^5",

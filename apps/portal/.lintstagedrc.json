@@ -1,0 +1,12 @@
+{
+  "*.{ts,tsx}": [
+    "eslint --fix",
+    "vitest related --run --passWithNoTests"
+  ],
+  "*.{js,mjs,cjs}": [
+    "eslint --fix"
+  ],
+  "*.{json,md,yml,yaml}": [
+    "prettier --write --ignore-unknown"
+  ]
+}
