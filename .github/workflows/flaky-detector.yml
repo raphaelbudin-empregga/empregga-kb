@@ -1,0 +1,39 @@
+name: Flaky Test Detector
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 1' # Segunda-feira 02h UTC
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: apps/portal/package-lock.json
+
+      - name: Install
+        run: cd apps/portal && npm ci
+
+      - name: Run suite 10x
+        run: |
+          cd apps/portal
+          mkdir -p flaky-runs
+          for i in $(seq 1 10); do
+            echo "=== Run $i ==="
+            npm test -- --run --reporter=json > "flaky-runs/run-$i.json" || true
+          done
+
+      - name: Analyze flakiness
+        run: cd apps/portal && node scripts/analyze-flaky.mjs flaky-runs/*.json > flaky-report.md
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: flaky-report
+          path: apps/portal/flaky-report.md
