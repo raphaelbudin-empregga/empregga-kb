@@ -14,7 +14,7 @@ test.describe('E2E Smoke Tests', () => {
   test('deve carregar página home sem erro', async ({ page }) => {
     await page.goto('/');
     await expect(page).toHaveTitle(/empregga|orion/i);
-    await expect(page.locator('h1, h2')).first().toBeVisible();
+    await expect(page.locator('h1, h2').first()).toBeVisible();
   });
 
   /**

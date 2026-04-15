@@ -29,9 +29,7 @@ describe('Knowledge Search API - Regressão', () => {
     // Documentando comportamento esperado:
     // Resposta deve ser um array (não { success, data })
     // Cada elemento deve ter: id, title, similarity
-    expect(Array.isArray(json)).toBe(true,
-      'BUG: /api/knowledge/search deve retornar array direto, não objeto { success, data }'
-    );
+    expect(Array.isArray(json)).toBe(true);
   });
 
   /**

@@ -71,7 +71,7 @@ export const handlers = [
   }),
 
   http.post('/api/knowledge', async ({ request }) => {
-    const body = await request.json();
+    const body = (await request.json()) as Record<string, unknown>;
     return HttpResponse.json(
       {
         success: true,
@@ -107,13 +107,13 @@ export const handlers = [
   }),
 
   http.put('/api/knowledge/:id', async ({ request }) => {
-    const body = await request.json();
+    const body = (await request.json()) as Record<string, unknown>;
     return HttpResponse.json({
       success: true,
       data: {
         id: 'test-1',
         ...body,
-        deletedAt: body.deletedAt ?? null,
+        deletedAt: (body.deletedAt as string | null | undefined) ?? null,
         updatedAt: new Date().toISOString(),
       },
     });
@@ -195,7 +195,7 @@ export const handlers = [
 
     let body: { email?: unknown; password?: unknown };
     try {
-      body = await request.json();
+      body = (await request.json()) as { email?: unknown; password?: unknown };
     } catch {
       return HttpResponse.json(
         { success: false, error: 'Invalid JSON payload' },
@@ -245,7 +245,7 @@ export const handlers = [
   }),
 
   http.post('/api/chat/handoff', async ({ request }) => {
-    const body = await request.json();
+    const body = (await request.json()) as { messages?: unknown[] };
     const { messages } = body;
 
     // Validação: messages não pode estar vazio

@@ -276,9 +276,7 @@ describe('calculateHealth() - Health Scoring Logic', () => {
         positiveFeedbacks: 5,
         negativeFeedbacks: 0,
       };
-      expect(calculateHealth(unit)).toBe('CRITICAL',
-        'Artigos sem atualização há 6+ meses devem ser marcados como obsoletos'
-      );
+      expect(calculateHealth(unit)).toBe('CRITICAL');
     });
 
     it('deve classificar corretamente um artigo com múltiplos feedbacks negativos', () => {
@@ -287,9 +285,7 @@ describe('calculateHealth() - Health Scoring Logic', () => {
         positiveFeedbacks: 2,
         negativeFeedbacks: 4, // Mais rejeições que aprovações
       };
-      expect(calculateHealth(unit)).toBe('CRITICAL',
-        'Artigos com taxa de rejeição > 50% devem ser marcados como críticos'
-      );
+      expect(calculateHealth(unit)).toBe('CRITICAL');
     });
 
     it('deve alertar (WARNING) sobre artigos em zona cinzenta (90-180 dias)', () => {
@@ -300,9 +296,7 @@ describe('calculateHealth() - Health Scoring Logic', () => {
         positiveFeedbacks: 10,
         negativeFeedbacks: 0,
       };
-      expect(calculateHealth(unit)).toBe('WARNING',
-        'Artigos entre 90-180 dias merecem revisão (WARNING)'
-      );
+      expect(calculateHealth(unit)).toBe('WARNING');
     });
   });
 });

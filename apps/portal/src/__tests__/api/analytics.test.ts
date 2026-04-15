@@ -40,9 +40,7 @@ describe('Analytics API - Métricas de Negócio', () => {
     const json = await response.json();
 
     if (json.data.totalQueries === 0) {
-      expect(json.data.resolutionRate).toBe(0,
-        'Quando não há interações, taxa de resolução é 0'
-      );
+      expect(json.data.resolutionRate).toBe(0);
     }
   });
 
@@ -57,9 +55,7 @@ describe('Analytics API - Métricas de Negócio', () => {
     const json = await response.json();
 
     if (json.data.totalQueries > 0 && json.data.totalHandoffs === 0) {
-      expect(json.data.resolutionRate).toBe(100,
-        'Quando não há escalações, todas as perguntas foram respondidas (100%)'
-      );
+      expect(json.data.resolutionRate).toBe(100);
     }
   });
 
@@ -77,9 +73,7 @@ describe('Analytics API - Métricas de Negócio', () => {
       const expectedRate = Math.round(
         ((totalQueries - totalHandoffs) / totalQueries) * 100
       );
-      expect(resolutionRate).toBe(expectedRate,
-        `resolutionRate deve ser (${totalQueries}-${totalHandoffs})/${totalQueries}*100 = ${expectedRate}%`
-      );
+      expect(resolutionRate).toBe(expectedRate);
     }
   });
 
@@ -91,9 +85,7 @@ describe('Analytics API - Métricas de Negócio', () => {
     const response = await fetch('/api/analytics');
     const json = await response.json();
 
-    expect(json.data.resolutionRate).toBeGreaterThanOrEqual(0,
-      'Taxa de resolução nunca deve ser negativa'
-    );
+    expect(json.data.resolutionRate).toBeGreaterThanOrEqual(0);
   });
 
   /**
@@ -103,9 +95,7 @@ describe('Analytics API - Métricas de Negócio', () => {
     const response = await fetch('/api/analytics');
     const json = await response.json();
 
-    expect(json.data.resolutionRate).toBeLessThanOrEqual(100,
-      'Taxa de resolução nunca deve exceder 100%'
-    );
+    expect(json.data.resolutionRate).toBeLessThanOrEqual(100);
   });
 
   /**
@@ -115,9 +105,7 @@ describe('Analytics API - Métricas de Negócio', () => {
     const response = await fetch('/api/analytics');
     const json = await response.json();
 
-    expect(Array.isArray(json.data.worstUnits)).toBe(true,
-      'worstUnits deve ser um array'
-    );
+    expect(Array.isArray(json.data.worstUnits)).toBe(true);
   });
 
   /**
@@ -147,9 +135,7 @@ describe('Analytics API - Métricas de Negócio', () => {
       for (let i = 0; i < json.data.worstUnits.length - 1; i++) {
         const current = json.data.worstUnits[i];
         const next = json.data.worstUnits[i + 1];
-        expect(current.negativeCount).toBeGreaterThanOrEqual(next.negativeCount,
-          `Artigo ${i} (${current.negativeCount} negativos) deve ser >= ${i + 1} (${next.negativeCount} negativos)`
-        );
+        expect(current.negativeCount).toBeGreaterThanOrEqual(next.negativeCount);
       }
     }
   });
@@ -161,9 +147,7 @@ describe('Analytics API - Métricas de Negócio', () => {
     const response = await fetch('/api/analytics');
     const json = await response.json();
 
-    expect(json.data.worstUnits.length).toBeLessThanOrEqual(5,
-      'Dashboard deve exibir no máximo top-5 artigos com problemas'
-    );
+    expect(json.data.worstUnits.length).toBeLessThanOrEqual(5);
   });
 
   /**
@@ -175,9 +159,7 @@ describe('Analytics API - Métricas de Negócio', () => {
       const json = await response.json();
 
       expect(json.data.resolutionRate).toEqual(
-        Math.round(json.data.resolutionRate),
-        'resolutionRate deve ser arredondado para inteiro'
-      );
+        Math.round(json.data.resolutionRate));
     });
 
     it('deve retornar valores não-negativos em todos os totais', async () => {
@@ -192,9 +174,7 @@ describe('Analytics API - Métricas de Negócio', () => {
       const response = await fetch('/api/analytics');
       const json = await response.json();
 
-      expect(json.data.totalHandoffs).toBeLessThanOrEqual(json.data.totalQueries,
-        'Não pode haver mais escalações que perguntas'
-      );
+      expect(json.data.totalHandoffs).toBeLessThanOrEqual(json.data.totalQueries);
     });
   });
 
