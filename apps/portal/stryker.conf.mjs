@@ -6,7 +6,7 @@
  *
  * Threshold: >= 70% de mutações mortas (break < 60).
  */
-export default {
+const config = {
   mutate: [
     'src/utils/**/*.ts',
     'src/app/api/**/*.ts',
@@ -25,3 +25,5 @@ export default {
   concurrency: 4,
   tempDirName: '.stryker-tmp',
 };
+
+export default config;

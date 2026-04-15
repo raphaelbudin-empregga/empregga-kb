@@ -263,8 +263,7 @@ export const handlers = [
   }),
 
   // Chat API
-  http.post('/api/chat', async ({ request }) => {
-    const body = await request.json();
+  http.post('/api/chat', async () => {
     return HttpResponse.json({
       hasAnswer: true,
       response: 'Esta é uma resposta mockada de teste.',
