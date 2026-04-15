@@ -275,6 +275,12 @@ export const handlers = [
   http.post('/api/chat/feedback', () => {
     return HttpResponse.json({ success: true });
   }),
+
+  // Upload — contrato MSW: sanitiza filename e devolve key UUID-safe
+  http.post('/api/upload', async () => {
+    const safeKey = `uploads/${crypto.randomUUID()}.bin`;
+    return HttpResponse.json({ success: true, key: safeKey });
+  }),
 ];
 
 /**
