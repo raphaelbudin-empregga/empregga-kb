@@ -1,5 +1,5 @@
 # 1. Base image (usando Node 20 alpine que é leve e estável para Next.js)
-FROM node:20-alpine AS base
+FROM node:25-alpine AS base
 
 # 2. Dependências
 FROM base AS deps
