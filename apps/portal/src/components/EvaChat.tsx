@@ -14,7 +14,12 @@ interface Message {
     feedback?: 'up' | 'down';
 }
 
-export default function EvaChat() {
+interface EvaChatProps {
+    userName?: string;
+    userEmail?: string;
+}
+
+export default function EvaChat({ userName, userEmail }: EvaChatProps) {
     const [messages, setMessages] = useState<Message[]>([{
         id: 'welcome',
         role: 'assistant',
@@ -112,8 +117,8 @@ export default function EvaChat() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     messages: apiMessages,
-                    userName: "Raphael Budin", // TODO: Pegar do Auth Provider futuramente
-                    userEmail: "raphael.budin@empregga.com.br"
+                    userName: userName ?? "Usuário",
+                    userEmail: userEmail ?? ""
                 })
             });
 
@@ -258,6 +263,7 @@ export default function EvaChat() {
                     <button
                         type="submit"
                         disabled={!input.trim() || isLoading}
+                        aria-label="Enviar"
                         className="absolute right-2 bottom-2 w-10 h-10 bg-primary text-white rounded-xl flex items-center justify-center hover:bg-[#DE2F04] transition-all disabled:opacity-50 disabled:hover:bg-primary shadow-md active:scale-95"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 -rotate-90">
