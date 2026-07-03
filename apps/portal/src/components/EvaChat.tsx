@@ -228,7 +228,7 @@ export default function EvaChat({ userName, userEmail }: EvaChatProps) {
                 {isLoading && (
                     <div className="flex gap-4 max-w-[85%]">
                         <img
-                            src="/eva-avatar.png"
+                            src="/eva-avatar.jpg"
                             alt="EVA"
                             className="w-10 h-10 rounded-full border border-primary/20 shrink-0 object-cover shadow-sm mt-1 opacity-50 animate-pulse"
                         />
