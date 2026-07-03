@@ -2,6 +2,11 @@ import { db } from '@/db';
 import { knowledgeUnits } from '@/db/schema';
 import { NextResponse } from 'next/server';
 import { eq } from 'drizzle-orm';
+import { getEmbedding } from '@/utils/embeddings';
+
+function buildEmbeddingText(title: string, problemDescription: string, officialResolution: string): string {
+    return `${title}\n\n${problemDescription}\n\n${officialResolution}`;
+}
 
 export async function PUT(request: Request, context: { params: Promise<{ id: string }> }) {
     try {
@@ -17,13 +22,17 @@ export async function PUT(request: Request, context: { params: Promise<{ id: str
             return NextResponse.json({ success: true, data: result });
         }
 
-        // Otherwise, it's a full edit
+        // Otherwise, it's a full edit — regenerate embedding for updated content
+        const embeddingText = buildEmbeddingText(body.title, body.problemDescription, body.officialResolution);
+        const embedding = await getEmbedding(embeddingText);
+
         const [result] = await db.update(knowledgeUnits)
             .set({
                 title: body.title,
                 category: body.category,
                 problemDescription: body.problemDescription,
                 officialResolution: body.officialResolution,
+                embedding,
                 updatedAt: new Date(),
             })
             .where(eq(knowledgeUnits.id, id))

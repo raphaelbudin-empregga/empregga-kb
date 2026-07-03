@@ -2,12 +2,19 @@ import { db } from '@/db';
 import { knowledgeUnits, knowledgeFeedbacks } from '@/db/schema';
 import { NextResponse } from 'next/server';
 import { eq, sql, desc, isNull, isNotNull } from 'drizzle-orm';
+import { getEmbedding } from '@/utils/embeddings';
+
+function buildEmbeddingText(title: string, problemDescription: string, officialResolution: string): string {
+    return `${title}\n\n${problemDescription}\n\n${officialResolution}`;
+}
 
 export async function POST(request: Request) {
     try {
         const body = await request.json();
 
-        // Inserção básica no Postgres da VPS
+        const embeddingText = buildEmbeddingText(body.title, body.problemDescription, body.officialResolution);
+        const embedding = await getEmbedding(embeddingText);
+
         const [result] = await db.insert(knowledgeUnits).values({
             title: body.title,
             category: body.category,
@@ -17,6 +24,7 @@ export async function POST(request: Request) {
             author: body.author || 'Agente Empregga',
             status: 'PUBLISHED',
             targetAudience: ['AGENTE'],
+            embedding,
         }).returning();
 
         return NextResponse.json({ success: true, data: result });
