@@ -12,6 +12,11 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ success: false, error: 'Dados incompletos' }, { status: 400 });
         }
 
+        const existing = await db.select({ id: admins.id }).from(admins).limit(1);
+        if (existing.length > 0) {
+            return NextResponse.json({ success: false, error: 'Setup já realizado. Peça a um admin existente para criar seu acesso.' }, { status: 403 });
+        }
+
         await db.insert(admins).values({
             id: uuidv4(),
             email,
